@@ -243,7 +243,7 @@ def run_checks() -> list[Check]:
               "feature_evidence_matrix.csv has all required columns including support_status",
               hard_fail=False)
     required = ["system_id", "feature", "primary_citation", "support_status",
-                "independent_reconstruction_status", "reviewer_note", "source_url"]
+                "independent_reconstruction_status", "reviewer_note", "source_url", "source_id"]
     try:
         rows = read_csv(FEM_PATH)
         if rows:
@@ -254,6 +254,64 @@ def run_checks() -> list[Check]:
                 c.fail(f"Missing columns: {missing_cols}")
         else:
             c.fail("FEM is empty")
+    except (FileNotFoundError, KeyError) as e:
+        c.fail(str(e))
+    checks.append(c)
+
+    # ---- Check 12: every nonblank FEM source_url exists in source_registry ---- [HARD]
+    c = Check("fem_source_url_canonical",
+              "Every nonblank source_url in feature_evidence_matrix.csv matches a canonical url in source_registry.csv")
+    try:
+        fem_rows = read_csv(FEM_PATH)
+        reg_rows = read_csv(REGISTRY_PATH)
+        registry_urls = {r.get("url", "").strip() for r in reg_rows if r.get("url", "").strip()}
+
+        bad_rows = [
+            (r["system_id"], r.get("feature", ""), r.get("source_url", "").strip())
+            for r in fem_rows
+            if r.get("source_url", "").strip() and
+               r.get("source_url", "").strip() not in registry_urls
+        ]
+
+        if not bad_rows:
+            nonblank = sum(1 for r in fem_rows if r.get("source_url", "").strip())
+            c.pass_(f"All {nonblank} nonblank source_urls match registry canonical urls")
+        else:
+            distinct_bad = sorted(set(u for _, _, u in bad_rows))
+            examples = bad_rows[:5]
+            c.fail(
+                f"{len(bad_rows)} rows with noncanonical source_url; "
+                f"distinct bad urls={distinct_bad}; "
+                f"examples={examples}"
+            )
+    except (FileNotFoundError, KeyError) as e:
+        c.fail(str(e))
+    checks.append(c)
+
+    # ---- Check 13: every nonblank FEM source_id resolves in source_registry ---- [HARD]
+    c = Check("fem_source_id_resolves",
+              "Every nonblank source_id in feature_evidence_matrix.csv resolves to a row in source_registry.csv")
+    try:
+        fem_rows = read_csv(FEM_PATH)
+        reg_rows = read_csv(REGISTRY_PATH)
+        registry_ids = {r.get("source_id", "").strip() for r in reg_rows if r.get("source_id", "").strip()}
+
+        orphan_rows = [
+            (r["system_id"], r.get("feature", ""), r.get("source_id", "").strip())
+            for r in fem_rows
+            if r.get("source_id", "").strip() and
+               r.get("source_id", "").strip() not in registry_ids
+        ]
+
+        if not orphan_rows:
+            nonblank = sum(1 for r in fem_rows if r.get("source_id", "").strip())
+            c.pass_(f"All {nonblank} nonblank source_ids resolve to registry entries")
+        else:
+            distinct_bad = sorted(set(sid for _, _, sid in orphan_rows))
+            c.fail(
+                f"{len(orphan_rows)} rows with unresolved source_id; "
+                f"distinct orphans={distinct_bad[:10]}"
+            )
     except (FileNotFoundError, KeyError) as e:
         c.fail(str(e))
     checks.append(c)

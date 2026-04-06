@@ -8,7 +8,7 @@
 
 ## Validation Results
 
-**11/11 checks passed** | **0 failed**
+**13/13 checks passed** | **0 failed**
 
 | Check | Result |
 |---|---|
@@ -23,6 +23,8 @@
 | source_registry_exists | ✓ PASS |
 | coverage_summary_complete | ✓ PASS |
 | fem_schema_complete | ✓ PASS |
+| fem_source_url_canonical | ✓ PASS |
+| fem_source_id_resolves | ✓ PASS |
 
 ---
 

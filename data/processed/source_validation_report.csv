@@ -9,4 +9,6 @@ fem_system_ids_valid,All system_ids in feature_evidence_matrix.csv exist in syst
 fem_coverage,feature_evidence_matrix.csv covers ≥ 13 unique systems,yes,PASS,46 unique systems covered
 source_registry_exists,data/raw/source_registry.csv exists,yes,PASS,75 sources registered
 coverage_summary_complete,evidence_coverage_summary.csv shows 100% citation coverage for all 46 systems,no,PASS,All 46 systems at 100% citation coverage
-fem_schema_complete,feature_evidence_matrix.csv has all required columns including support_status,no,PASS,All 7 required columns present
+fem_schema_complete,feature_evidence_matrix.csv has all required columns including support_status,no,PASS,All 8 required columns present
+fem_source_url_canonical,Every nonblank source_url in feature_evidence_matrix.csv matches a canonical url in source_registry.csv,yes,PASS,All 353 nonblank source_urls match registry canonical urls
+fem_source_id_resolves,Every nonblank source_id in feature_evidence_matrix.csv resolves to a row in source_registry.csv,yes,PASS,All 353 nonblank source_ids resolve to registry entries
