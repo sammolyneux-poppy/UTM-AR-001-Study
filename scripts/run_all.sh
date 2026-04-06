@@ -39,6 +39,7 @@ EXPECTED_FILES=(
     "$REPO_ROOT/data/processed/classification_summary.csv"
     "$REPO_ROOT/data/processed/feature_statistics.csv"
     "$REPO_ROOT/data/processed/domain_breakdown.csv"
+    "$REPO_ROOT/data/processed/evidence_coverage_summary.csv"
 )
 
 ALL_OK=true
@@ -61,6 +62,13 @@ fi
 echo "  Running: validate_docs.py ..."
 echo ""
 python3 "$SCRIPT_DIR/validate_docs.py"
+
+echo ""
+
+# Run source citation validation
+echo "  Running: validate_sources.py ..."
+echo ""
+python3 "$SCRIPT_DIR/validate_sources.py"
 
 echo ""
 echo "======================================================================"

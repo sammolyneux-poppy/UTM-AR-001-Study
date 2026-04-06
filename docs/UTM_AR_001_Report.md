@@ -1,11 +1,11 @@
 # Cross-Domain Empirical Validation of Recursive Innovation Theory: Expanded Admissibility Analysis Across ~85 Natural and Cultural Systems
 
-**Research Report -- Version 2.1 (Revised)**
-**Date:** 2026-04-04
+**Research Report -- Version 2.2 (Citation Remediation)**
+**Date:** 2026-04-06
 **Prepared by:** Craft Agent (Claude Opus 4.6) under direction of Sam Molyneux
 **Companion to:** "Computational Universality of Recursive Genome Evolution" (FP4 Lean 4 Formal Proof)
 **Status:** Pre-publication research document for external review
-**Revision history:** v2.0 (2026-04-04) initial expanded report; v2.1 (2026-04-04) incorporates R1-R12 revisions addressing peer review findings. See REVISION_SUMMARY.md for details.
+**Revision history:** v2.0 (2026-04-04) initial expanded report; v2.1 (2026-04-04) incorporates R1-R12 revisions addressing peer review findings; v2.2 (2026-04-06) citation remediation — fills all blank citations, adds feature_evidence_matrix schema columns (support_status, source_url, reviewer_note, independent_reconstruction_status), creates source_registry.csv, adds Evidence Limitations section (§2.4), and adds validate_sources.py to pipeline. See REVISION_SUMMARY.md for details.
 
 ---
 
@@ -157,6 +157,32 @@ Each system receives a score on each of the 14 features:
 The overall admissibility percentage is computed as: **(check count + 0.5 * tilde count) / (total applicable features out of 13, excluding F11) * 100.**
 
 > **Revision Note (v2.1, R1 -- Option A):** F11 is retained in the scorecard as an empirical annotation but excluded from the admissibility percentage, because the corresponding Lean axiom `bio_landscapes_monotone` is currently orphaned -- it appears in the formal architecture but is not consumed by any active proof step. The empirical support for F11 is recorded for completeness and for use in future proof versions that may activate this arm. All admissibility percentages in this document are computed over 13 features (F1-F10, F12-F14). The F11 column in the scorecard is marked "F11 (Empirical -- Orphaned)" and does not contribute to the reported percentage.
+
+### 2.4 Evidence Limitations and Source Traceability
+
+**Revision Note (v2.2, citation remediation):** An independent audit of citation coverage identified gaps in source traceability. All gaps have been remediated. Full citation coverage is now documented in `data/curated/feature_evidence_matrix.csv` (which includes `support_status`, `independent_reconstruction_status`, `source_url`, and `reviewer_note` columns for all 497 feature assessments) and is validated by `scripts/validate_sources.py`.
+
+#### Evidence Tiers
+
+Systems are classified into four evidence tiers based on the nature of the citation support:
+
+**Tier 1 — Fully source-traceable (~25 systems):** All material claims cite peer-reviewed literature directly. Quantitative parameters are independently reproducible from publicly accessible databases (genome sequences, seismological catalogs, financial databases). Includes all core BIO organisms (E. coli, S. cerevisiae, H. sapiens, S. pombe, etc.), all PHYS systems, IMMUNE-tcell, and ECON-babynames.
+
+**Tier 2 — Partially traceable (~17 systems):** Core claims cite published literature; secondary features rely on cross-system inference, database aggregation, or synthesized estimates. Reconstruction is possible for primary claims but not all quantitative parameter values. Includes BIO-archaea79, BIO-cancersomatic, COMP-software, IMMUNE-bcell, IMMUNE-crispr, ECON-pottery, and most ECON/INFO negative controls.
+
+**Tier 3 — Curated-synthesis only (~4 systems):** Expert assessment based on domain knowledge with limited formal citation support. Assessments reflect qualitative analogy to the BDIM framework rather than direct quantitative evidence. Classification is based on structural and mechanistic reasoning, not statistical model fits. Includes:
+- **Chess openings** (COMP-chess): Zipf structure documented by Blasius & Tönjes (2009 PRL) and Perotti et al. (2013 EPL); feature assessments beyond F5 are qualitative structural analogies.
+- **Dog breeds** (ECON-dogbreeds): Genetic structure documented by Parker et al. (2004 Science) and AKC registration data; F5 distribution is heavy-tailed but not formally Clauset-MLE-validated.
+- **RNA World** (CHEM-rnaworld): Theoretical framework documented by Gilbert (1986 Nature) and Joyce (2002 Nature); all feature assessments are theoretical, not empirically measured.
+- **Patents** (ECON-patents): USPTO/PATSTAT data and Hall et al. (2001 NBER); the F6=cross classification rests on mechanistic analysis of citation-weighted vs. balanced birth-death dynamics.
+
+**Tier 4 — Qualitative tilde features within Tier 1/2 systems (~8 feature cells):** D. discoideum and F. albicollis have tilde ratings for F5 (power law not Clauset-MLE-validated) and F9 (error threshold not formally tested). These tilde cells do not change the classification of either system (both remain Inside, Tier B, 91.7%) and are documented in `feature_evidence_matrix.csv` with `support_status = "qualitative"`.
+
+#### Wording Clarification
+
+Throughout this document, phrases such as "confirmed by the literature" refer to expert assessment based on cited peer-reviewed sources, not necessarily to independent formal replication of each numerical claim by the authors of this study. The full chain from raw data to classification is documented for Tier 1 systems and is partially documented for Tier 2 systems. Tier 3 systems are explicitly labeled as curated-synthesis in the evidence matrix.
+
+The executable replication package reproduces all **derived** summary statistics (classification counts, feature coverage percentages, domain breakdowns) from the curated 46-row scorecard. It does not reproduce the primary literature measurements that underlie each scorecard cell; those are documented by citation in `feature_evidence_matrix.csv` and `data/raw/source_registry.csv`.
 
 ---
 

@@ -6,31 +6,31 @@ BIO-ddiscoideum,D. discoideum,BIO,Eukaryote-Social amoeba,Inside,mu~1.0e-10/bp/g
 BIO-falbicollis,F. albicollis,BIO,Eukaryote-Bird,Inside,Collared flycatcher; mu estimated; genome 1.1 Gb; F5/F9 tilde (not formally fitted),Ellegren et al. 2012 Nature
 BIO-spombe,S. pombe,BIO,Eukaryote-Fungi,Inside,mu~2e-10/site/div; Drake K within range; 4990 protein-coding genes; fission yeast,Wood et al. 2002 Nature
 BIO-paeruginosa,P. aeruginosa,BIO,Bacteria-Opportunistic pathogen,Inside,mu~1e-10/bp/gen; open pan-genome; F9=tilde; genome 6.3 Mb,Lapierre & Gogarten 2009; Hao & Golding 2006
-BIO-archaea79,Archaea (79 genomes),BIO,Archaea,Inside,BDI3 fits across 79 genomes/23 species; Thaumarchaeota to DPANN; F5/F8 tilde after R2,Karev et al. 2002 2004
+BIO-archaea79,Archaea (79 genomes),BIO,Archaea,Inside,BDI3 fits across 79 genomes/23 species; Thaumarchaeota to DPANN; F5/F8 tilde after R2,Karev et al. 2002; Karev et al. 2004
 BIO-pangenomes11,Pan-genomes (11 spp),BIO,Bacteria pan-genome,Inside,11 bacterial species with Heaps law exponents 0.08-0.64 (open); BDIM innovation confirmed,Tettelin et al. 2008; Land et al. 2015
 IMMUNE-tcell,T cell repertoire,IMMUNE,T cell,Inside,Clone size power law alpha=2.0-2.5 confirmed by Clauset MLE (Desponds 2016); VDJ recombination,Robins et al. 2009; Desponds et al. 2016 PNAS
 IMMUNE-bcell,B cell repertoire,IMMUNE,B cell,Inside,Clone size power law alpha~2.0-2.5; somatic hypermutation drives diversification,Desponds et al. 2016 PNAS
 IMMUNE-crispr,CRISPR arrays,IMMUNE,Prokaryotic adaptive immune,Inside,Spacer array as BDIM analog; 11/13 features (84.6%); novel system class,Shmakov et al. 2017; CRISPRCasdb
-BIO-cancersomatic,Cancer somatic,BIO,Somatic evolution,Plausible,73.1%; SCNA alpha=1.5-2.0; WGD in 37% cancers; F6/F7 tilde; clonal competition,Beroukhim et al. 2010; Williams et al. 2016 2018
+BIO-cancersomatic,Cancer somatic,BIO,Somatic evolution,Plausible,73.1%; SCNA alpha=1.5-2.0; WGD in 37% cancers; F6/F7 tilde; clonal competition,Beroukhim et al. 2010; Williams et al. 2016; Williams et al. 2018
 ECON-babynames,Baby names,ECON,Cultural transmission,Inside,94.4%; name frequency distribution; neutral BDIM analog; US SSA data,Jensen et al. 2019
 ECON-pottery,Pottery typologies,ECON,Cultural evolution,Inside,83.3%; Neiman 1995 neutral model; pre-Clauset F5 downgraded to tilde,Neiman 1995
-COMP-chess,Chess openings,COMP,Computational-Game,Inside,85.0%; opening tree has BDIM-like statistics; F5 tilde (not formally fitted),
-ECON-dogbreeds,Dog breeds,ECON,Cultural selection,Inside,83.3%; AKC registration; F5 tilde (not fitted); artificial selection,
+COMP-chess,Chess openings,COMP,Computational-Game,Inside,85.0%; opening tree has BDIM-like statistics; F5 tilde (not formally fitted),Blasius & Tonjes 2009 PRL
+ECON-dogbreeds,Dog breeds,ECON,Cultural selection,Inside,83.3%; AKC registration; F5 tilde (not fitted); artificial selection,Parker et al. 2004 Science; AKC registration data
 COMP-software,Software codebases,COMP,Software evolution,Plausible,81.8%; F2/F4 tilde after R4 (active fork fraction ~20%); F5 tilde (OLS only),Louridas et al. 2008; Valverde & Sole 2005
-BIO-buchnera,Buchnera,BIO,Endosymbiont,Exit,40.9%; 641 kb genome; near-zero HGT; BDIM exit confirmed; was Inside historically,Shigenobu et al. 2000 Nature; Moran et al.
+BIO-buchnera,Buchnera,BIO,Endosymbiont,Exit,40.9%; 641 kb genome; near-zero HGT; BDIM exit confirmed; was Inside historically,Shigenobu et al. 2000 Nature; Moran et al. 2008 Annu Rev Genet
 BIO-carsonella,Carsonella,BIO,Endosymbiont,Exit,40.9%; 160 kb genome; minimal gene set; no gene family expansion,Nakabachi et al. 2006 Science
 BIO-nequitans,N. equitans,BIO,Archaeal endosymbiont,Exit,40.9%; 491 kb genome; 536 genes; no power-law tail; near-zero HGT,Waters et al. 2003 PNAS
 BIO-cprbacteria,CPR bacteria,BIO,Ultra-reduced bacteria,Boundary,63.6%; Candidate Phyla Radiation; >15% domain Bacteria; host-dependent; F2/F4/F5 reduced,Brown et al. 2015 Nature
-BIO-dpannarchaea,DPANN archaea,BIO,Ultra-reduced archaea,Boundary,63.6%; Diapherotrites+Parvarchaeota+Aenigmarchaeota+Nanoarchaeota+Nanohaloarchaeota; parasitic,Castelle et al. 2015 2018
+BIO-dpannarchaea,DPANN archaea,BIO,Ultra-reduced archaea,Boundary,63.6%; Diapherotrites+Parvarchaeota+Aenigmarchaeota+Nanoarchaeota+Nanohaloarchaeota; parasitic,Castelle et al. 2015; Castelle et al. 2018
 BIO-plantwgd,Plant WGD,BIO,Eukaryote-Plant polyploidy,Inside,96.2%; WGD does NOT explain gene family power law (identity preserved); E21 confirmed,Blanc & Wolfe 2004; Maere et al. 2005 PNAS
 LANG-language,Language (alpha~1),LANG,Natural language,Boundary,83.3%; Zipf alpha~1 at SHARP E7 boundary; mechanistic debate (Li 1992 vs Piantadosi 2011),Clauset et al. 2009; Piantadosi et al. 2011 PNAS
 ECON-cities,Cities (alpha~1),ECON,Urban systems,Negative,71.4% apparent but F1-F3 tilde (no heritable string); Gibrat mechanism; at Zipf boundary,Gabaix 1999; Eeckhout 2004
-ECON-patents,Patents (E9 fail),ECON,Technology innovation,Boundary,85.0%; F6=cross (citation-weighted growth, not balanced dup/del); otherwise Inside-like,
+ECON-patents,Patents (E9 fail),ECON,Technology innovation,Boundary,"85.0%; F6=cross (citation-weighted growth, not balanced dup/del); otherwise Inside-like",Hall et al. 2001 NBER WP 8498; USPTO PATSTAT
 INFO-www,WWW hyperlinks,INFO,Web graph,Marginal,33.3%; page-level power law fails; domain-level partial; F1-F3 cross,Broder et al. 2000; Meusel et al. 2014
 INFO-ppi,PPI networks,INFO,Protein interaction network,Marginal,55.6%; Blumenthal 2024 study bias concern; F1-F4 tilde; contested artifact,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife
 NEUR-avalanches,Neuronal avalanches,NEUR,Neural dynamics,Marginal,16.7%; contested power law (Touboul & Destexhe 2010); F1-F4 all cross,Beggs & Plenz 2003; Priesemann et al. 2014
 NEUR-cancerepigenomics,Cancer epigenomics,NEUR,Epigenetic dynamics,Marginal,44.4%; DNA methylation patterns; heritability partial; F5=cross,Schmitz et al. 2011 Science
-CHEM-rnaworld,RNA World,CHEM,Prebiotic chemistry,Marginal,61.1%; proto-BDIM candidate; F1-F4 tilde (ambiguous heredity); autocatalytic networks,
+CHEM-rnaworld,RNA World,CHEM,Prebiotic chemistry,Marginal,61.1%; proto-BDIM candidate; F1-F4 tilde (ambiguous heredity); autocatalytic networks,Gilbert 1986 Nature; Joyce 2002 Nature
 PHYS-earthquakes,Earthquakes,PHYS,Geophysics,Negative,12.5%; Gutenberg-Richter confirmed power law but F1-F4 all fail; no heredity,Gutenberg & Richter 1944; Kagan 2010
 PHYS-solarflares,Solar flares,PHYS,Astrophysics,Negative,12.5%; FD-SOC mechanism; alpha=1.5-1.8; F1-F4 all fail,Aschwanden & Schrijver 2025
 PHYS-turbulence,Turbulence,PHYS,Fluid dynamics,Negative,12.5%; Kolmogorov -5/3 spectrum; Navier-Stokes; F1-F4 all fail,Kolmogorov 1941

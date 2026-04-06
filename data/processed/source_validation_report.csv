@@ -1,0 +1,12 @@
+check_name,description,hard_fail,result,details
+catalog_row_count,systems_catalog.csv has exactly 46 rows,yes,PASS,46 rows
+catalog_no_blank_citations,No blank primary_citation in systems_catalog.csv,yes,PASS,All 46 rows have citations
+catalog_no_bundle_citations,"No unresolved multi-year bundles (""Author 2002 2004"") in systems_catalog.csv",yes,PASS,No multi-year bundles found
+fem_no_blank_citations,No blank primary_citation in feature_evidence_matrix.csv,yes,PASS,All 497 FEM rows have citations
+fem_no_hard_fail_status,No support_status of 'missing' or 'contradicted' in feature_evidence_matrix.csv,yes,PASS,No missing/contradicted status values
+fem_no_bundle_citations,No unresolved multi-year bundles in feature_evidence_matrix.csv,no,PASS,No multi-year bundles found
+fem_system_ids_valid,All system_ids in feature_evidence_matrix.csv exist in systems_catalog.csv,yes,PASS,46 unique FEM system_ids all in catalog
+fem_coverage,feature_evidence_matrix.csv covers ≥ 13 unique systems,yes,PASS,46 unique systems covered
+source_registry_exists,data/raw/source_registry.csv exists,yes,PASS,75 sources registered
+coverage_summary_complete,evidence_coverage_summary.csv shows 100% citation coverage for all 46 systems,no,PASS,All 46 systems at 100% citation coverage
+fem_schema_complete,feature_evidence_matrix.csv has all required columns including support_status,no,PASS,All 7 required columns present

@@ -1,0 +1,47 @@
+system_id,system,total_features,cited_features,blank_features,qualitative_features,citation_coverage_pct,dominant_support_status,dominant_reconstruction_status
+BIO-ecoli,E. coli,13,13,0,0,100.0,direct,yes
+BIO-scerevisiae,S. cerevisiae,13,13,0,0,100.0,direct,yes
+BIO-hsapiens,H. sapiens,13,13,0,0,100.0,direct,yes
+BIO-ddiscoideum,D. discoideum,12,12,0,2,100.0,direct,yes
+BIO-falbicollis,F. albicollis,12,12,0,2,100.0,direct,yes
+BIO-spombe,S. pombe,13,13,0,0,100.0,direct,yes
+BIO-paeruginosa,P. aeruginosa,12,12,0,0,100.0,direct,yes
+BIO-archaea79,Archaea (79 genomes),12,12,0,2,100.0,synthesized,partial
+BIO-pangenomes11,Pan-genomes (11 spp),12,12,0,0,100.0,synthesized,partial
+IMMUNE-tcell,T cell repertoire,12,12,0,0,100.0,direct,yes
+IMMUNE-bcell,B cell repertoire,12,12,0,0,100.0,synthesized,partial
+IMMUNE-crispr,CRISPR arrays,13,13,0,0,100.0,synthesized,partial
+BIO-cancersomatic,Cancer somatic,13,13,0,0,100.0,synthesized,partial
+ECON-babynames,Baby names,10,10,0,0,100.0,direct,yes
+ECON-pottery,Pottery typologies,10,10,0,0,100.0,synthesized,partial
+COMP-chess,Chess openings,10,10,0,10,100.0,qualitative,no
+ECON-dogbreeds,Dog breeds,10,10,0,10,100.0,qualitative,partial
+COMP-software,Software codebases,11,11,0,0,100.0,synthesized,partial
+BIO-buchnera,Buchnera,12,12,0,0,100.0,direct,yes
+BIO-carsonella,Carsonella,12,12,0,0,100.0,direct,yes
+BIO-nequitans,N. equitans,12,12,0,0,100.0,direct,yes
+BIO-cprbacteria,CPR bacteria,12,12,0,0,100.0,synthesized,partial
+BIO-dpannarchaea,DPANN archaea,12,12,0,0,100.0,synthesized,partial
+BIO-plantwgd,Plant WGD,13,13,0,0,100.0,direct,yes
+LANG-language,Language (alpha~1),10,10,0,0,100.0,synthesized,yes
+ECON-cities,Cities (alpha~1),9,9,0,0,100.0,direct,yes
+ECON-patents,Patents (E9 fail),10,10,0,0,100.0,synthesized,partial
+INFO-www,WWW hyperlinks,10,10,0,0,100.0,direct,yes
+INFO-ppi,PPI networks,10,10,0,0,100.0,synthesized,partial
+NEUR-avalanches,Neuronal avalanches,11,11,0,0,100.0,direct,yes
+NEUR-cancerepigenomics,Cancer epigenomics,11,11,0,0,100.0,direct,yes
+CHEM-rnaworld,RNA World,10,10,0,10,100.0,qualitative,no
+PHYS-earthquakes,Earthquakes,9,9,0,0,100.0,direct,yes
+PHYS-solarflares,Solar flares,9,9,0,0,100.0,direct,yes
+PHYS-turbulence,Turbulence,9,9,0,0,100.0,direct,yes
+PHYS-galaxylf,Galaxy LF,9,9,0,0,100.0,direct,yes
+PHYS-stellarimf,Stellar IMF,9,9,0,0,100.0,direct,yes
+PHYS-molclouds,Mol. clouds,9,9,0,0,100.0,direct,yes
+PHYS-sandpilesoc,Sandpile/SOC,9,9,0,0,100.0,direct,yes
+PHYS-rivers,Rivers,9,9,0,0,100.0,direct,yes
+INFO-citations,Citations,10,10,0,0,100.0,direct,yes
+ECON-incomewealth,Income/wealth,9,9,0,0,100.0,direct,yes
+ECON-stockreturns,Stock returns,9,9,0,0,100.0,direct,yes
+INFO-internet,Internet AS,9,9,0,0,100.0,direct,yes
+BIO-rnaviruses,RNA viruses,12,12,0,0,100.0,direct,yes
+ECON-citysizes,City sizes,9,9,0,0,100.0,direct,yes
