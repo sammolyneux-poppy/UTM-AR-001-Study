@@ -1,3 +1,4 @@
+# Total individual systems: 134 (44 single-system rows x 1 + 79 archaeal genomes + 11 pan-genome species). Some organisms appear both individually and within grouped rows. Unique biological entities assessed: ~85.
 scorecard_system,individual_count,individual_systems,notes
 E. coli,1,E. coli,
 S. cerevisiae,1,S. cerevisiae,
@@ -45,4 +46,3 @@ Stock returns,1,Stock returns,
 Internet AS,1,Internet AS,
 RNA viruses,1,RNA viruses,
 City sizes,1,City sizes,
-# Total individual systems: 134 (44 single-system rows x 1 + 79 archaeal genomes + 11 pan-genome species). Some organisms appear both individually and within grouped rows: E. coli and P. aeruginosa appear as single scorecard rows AND within the Pan-genomes (11 spp) group; DPANN archaea overlaps with the Archaea (79 genomes) set. Unique biological entities assessed: ~85.

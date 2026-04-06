@@ -112,6 +112,14 @@ Each system is assigned one of six classifications based on the following quanti
 
 ## 2. Methods
 
+### Executable Package and Source of Truth
+
+The executable replication package (available at the companion GitHub repository) reproduces all derived summary statistics from a curated 46-row scorecard (`data/processed/f14_scorecard.csv`). The scorecard is the current public source of truth for this study. Each cell in the scorecard represents an expert assessment based on the cited literature, following the scoring protocol described below.
+
+The 46 scorecard rows represent approximately 85 individual systems. Two rows aggregate multiple organisms: "Archaea (79 genomes)" encompasses 23 species from Karev et al. (2002, 2004), and "Pan-genomes (11 spp)" encompasses 11 bacterial species with confirmed open pan-genome dynamics. All other rows represent single systems. The mapping is documented in `data/processed/systems_expansion.csv`.
+
+The broader discussion in this report spans the full ~85-system conceptual study. All quantitative claims (classification counts, feature coverage percentages, domain breakdowns) are reproducible from the 46-row scorecard via the included computation script.
+
 ### 2.1 System Selection
 
 Systems were selected to maximize coverage across four dimensions:
