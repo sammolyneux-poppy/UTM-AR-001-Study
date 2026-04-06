@@ -1,0 +1,15 @@
+feature,feature_name,systems_scoring_check,systems_scoring_tilde,total_applicable_systems,percent_check,percent_check_or_tilde,notes
+F1,Discrete heritable string,34,8,47,72.3,89.4,check=fully satisfied; tilde=partial (e.g. RNA World); cross=physical systems
+F2,Duplication operator,30,8,47,63.8,80.9,Exits/endosymbionts score cross; CPR/DPANN score tilde
+F3,Deletion operator,34,4,47,72.3,80.9,Similar pattern to F2 but slightly more systems satisfy deletion
+F4,Selection on variants,33,11,47,70.2,93.6,Nearly universal among non-physical systems; tilde for marginal cases
+F5,Power-law family-size distribution,30,14,47,63.8,93.6,Exits/endosymbionts fail; physical systems pass F5 but fail F1-F4
+F6,Balanced dup/del rates,19,8,35,54.3,77.1,Dash for systems where not applicable; cross for exits and some negatives
+F7,Positive innovation rate,22,8,35,62.9,85.7,Zero for endosymbiont exits by definition
+F8,Conserved per-unit mutation rate (Drake K),16,7,29,55.2,79.3,Dash where mutation rate not applicable or unmeasured
+F9,Error threshold / channel capacity,13,9,29,44.8,75.9,Tilde common in marginal cases; cross in negatives
+F10,Thermodynamic irreversibility,21,1,27,77.8,81.5,Near-universal for all living systems; dash for physical systems
+F11,Accessible fitness landscape (ORPHANED),12,3,20,60.0,75.0,EXCLUDED from scoring; supplementary annotation only; orphaned axiom bio_landscapes_monotone
+F12,Three or more fitness levels,27,11,45,60.0,84.4,Most systems with F1-F4 also satisfy F12
+F13,Simple-to-complex trajectory,21,10,43,48.8,72.1,Physical systems fail; exits and marginals partial
+F14,WGD insufficiency,8,3,15,53.3,73.3,Only applicable to polyploid-capable lineages and cultural analogs; many systems get dash
