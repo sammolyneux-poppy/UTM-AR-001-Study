@@ -135,6 +135,78 @@ def check_report_negative(counts):
     return all_ok
 
 
+def check_report_inside_plausible(counts):
+    """Check that the report's ~22 / 19-row framing is consistent."""
+    print()
+    print("  CHECK: UTM_AR_001_Report.md Inside+Plausible framing")
+    print()
+
+    if not os.path.exists(REPORT_PATH):
+        print("  FAIL  UTM_AR_001_Report.md not found")
+        return False
+
+    with open(REPORT_PATH, encoding="utf-8") as f:
+        text = f.read()
+
+    all_ok = True
+
+    inside_count = counts.get("Inside", 0)
+    plausible_count = counts.get("Plausible", 0)
+    expected_rows = inside_count + plausible_count  # 19
+
+    # Check that the report mentions "19 scorecard rows" somewhere
+    if re.search(r"\b19\s+scorecard\s+rows\b", text):
+        print(f"  PASS  Report mentions '19 scorecard rows' (Inside+Plausible = {expected_rows})")
+    else:
+        print(f"  INFO  Report does not contain '19 scorecard rows' phrase")
+
+    # Check that ~22 individual systems is mentioned
+    if re.search(r"~22\b", text):
+        print(f"  PASS  Report mentions '~22' individual systems")
+    else:
+        print(f"  INFO  Report does not contain '~22' framing")
+
+    return all_ok
+
+
+def check_readme_scope(counts):
+    """Check README scope framing: 46 rows, ~85 systems, source-of-truth note."""
+    print()
+    print("  CHECK: README.md scope framing")
+    print()
+
+    if not os.path.exists(README_PATH):
+        print("  FAIL  README.md not found")
+        return False
+
+    with open(README_PATH, encoding="utf-8") as f:
+        text = f.read()
+
+    all_ok = True
+    total = sum(counts.values())
+
+    # Check 46-row reference
+    if f"{total}" in text and "scorecard" in text.lower():
+        print(f"  PASS  README references {total}-row scorecard")
+    else:
+        print(f"  FAIL  README missing {total}-row scorecard reference")
+        all_ok = False
+
+    # Check ~85 systems reference
+    if "~85" in text or "approximately 85" in text.lower():
+        print(f"  PASS  README references ~85 individual systems")
+    else:
+        print(f"  INFO  README does not contain ~85 systems reference")
+
+    # Check source-of-truth / curated framing
+    if "source of truth" in text.lower() or "curated" in text.lower():
+        print(f"  PASS  README contains source-of-truth / curated framing")
+    else:
+        print(f"  INFO  README missing explicit source-of-truth framing")
+
+    return all_ok
+
+
 def main():
     print()
     print("=" * 72)
@@ -155,17 +227,19 @@ def main():
 
     ok_readme = check_readme(counts)
     ok_report = check_report_negative(counts)
+    ok_ip = check_report_inside_plausible(counts)
+    ok_scope = check_readme_scope(counts)
 
     print()
     print("-" * 72)
-    if ok_readme and ok_report:
+    if ok_readme and ok_report and ok_ip and ok_scope:
         print("  >>> ALL DOCUMENT-SYNC CHECKS PASSED <<<")
     else:
         print("  >>> DOCUMENT-SYNC VALIDATION FAILED <<<")
     print("-" * 72)
     print()
 
-    if not (ok_readme and ok_report):
+    if not (ok_readme and ok_report and ok_ip and ok_scope):
         sys.exit(1)
 
 
