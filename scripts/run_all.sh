@@ -52,11 +52,17 @@ for f in "${EXPECTED_FILES[@]}"; do
 done
 
 echo ""
-if $ALL_OK; then
-    echo "======================================================================"
-    echo "  UTM-AR-001 replication complete. All outputs verified."
-    echo "======================================================================"
-else
+if ! $ALL_OK; then
     echo "WARNING: Some output files are missing. Check script output above."
     exit 1
 fi
+
+# Run document-sync validation
+echo "  Running: validate_docs.py ..."
+echo ""
+python3 "$SCRIPT_DIR/validate_docs.py"
+
+echo ""
+echo "======================================================================"
+echo "  UTM-AR-001 replication complete. All outputs verified."
+echo "======================================================================"

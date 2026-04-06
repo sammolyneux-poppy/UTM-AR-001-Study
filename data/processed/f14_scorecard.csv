@@ -1,47 +1,47 @@
-system,domain,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11_deprecated,F12,F13,F14,score_numerator,score_denominator,percent_score,classification,tier
-E. coli,BIO,check,check,check,check,check,check,check,check,check,check,check,check,check,check,13,13,100.0,Inside,A
-S. cerevisiae,BIO,check,check,check,check,check,check,check,check,check,check,check,check,check,check,13,13,100.0,Inside,A
-H. sapiens,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,check,12.5,13,96.2,Inside,A
-D. discoideum,BIO,check,check,check,check,tilde,check,check,check,tilde,check,dash,check,check,dash,11,12,91.7,Inside,B
-F. albicollis,BIO,check,check,check,check,tilde,check,check,check,tilde,check,dash,check,check,dash,11,12,91.7,Inside,B
-S. pombe,BIO,check,check,check,check,check,check,check,check,check,check,dash,check,check,check,12,12,100.0,Inside,A
-P. aeruginosa,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,dash,11.5,12,95.8,Inside,A
-Archaea (79 genomes),BIO,check,check,check,check,tilde,check,check,tilde,tilde,check,dash,check,check,dash,10.5,11,95.5,Inside,C
-Pan-genomes (11 spp),BIO,check,check,check,check,check,check,check,check,tilde,check,dash,check,check,dash,11.5,12,95.8,Inside,C
-T cell repertoire,IMMUNE,check,check,check,check,check,check,check,tilde,check,check,check,check,check,dash,12,12,100.0,Inside,D
-B cell repertoire,IMMUNE,check,check,check,check,check,check,check,tilde,check,check,check,check,check,dash,12,12,100.0,Inside,D
-CRISPR arrays,IMMUNE,check,check,check,check,tilde,check,check,tilde,tilde,check,check,check,check,tilde,11,13,84.6,Inside,E
-Cancer somatic,BIO,check,check,check,check,check,tilde,tilde,tilde,tilde,check,tilde,check,tilde,check,9.5,13,73.1,Plausible,F
-Baby names,ECON,check,check,check,check,tilde,check,check,dash,dash,check,dash,check,check,dash,8.5,9,94.4,Inside,G
-Pottery typologies,ECON,check,check,check,check,tilde,check,check,dash,dash,tilde,dash,check,tilde,dash,7.5,9,83.3,Inside,G
-Chess openings,COMP,check,check,check,check,tilde,tilde,check,dash,dash,tilde,tilde,check,check,dash,8.5,10,85.0,Inside,G
-Dog breeds,ECON,check,check,check,check,tilde,tilde,check,dash,dash,tilde,dash,check,check,dash,7.5,9,83.3,Inside,G
-Software codebases,COMP,check,tilde,check,tilde,tilde,check,check,dash,dash,check,tilde,check,check,tilde,9,11,81.8,Plausible,G
-Buchnera,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
-Carsonella,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
-N. equitans,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
-CPR bacteria,BIO,check,tilde,check,tilde,cross,tilde,tilde,tilde,tilde,check,dash,tilde,tilde,dash,7,11,63.6,Boundary,I
-DPANN archaea,BIO,check,tilde,check,tilde,cross,tilde,tilde,tilde,tilde,check,dash,tilde,tilde,dash,7,11,63.6,Boundary,I
-Plant WGD,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,check,12.5,13,96.2,Inside,J
-Language (alpha~1),LANG,check,check,check,check,tilde,tilde,check,tilde,dash,dash,dash,check,check,dash,7.5,9,83.3,Boundary,J
-Cities (alpha~1),ECON,tilde,tilde,tilde,check,tilde,tilde,tilde,dash,dash,dash,dash,check,tilde,dash,5,7,71.4,Negative,J
-Patents (E9 fail),ECON,check,check,check,check,check,cross,check,dash,dash,check,dash,check,check,dash,8.5,10,85.0,Boundary,J
-WWW hyperlinks,INFO,cross,cross,cross,tilde,tilde,dash,tilde,dash,cross,check,cross,tilde,cross,dash,3,9,33.3,Marginal,
-PPI networks,INFO,tilde,tilde,tilde,tilde,tilde,dash,tilde,dash,cross,check,dash,tilde,tilde,dash,5,9,55.6,Marginal,
-Neuronal avalanches,NEUR,cross,cross,cross,cross,tilde,dash,cross,cross,cross,check,cross,tilde,cross,dash,1.5,9,16.7,Marginal,
-Cancer epigenomics,NEUR,tilde,tilde,tilde,tilde,cross,dash,tilde,cross,cross,check,dash,tilde,tilde,dash,4,9,44.4,Marginal,
-RNA World,CHEM,tilde,tilde,tilde,tilde,tilde,dash,check,dash,tilde,check,dash,tilde,tilde,dash,5.5,9,61.1,Marginal,
-Earthquakes,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Solar flares,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Turbulence,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Galaxy LF,PHYS,cross,cross,cross,cross,tilde,dash,cross,dash,cross,dash,cross,cross,cross,dash,0.5,8,6.3,Negative,
-Stellar IMF,PHYS,cross,cross,cross,cross,tilde,dash,cross,dash,cross,dash,cross,cross,cross,dash,0.5,8,6.3,Negative,
-Mol. clouds,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Sandpile/SOC,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Rivers,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-Citations,INFO,cross,cross,cross,tilde,check,cross,tilde,dash,cross,dash,cross,check,cross,dash,2.5,9,27.8,Negative,
-Income/wealth,ECON,cross,cross,cross,tilde,check,dash,tilde,dash,cross,dash,cross,check,tilde,dash,3,9,33.3,Negative,
-Stock returns,ECON,cross,cross,cross,tilde,check,dash,cross,dash,cross,dash,cross,check,cross,dash,2,9,22.2,Negative,
-Internet AS,INFO,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
-RNA viruses,BIO,check,cross,check,check,cross,cross,cross,check,check,check,dash,check,cross,dash,6,11,54.5,Negative,
-City sizes,ECON,tilde,tilde,tilde,check,tilde,tilde,tilde,dash,dash,dash,dash,check,tilde,dash,5,7,71.4,Negative,
+system_id,system,domain,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11_deprecated,F12,F13,F14,score_numerator,score_denominator,percent_score,classification,tier
+BIO-ecoli,E. coli,BIO,check,check,check,check,check,check,check,check,check,check,check,check,check,check,13,13,100.0,Inside,A
+BIO-scerevisiae,S. cerevisiae,BIO,check,check,check,check,check,check,check,check,check,check,check,check,check,check,13,13,100.0,Inside,A
+BIO-hsapiens,H. sapiens,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,check,12.5,13,96.2,Inside,A
+BIO-ddiscoideum,D. discoideum,BIO,check,check,check,check,tilde,check,check,check,tilde,check,dash,check,check,dash,11,12,91.7,Inside,B
+BIO-falbicollis,F. albicollis,BIO,check,check,check,check,tilde,check,check,check,tilde,check,dash,check,check,dash,11,12,91.7,Inside,B
+BIO-spombe,S. pombe,BIO,check,check,check,check,check,check,check,check,check,check,dash,check,check,check,12,12,100.0,Inside,A
+BIO-paeruginosa,P. aeruginosa,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,dash,11.5,12,95.8,Inside,A
+BIO-archaea79,Archaea (79 genomes),BIO,check,check,check,check,tilde,check,check,tilde,tilde,check,dash,check,check,dash,10.5,11,95.5,Inside,C
+BIO-pangenomes11,Pan-genomes (11 spp),BIO,check,check,check,check,check,check,check,check,tilde,check,dash,check,check,dash,11.5,12,95.8,Inside,C
+IMMUNE-tcell,T cell repertoire,IMMUNE,check,check,check,check,check,check,check,tilde,check,check,check,check,check,dash,12,12,100.0,Inside,D
+IMMUNE-bcell,B cell repertoire,IMMUNE,check,check,check,check,check,check,check,tilde,check,check,check,check,check,dash,12,12,100.0,Inside,D
+IMMUNE-crispr,CRISPR arrays,IMMUNE,check,check,check,check,tilde,check,check,tilde,tilde,check,check,check,check,tilde,11,13,84.6,Inside,E
+BIO-cancersomatic,Cancer somatic,BIO,check,check,check,check,check,tilde,tilde,tilde,tilde,check,tilde,check,tilde,check,9.5,13,73.1,Plausible,F
+ECON-babynames,Baby names,ECON,check,check,check,check,tilde,check,check,dash,dash,check,dash,check,check,dash,8.5,9,94.4,Inside,G
+ECON-pottery,Pottery typologies,ECON,check,check,check,check,tilde,check,check,dash,dash,tilde,dash,check,tilde,dash,7.5,9,83.3,Inside,G
+COMP-chess,Chess openings,COMP,check,check,check,check,tilde,tilde,check,dash,dash,tilde,tilde,check,check,dash,8.5,10,85.0,Inside,G
+ECON-dogbreeds,Dog breeds,ECON,check,check,check,check,tilde,tilde,check,dash,dash,tilde,dash,check,check,dash,7.5,9,83.3,Inside,G
+COMP-software,Software codebases,COMP,check,tilde,check,tilde,tilde,check,check,dash,dash,check,tilde,check,check,tilde,9,11,81.8,Plausible,G
+BIO-buchnera,Buchnera,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
+BIO-carsonella,Carsonella,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
+BIO-nequitans,N. equitans,BIO,check,cross,check,tilde,cross,cross,cross,tilde,tilde,check,dash,tilde,cross,dash,4.5,11,40.9,Exit,H
+BIO-cprbacteria,CPR bacteria,BIO,check,tilde,check,tilde,cross,tilde,tilde,tilde,tilde,check,dash,tilde,tilde,dash,7,11,63.6,Boundary,I
+BIO-dpannarchaea,DPANN archaea,BIO,check,tilde,check,tilde,cross,tilde,tilde,tilde,tilde,check,dash,tilde,tilde,dash,7,11,63.6,Boundary,I
+BIO-plantwgd,Plant WGD,BIO,check,check,check,check,check,check,check,check,tilde,check,check,check,check,check,12.5,13,96.2,Inside,J
+LANG-language,Language (alpha~1),LANG,check,check,check,check,tilde,tilde,check,tilde,dash,dash,dash,check,check,dash,7.5,9,83.3,Boundary,J
+ECON-cities,Cities (alpha~1),ECON,tilde,tilde,tilde,check,tilde,tilde,tilde,dash,dash,dash,dash,check,tilde,dash,5,7,71.4,Negative,J
+ECON-patents,Patents (E9 fail),ECON,check,check,check,check,check,cross,check,dash,dash,check,dash,check,check,dash,8.5,10,85.0,Boundary,J
+INFO-www,WWW hyperlinks,INFO,cross,cross,cross,tilde,tilde,dash,tilde,dash,cross,check,cross,tilde,cross,dash,3,9,33.3,Marginal,
+INFO-ppi,PPI networks,INFO,tilde,tilde,tilde,tilde,tilde,dash,tilde,dash,cross,check,dash,tilde,tilde,dash,5,9,55.6,Marginal,
+NEUR-avalanches,Neuronal avalanches,NEUR,cross,cross,cross,cross,tilde,dash,cross,cross,cross,check,cross,tilde,cross,dash,1.5,9,16.7,Marginal,
+NEUR-cancerepigenomics,Cancer epigenomics,NEUR,tilde,tilde,tilde,tilde,cross,dash,tilde,cross,cross,check,dash,tilde,tilde,dash,4,9,44.4,Marginal,
+CHEM-rnaworld,RNA World,CHEM,tilde,tilde,tilde,tilde,tilde,dash,check,dash,tilde,check,dash,tilde,tilde,dash,5.5,9,61.1,Marginal,
+PHYS-earthquakes,Earthquakes,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+PHYS-solarflares,Solar flares,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+PHYS-turbulence,Turbulence,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+PHYS-galaxylf,Galaxy LF,PHYS,cross,cross,cross,cross,tilde,dash,cross,dash,cross,dash,cross,cross,cross,dash,0.5,8,6.3,Negative,
+PHYS-stellarimf,Stellar IMF,PHYS,cross,cross,cross,cross,tilde,dash,cross,dash,cross,dash,cross,cross,cross,dash,0.5,8,6.3,Negative,
+PHYS-molclouds,Mol. clouds,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+PHYS-sandpilesoc,Sandpile/SOC,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+PHYS-rivers,Rivers,PHYS,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+INFO-citations,Citations,INFO,cross,cross,cross,tilde,check,cross,tilde,dash,cross,dash,cross,check,cross,dash,2.5,9,27.8,Negative,
+ECON-incomewealth,Income/wealth,ECON,cross,cross,cross,tilde,check,dash,tilde,dash,cross,dash,cross,check,tilde,dash,3,9,33.3,Negative,
+ECON-stockreturns,Stock returns,ECON,cross,cross,cross,tilde,check,dash,cross,dash,cross,dash,cross,check,cross,dash,2,9,22.2,Negative,
+INFO-internet,Internet AS,INFO,cross,cross,cross,cross,check,dash,cross,dash,cross,dash,cross,cross,cross,dash,1,8,12.5,Negative,
+BIO-rnaviruses,RNA viruses,BIO,check,cross,check,check,cross,cross,cross,check,check,check,dash,check,cross,dash,6,11,54.5,Negative,
+ECON-citysizes,City sizes,ECON,tilde,tilde,tilde,check,tilde,tilde,tilde,dash,dash,dash,dash,check,tilde,dash,5,7,71.4,Negative,

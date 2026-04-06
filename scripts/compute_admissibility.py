@@ -205,11 +205,133 @@ EXPECTED_COUNTS = {
     "Negative": 15,
 }
 
+SYSTEMS_EXPANSION_PATH = os.path.join(
+    REPO_ROOT, "data", "processed", "systems_expansion.csv"
+)
+SYSTEMS_EXPANSION_EXPECTED_HEADERS = [
+    "scorecard_system", "individual_count", "individual_systems", "notes"
+]
+
+
+def validate_systems_expansion():
+    """Validate data/processed/systems_expansion.csv structure and content.
+
+    Checks:
+      - File exists
+      - First line is header (not a comment), matching expected columns
+      - Every individual_count is a parseable integer
+      - No blank scorecard_system entries
+      - Row count matches scorecard (46)
+
+    Returns True if all checks pass.
+    """
+    print_separator()
+    print("  VALIDATION: systems_expansion.csv")
+    print_separator()
+    all_ok = True
+
+    if not os.path.exists(SYSTEMS_EXPANSION_PATH):
+        print(f"  FAIL  File not found: {SYSTEMS_EXPANSION_PATH}")
+        return False
+
+    with open(SYSTEMS_EXPANSION_PATH, newline="", encoding="utf-8") as f:
+        raw_lines = f.readlines()
+
+    if not raw_lines:
+        print("  FAIL  File is empty")
+        return False
+
+    # Skip comment lines (starting with #) to find the header
+    header_line_idx = 0
+    for i, line in enumerate(raw_lines):
+        if not line.strip().startswith("#"):
+            header_line_idx = i
+            break
+
+    # Re-read with csv.DictReader, skipping comment lines
+    data_lines = [l for l in raw_lines if not l.strip().startswith("#")]
+    if not data_lines:
+        print("  FAIL  No non-comment lines found")
+        return False
+
+    # Check first non-comment line is the header
+    first_line = data_lines[0].strip()
+    if first_line.startswith("#"):
+        print("  FAIL  First non-comment line starts with '#' (expected header)")
+        all_ok = False
+    else:
+        print("  PASS  First non-comment line is header (not a comment)")
+
+    # Parse with csv reader
+    reader = csv.DictReader(data_lines)
+    actual_headers = reader.fieldnames or []
+
+    # Check header columns (allow optional system_id column)
+    base_match = all(
+        h in actual_headers for h in SYSTEMS_EXPANSION_EXPECTED_HEADERS
+    )
+    if base_match:
+        print(f"  PASS  Header columns present: {actual_headers}")
+    else:
+        print(
+            f"  FAIL  Header mismatch: got {actual_headers}, "
+            f"expected at least {SYSTEMS_EXPANSION_EXPECTED_HEADERS}"
+        )
+        all_ok = False
+
+    rows = list(reader)
+    row_count = len(rows)
+
+    # Check row count
+    if row_count == EXPECTED_COUNTS["total"]:
+        print(f"  PASS  Row count = {row_count} (matches scorecard)")
+    else:
+        print(
+            f"  FAIL  Row count: got {row_count}, "
+            f"expected {EXPECTED_COUNTS['total']}"
+        )
+        all_ok = False
+
+    # Check individual_count is parseable integer for every row
+    bad_counts = []
+    for i, row in enumerate(rows, start=1):
+        val = row.get("individual_count", "").strip()
+        try:
+            int(val)
+        except (ValueError, TypeError):
+            bad_counts.append((i, val))
+    if bad_counts:
+        print(f"  FAIL  Non-integer individual_count in {len(bad_counts)} row(s):")
+        for rnum, val in bad_counts[:5]:
+            print(f"         Row {rnum}: '{val}'")
+        all_ok = False
+    else:
+        print(f"  PASS  All individual_count values are parseable integers")
+
+    # Check no blank scorecard_system
+    blank_systems = [
+        i for i, row in enumerate(rows, start=1)
+        if not row.get("scorecard_system", "").strip()
+    ]
+    if blank_systems:
+        print(f"  FAIL  Blank scorecard_system in row(s): {blank_systems[:10]}")
+        all_ok = False
+    else:
+        print(f"  PASS  No blank scorecard_system entries")
+
+    print()
+    if all_ok:
+        print("  >>> systems_expansion.csv VALIDATION PASSED <<<")
+    else:
+        print("  >>> systems_expansion.csv VALIDATION FAILED <<<")
+    print()
+    return all_ok
+
 
 def validate(tier_dist, total):
     """Validate counts against expected values. Returns True if all pass."""
     print_separator()
-    print("  VALIDATION")
+    print("  VALIDATION: scorecard counts")
     print_separator()
     all_ok = True
     # Check total
@@ -349,13 +471,14 @@ def main():
 
     # --- Validation ---
     ok = validate(tier_dist, total)
+    ok_expansion = validate_systems_expansion()
 
     print_separator("=")
     print("  UTM-AR-001 replication complete.")
     print_separator("=")
     print()
 
-    if not ok:
+    if not ok or not ok_expansion:
         sys.exit(1)
 
 

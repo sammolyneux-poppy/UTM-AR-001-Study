@@ -1,498 +1,498 @@
-system,feature,rating,primary_citation,justification,confidence
-E. coli,F1,check,Lee et al. 2012 PNAS; Karev et al. 2002,DNA/RNA genome serves as heritable digital string. mu=2.2e-10/bp/gen,high
-E. coli,F2,check,Lee et al. 2012 PNAS; Karev et al. 2002,Gene family expansion via duplication confirmed. mu=2.2e-10/bp/gen,high
-E. coli,F3,check,Lee et al. 2012 PNAS; Karev et al. 2002,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-E. coli,F4,check,Lee et al. 2012 PNAS; Karev et al. 2002,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-E. coli,F5,check,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=1.7-2.2; method: BDIM-Karev + Clauset validation.,high
-E. coli,F6,check,Lee et al. 2012 PNAS; Karev et al. 2002,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-E. coli,F7,check,Lee et al. 2012 PNAS; Karev et al. 2002,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-E. coli,F8,check,Lee et al. 2012 PNAS; Karev et al. 2002,Drake K constant satisfied; mu=2.2e-10/bp/gen; Drake K=0.0010.,high
-E. coli,F9,check,Lee et al. 2012 PNAS; Karev et al. 2002,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
-E. coli,F10,check,Lee et al. 2012 PNAS; Karev et al. 2002,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-E. coli,F12,check,Lee et al. 2012 PNAS; Karev et al. 2002,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-E. coli,F13,check,Lee et al. 2012 PNAS; Karev et al. 2002,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-E. coli,F14,check,Lee et al. 2012 PNAS; Karev et al. 2002,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
-S. cerevisiae,F1,check,Zhu et al. 2014 PNAS; Karev et al. 2002,DNA/RNA genome serves as heritable digital string. mu=1.67e-10/site/div,high
-S. cerevisiae,F2,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Gene family expansion via duplication confirmed. mu=1.67e-10/site/div,high
-S. cerevisiae,F3,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-S. cerevisiae,F4,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-S. cerevisiae,F5,check,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=2.0-2.5; method: BDIM-Karev + Clauset validation.,high
-S. cerevisiae,F6,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-S. cerevisiae,F7,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-S. cerevisiae,F8,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Drake K constant satisfied; mu=1.67e-10/site/div; Drake K=0.0020.,high
-S. cerevisiae,F9,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
-S. cerevisiae,F10,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-S. cerevisiae,F12,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-S. cerevisiae,F13,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-S. cerevisiae,F14,check,Zhu et al. 2014 PNAS; Karev et al. 2002,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
-H. sapiens,F1,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,DNA/RNA genome serves as heritable digital string. mu=1.2e-8/bp/gen,high
-H. sapiens,F2,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Gene family expansion via duplication confirmed. mu=1.2e-8/bp/gen,high
-H. sapiens,F3,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-H. sapiens,F4,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-H. sapiens,F5,check,Karev et al. 2002; Koonin et al. 2002,Gene family size distribution fits BDI3 model; alpha=1.8-2.0; BDIM-Karev chi-squared.,high
-H. sapiens,F6,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-H. sapiens,F7,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-H. sapiens,F8,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Mutation rate measured; mu=1.2e-8/bp/gen; Drake K within expected range.,high
-H. sapiens,F9,tilde,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Somatic variation complicates error threshold assessment; germline is robust but somatic variation is high.,medium
-H. sapiens,F10,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-H. sapiens,F12,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-H. sapiens,F13,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-H. sapiens,F14,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
-D. discoideum,F1,check,Eichinger et al. 2005 Nature,DNA/RNA genome serves as heritable digital string. mu~1.0e-10/bp/gen,high
-D. discoideum,F2,check,Eichinger et al. 2005 Nature,Gene family expansion via duplication confirmed. mu~1.0e-10/bp/gen,high
-D. discoideum,F3,check,Eichinger et al. 2005 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-D. discoideum,F4,check,Eichinger et al. 2005 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-D. discoideum,F5,tilde,Eichinger et al. 2005,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-D. discoideum,F6,check,Eichinger et al. 2005 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-D. discoideum,F7,check,Eichinger et al. 2005 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-D. discoideum,F8,check,Eichinger et al. 2005 Nature,Drake K constant satisfied; mu~1.0e-10/bp/gen; Drake K=0.00099.,high
-D. discoideum,F9,tilde,Eichinger et al. 2005 Nature,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-D. discoideum,F10,check,Eichinger et al. 2005 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-D. discoideum,F12,check,Eichinger et al. 2005 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-D. discoideum,F13,check,Eichinger et al. 2005 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-F. albicollis,F1,check,Ellegren et al. 2012 Nature,DNA/RNA genome serves as heritable digital string. Collared flycatcher,high
-F. albicollis,F2,check,Ellegren et al. 2012 Nature,Gene family expansion via duplication confirmed. Collared flycatcher,high
-F. albicollis,F3,check,Ellegren et al. 2012 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-F. albicollis,F4,check,Ellegren et al. 2012 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-F. albicollis,F5,tilde,Ellegren et al. 2012,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-F. albicollis,F6,check,Ellegren et al. 2012 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-F. albicollis,F7,check,Ellegren et al. 2012 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-F. albicollis,F8,check,Ellegren et al. 2012 Nature,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
-F. albicollis,F9,tilde,Ellegren et al. 2012 Nature,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-F. albicollis,F10,check,Ellegren et al. 2012 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-F. albicollis,F12,check,Ellegren et al. 2012 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-F. albicollis,F13,check,Ellegren et al. 2012 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-S. pombe,F1,check,Wood et al. 2002 Nature,DNA/RNA genome serves as heritable digital string. mu~2e-10/site/div,high
-S. pombe,F2,check,Wood et al. 2002 Nature,Gene family expansion via duplication confirmed. mu~2e-10/site/div,high
-S. pombe,F3,check,Wood et al. 2002 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-S. pombe,F4,check,Wood et al. 2002 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-S. pombe,F5,check,Wood et al. 2002; Karev-derived,Gene family size distribution fits BDI3 model; alpha=~2.0-2.5; BDIM-Karev chi-squared.,high
-S. pombe,F6,check,Wood et al. 2002 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-S. pombe,F7,check,Wood et al. 2002 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-S. pombe,F8,check,Wood et al. 2002 Nature,Drake K constant satisfied; mu~2e-10/site/div; Drake K within range.,high
-S. pombe,F9,check,Wood et al. 2002 Nature,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
-S. pombe,F10,check,Wood et al. 2002 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-S. pombe,F12,check,Wood et al. 2002 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-S. pombe,F13,check,Wood et al. 2002 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-S. pombe,F14,check,Wood et al. 2002 Nature,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
-P. aeruginosa,F1,check,Lapierre & Gogarten 2009; Hao & Golding 2006,DNA/RNA genome serves as heritable digital string. mu~1e-10/bp/gen,high
-P. aeruginosa,F2,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene family expansion via duplication confirmed. mu~1e-10/bp/gen,high
-P. aeruginosa,F3,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-P. aeruginosa,F4,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-P. aeruginosa,F5,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene family size distribution fits BDI3 model; alpha=1.4-2.1; BDIM-Karev chi-squared.,high
-P. aeruginosa,F6,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-P. aeruginosa,F7,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-P. aeruginosa,F8,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Mutation rate measured; mu~1e-10/bp/gen; Drake K within expected range.,high
-P. aeruginosa,F9,tilde,Lapierre & Gogarten 2009; Hao & Golding 2006,Error threshold partially satisfied; mu~1e-10/bp/gen.,medium
-P. aeruginosa,F10,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-P. aeruginosa,F12,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-P. aeruginosa,F13,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-Archaea (79 genomes),F1,check,Karev et al. 2002 2004,DNA/RNA genome serves as heritable digital string. BDI3 fits across 79 genomes/23 species,high
-Archaea (79 genomes),F2,check,Karev et al. 2002 2004,Gene family expansion via duplication confirmed. BDI3 fits across 79 genomes/23 species,high
-Archaea (79 genomes),F3,check,Karev et al. 2002 2004,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Archaea (79 genomes),F4,check,Karev et al. 2002 2004,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-Archaea (79 genomes),F5,tilde,Karev et al. 2002,Partial power-law evidence; not formally fitted or ambiguous fit.,low
-Archaea (79 genomes),F6,check,Karev et al. 2002 2004,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-Archaea (79 genomes),F7,check,Karev et al. 2002 2004,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-Archaea (79 genomes),F8,tilde,Karev et al. 2002 2004,Drake K estimated but not all species individually validated; aggregate fits within range.,medium
-Archaea (79 genomes),F9,tilde,Karev et al. 2002 2004,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-Archaea (79 genomes),F10,check,Karev et al. 2002 2004,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Archaea (79 genomes),F12,check,Karev et al. 2002 2004,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-Archaea (79 genomes),F13,check,Karev et al. 2002 2004,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-Pan-genomes (11 spp),F1,check,Tettelin et al. 2008; Land et al. 2015,DNA/RNA genome serves as heritable digital string. 11 bacterial species with Heaps law exponents 0.08-0.64 (open),high
-Pan-genomes (11 spp),F2,check,Tettelin et al. 2008; Land et al. 2015,Gene family expansion via duplication confirmed. 11 bacterial species with Heaps law exponents 0.08-0.64 (open),high
-Pan-genomes (11 spp),F3,check,Tettelin et al. 2008; Land et al. 2015,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Pan-genomes (11 spp),F4,check,Tettelin et al. 2008; Land et al. 2015,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-Pan-genomes (11 spp),F5,check,Multiple (11 species),Open pan-genome confirmed via Heaps' law (exponents 0.08-0.64); innovation rate consistent with BDIM.,high
-Pan-genomes (11 spp),F6,check,Tettelin et al. 2008; Land et al. 2015,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-Pan-genomes (11 spp),F7,check,Tettelin et al. 2008; Land et al. 2015,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-Pan-genomes (11 spp),F8,check,Tettelin et al. 2008; Land et al. 2015,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
-Pan-genomes (11 spp),F9,tilde,Tettelin et al. 2008; Land et al. 2015,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-Pan-genomes (11 spp),F10,check,Tettelin et al. 2008; Land et al. 2015,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Pan-genomes (11 spp),F12,check,Tettelin et al. 2008; Land et al. 2015,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-Pan-genomes (11 spp),F13,check,Tettelin et al. 2008; Land et al. 2015,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-T cell repertoire,F1,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
-T cell repertoire,F2,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal expansion provides duplication mechanism for repertoire diversification.,high
-T cell repertoire,F3,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal contraction and apoptosis provide deletion mechanism.,high
-T cell repertoire,F4,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Affinity-based selection drives clonal competition and differential survival.,high
-T cell repertoire,F5,check,Robins et al. 2009; Desponds et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=2.0-2.5; method: MLE (explicit model fit).,high
-T cell repertoire,F6,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-T cell repertoire,F7,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
-T cell repertoire,F8,tilde,Robins et al. 2009; Desponds et al. 2016 PNAS,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
-T cell repertoire,F9,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Error threshold maintained; clonal fidelity preserved despite high somatic mutation rate.,high
-T cell repertoire,F10,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-T cell repertoire,F12,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
-T cell repertoire,F13,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
-B cell repertoire,F1,check,Desponds et al. 2016 PNAS,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
-B cell repertoire,F2,check,Desponds et al. 2016 PNAS,Clonal expansion provides duplication mechanism for repertoire diversification.,high
-B cell repertoire,F3,check,Desponds et al. 2016 PNAS,Clonal contraction and apoptosis provide deletion mechanism.,high
-B cell repertoire,F4,check,Desponds et al. 2016 PNAS,Affinity-based selection drives clonal competition and differential survival.,high
-B cell repertoire,F5,check,Multiple (clone size distributions); Desponds et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=~2.0-2.5; method: MLE (explicit model fit).,high
-B cell repertoire,F6,check,Desponds et al. 2016 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-B cell repertoire,F7,check,Desponds et al. 2016 PNAS,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
-B cell repertoire,F8,tilde,Desponds et al. 2016 PNAS,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
-B cell repertoire,F9,check,Desponds et al. 2016 PNAS,Error threshold maintained; clonal fidelity preserved despite high somatic mutation rate.,high
-B cell repertoire,F10,check,Desponds et al. 2016 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-B cell repertoire,F12,check,Desponds et al. 2016 PNAS,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
-B cell repertoire,F13,check,Desponds et al. 2016 PNAS,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
-CRISPR arrays,F1,check,Shmakov et al. 2017; CRISPRCasdb,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
-CRISPR arrays,F2,check,Shmakov et al. 2017; CRISPRCasdb,Clonal expansion provides duplication mechanism for repertoire diversification.,high
-CRISPR arrays,F3,check,Shmakov et al. 2017; CRISPRCasdb,Clonal contraction and apoptosis provide deletion mechanism.,high
-CRISPR arrays,F4,check,Shmakov et al. 2017; CRISPRCasdb,Affinity-based selection drives clonal competition and differential survival.,high
-CRISPR arrays,F5,tilde,Shmakov et al. 2017; CRISPRCasdb,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-CRISPR arrays,F6,check,Shmakov et al. 2017; CRISPRCasdb,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-CRISPR arrays,F7,check,Shmakov et al. 2017; CRISPRCasdb,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
-CRISPR arrays,F8,tilde,Shmakov et al. 2017; CRISPRCasdb,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
-CRISPR arrays,F9,tilde,Shmakov et al. 2017; CRISPRCasdb,Spacer fidelity maintained but error threshold concept only partially applicable to CRISPR arrays.,low
-CRISPR arrays,F10,check,Shmakov et al. 2017; CRISPRCasdb,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-CRISPR arrays,F12,check,Shmakov et al. 2017; CRISPRCasdb,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
-CRISPR arrays,F13,check,Shmakov et al. 2017; CRISPRCasdb,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
-CRISPR arrays,F14,tilde,Shmakov et al. 2017; CRISPRCasdb,WGD analog partial; array duplication possible but not equivalent to whole-genome duplication.,low
-Cancer somatic,F1,check,Beroukhim et al. 2010; Williams et al. 2016 2018,DNA/RNA genome serves as heritable digital string. 73.1%,high
-Cancer somatic,F2,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Gene family expansion via duplication confirmed. 73.1%,high
-Cancer somatic,F3,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Cancer somatic,F4,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-Cancer somatic,F5,check,Beroukhim et al. 2010; Zack et al. 2013,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-2.0; method: MLE.,high
-Cancer somatic,F6,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,BDIM-like dynamics partial; clonal competition shows birth-death but innovation rate unclear.,medium
-Cancer somatic,F7,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Complexity growth limited; somatic evolution increases heterogeneity but within bounded tissue context.,medium
-Cancer somatic,F8,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Somatic mutation rates vary widely across cancer types; Drake K framework partially applicable.,medium
-Cancer somatic,F9,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Somatic variation complicates error threshold assessment; germline is robust but somatic variation is high.,medium
-Cancer somatic,F10,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Cancer somatic,F12,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-Cancer somatic,F13,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Evolvability constrained; somatic evolution is adaptive locally but destructive at organism level.,medium
-Cancer somatic,F14,check,Beroukhim et al. 2010; Williams et al. 2016 2018,WGD observed in ~37% of cancers; whole-genome doubling contributes to somatic evolution.,high
-Baby names,F1,check,Jensen et al. 2019,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Baby names,F2,check,Jensen et al. 2019,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Baby names,F3,check,Jensen et al. 2019,Deletion/loss mechanism confirmed for information units.,medium
-Baby names,F4,check,Jensen et al. 2019,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Baby names,F5,tilde,Jensen et al. 2019; SSA data,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-Baby names,F6,check,Jensen et al. 2019,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-Baby names,F7,check,Jensen et al. 2019,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Baby names,F10,check,Jensen et al. 2019,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-Baby names,F12,check,Jensen et al. 2019,Modular/hierarchical organization observed in system structure.,medium
-Baby names,F13,check,Jensen et al. 2019,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
-Pottery typologies,F1,check,Neiman 1995,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Pottery typologies,F2,check,Neiman 1995,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Pottery typologies,F3,check,Neiman 1995,Deletion/loss mechanism confirmed for information units.,medium
-Pottery typologies,F4,check,Neiman 1995,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Pottery typologies,F5,tilde,Neiman 1995,Power-law fitted by OLS log-log regression only; no Clauset MLE validation; alpha=N/A.,low
-Pottery typologies,F6,check,Neiman 1995,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-Pottery typologies,F7,check,Neiman 1995,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Pottery typologies,F10,tilde,Neiman 1995,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
-Pottery typologies,F12,check,Neiman 1995,Modular/hierarchical organization observed in system structure.,medium
-Pottery typologies,F13,tilde,Neiman 1995,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
-Chess openings,F1,check,,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Chess openings,F2,check,,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Chess openings,F3,check,,Deletion/loss mechanism confirmed for information units.,medium
-Chess openings,F4,check,,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Chess openings,F5,tilde,Qualitative description only,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-Chess openings,F6,tilde,,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
-Chess openings,F7,check,,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Chess openings,F10,tilde,,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
-Chess openings,F12,check,,Modularity and hierarchical organization confirmed.,medium
-Chess openings,F13,check,,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
-Dog breeds,F1,check,,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Dog breeds,F2,check,,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Dog breeds,F3,check,,Deletion/loss mechanism confirmed for information units.,medium
-Dog breeds,F4,check,,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Dog breeds,F5,tilde,AKC registration statistics,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
-Dog breeds,F6,tilde,,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
-Dog breeds,F7,check,,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Dog breeds,F10,tilde,,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
-Dog breeds,F12,check,,Modular/hierarchical organization observed in system structure.,medium
-Dog breeds,F13,check,,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
-Software codebases,F1,check,Louridas et al. 2008; Valverde & Sole 2005,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Software codebases,F2,tilde,Louridas et al. 2008; Valverde & Sole 2005,Partial duplication capacity; 81.8%.,medium
-Software codebases,F3,check,Louridas et al. 2008; Valverde & Sole 2005,Deletion/loss mechanism confirmed for information units.,medium
-Software codebases,F4,tilde,Louridas et al. 2008; Valverde & Sole 2005,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-Software codebases,F5,tilde,Louridas et al. 2008; Valverde & Sole 2005,Power-law fitted by OLS log-log regression only; no Clauset MLE validation; alpha=~2.0-2.5.,low
-Software codebases,F6,check,Louridas et al. 2008; Valverde & Sole 2005,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
-Software codebases,F7,check,Louridas et al. 2008; Valverde & Sole 2005,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Software codebases,F10,check,Louridas et al. 2008; Valverde & Sole 2005,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-Software codebases,F12,check,Louridas et al. 2008; Valverde & Sole 2005,Modularity and hierarchical organization confirmed.,medium
-Software codebases,F13,check,Louridas et al. 2008; Valverde & Sole 2005,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
-Software codebases,F14,tilde,Louridas et al. 2008; Valverde & Sole 2005,Codebase forking as WGD analog; partial parallel but not true genome duplication.,low
-Buchnera,F1,check,Shigenobu et al. 2000 Nature; Moran et al.,DNA/RNA genome serves as heritable digital string. 40.9%,high
-Buchnera,F2,cross,Shigenobu et al. 2000 Nature; Moran et al.,Near-zero horizontal gene transfer; 641 kb genome shows no significant gene family expansion.,high
-Buchnera,F3,check,Shigenobu et al. 2000 Nature; Moran et al.,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Buchnera,F4,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Selection is relaxed due to obligate endosymbiont lifestyle; drift dominates over adaptive selection.,medium
-Buchnera,F5,cross,Shigenobu et al. 2000 Nature; Moran et al.,No power-law tail in gene family size distribution; 641 kb genome too reduced for family expansion.,high
-Buchnera,F6,cross,Shigenobu et al. 2000 Nature; Moran et al.,"BDIM broken; gene loss dominates with near-zero gene gain, leading to irreversible genome erosion.",high
-Buchnera,F7,cross,Shigenobu et al. 2000 Nature; Moran et al.,No open-ended complexity growth observed.,high
-Buchnera,F8,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Mutation rate elevated relative to reduced genome size; Drake K relationship disrupted by genetic drift.,medium
-Buchnera,F9,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Error threshold may be violated; elevated mutation rate in 641 kb genome approaching Muller's ratchet.,medium
-Buchnera,F10,check,Shigenobu et al. 2000 Nature; Moran et al.,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Buchnera,F12,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Modularity degraded; reduced genome has lost most regulatory hierarchy and operonic structure.,medium
-Buchnera,F13,cross,Shigenobu et al. 2000 Nature; Moran et al.,No evolvability or adaptive capacity observed.,high
-Carsonella,F1,check,Nakabachi et al. 2006 Science,DNA/RNA genome serves as heritable digital string. 40.9%,high
-Carsonella,F2,cross,Nakabachi et al. 2006 Science,No gene family expansion; 160 kb genome is minimal with no room for duplication.,high
-Carsonella,F3,check,Nakabachi et al. 2006 Science,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Carsonella,F4,tilde,Nakabachi et al. 2006 Science,Selection is relaxed due to obligate endosymbiont lifestyle; drift dominates over adaptive selection.,medium
-Carsonella,F5,cross,Nakabachi et al. 2006 Science,No power-law tail; 160 kb minimal genome lacks gene families entirely.,high
-Carsonella,F6,cross,Nakabachi et al. 2006 Science,BDIM broken; gene loss dominates with near-zero gene gain in 160 kb genome.,high
-Carsonella,F7,cross,Nakabachi et al. 2006 Science,No open-ended complexity growth observed.,high
-Carsonella,F8,tilde,Nakabachi et al. 2006 Science,Drake K partially applicable; mutation rate relationship approximate or not formally tested.,low
-Carsonella,F9,tilde,Nakabachi et al. 2006 Science,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-Carsonella,F10,check,Nakabachi et al. 2006 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Carsonella,F12,tilde,Nakabachi et al. 2006 Science,Partial modularity observed but not fully characterized.,low
-Carsonella,F13,cross,Nakabachi et al. 2006 Science,No evolvability or adaptive capacity observed.,high
-N. equitans,F1,check,Waters et al. 2003 PNAS,DNA/RNA genome serves as heritable digital string. 40.9%,high
-N. equitans,F2,cross,Waters et al. 2003 PNAS,No gene family expansion; 491 kb genome with 536 genes shows no significant duplication.,high
-N. equitans,F3,check,Waters et al. 2003 PNAS,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-N. equitans,F4,tilde,Waters et al. 2003 PNAS,Selection is relaxed due to obligate archaeal parasitic lifestyle; drift dominates.,medium
-N. equitans,F5,cross,Waters et al. 2003 PNAS,No power-law tail; 491 kb genome with 536 genes lacks gene family expansion.,high
-N. equitans,F6,cross,Waters et al. 2003 PNAS,BDIM broken; gene loss dominates with near-zero gene gain in archaeal endosymbiont.,high
-N. equitans,F7,cross,Waters et al. 2003 PNAS,No open-ended complexity growth observed.,high
-N. equitans,F8,tilde,Waters et al. 2003 PNAS,Drake K partially applicable; mutation rate relationship approximate or not formally tested.,low
-N. equitans,F9,tilde,Waters et al. 2003 PNAS,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-N. equitans,F10,check,Waters et al. 2003 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-N. equitans,F12,tilde,Waters et al. 2003 PNAS,Partial modularity observed but not fully characterized.,low
-N. equitans,F13,cross,Waters et al. 2003 PNAS,No evolvability or adaptive capacity observed.,high
-CPR bacteria,F1,check,Brown et al. 2015 Nature,DNA/RNA genome serves as heritable digital string. 63.6%,high
-CPR bacteria,F2,tilde,Brown et al. 2015 Nature,Partial duplication capacity; 63.6%.,medium
-CPR bacteria,F3,check,Brown et al. 2015 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-CPR bacteria,F4,tilde,Brown et al. 2015 Nature,Selection is relaxed due to host-dependent lifestyle; drift dominates over adaptive selection.,medium
-CPR bacteria,F5,cross,Brown et al. 2015 Nature,No power-law tail in gene family size distribution; genome too reduced for family expansion.,high
-CPR bacteria,F6,tilde,Brown et al. 2015 Nature,BDIM dynamics impaired; birth rate severely reduced relative to death/loss rate.,medium
-CPR bacteria,F7,tilde,Brown et al. 2015 Nature,Open-ended growth impaired; host-dependent lifestyle constrains genome expansion.,medium
-CPR bacteria,F8,tilde,Brown et al. 2015 Nature,Mutation rate elevated relative to genome size; Drake K relationship may be disrupted by drift.,medium
-CPR bacteria,F9,tilde,Brown et al. 2015 Nature,Error threshold may be violated; elevated mutation rate in reduced genome approaching Muller's ratchet.,medium
-CPR bacteria,F10,check,Brown et al. 2015 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-CPR bacteria,F12,tilde,Brown et al. 2015 Nature,Modularity degraded; reduced genome has lost most regulatory hierarchy.,medium
-CPR bacteria,F13,tilde,Brown et al. 2015 Nature,Adaptive capacity reduced; host-dependent lifestyle constrains independent evolution.,medium
-DPANN archaea,F1,check,Castelle et al. 2015 2018,DNA/RNA genome serves as heritable digital string. 63.6%,high
-DPANN archaea,F2,tilde,Castelle et al. 2015 2018,Partial or limited duplication capacity observed.,low
-DPANN archaea,F3,check,Castelle et al. 2015 2018,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-DPANN archaea,F4,tilde,Castelle et al. 2015 2018,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-DPANN archaea,F5,cross,Castelle et al. 2015 2018,Power-law distribution not present or fails statistical test.,medium
-DPANN archaea,F6,tilde,Castelle et al. 2015 2018,BDIM dynamics impaired; birth rate severely reduced relative to death/loss rate.,medium
-DPANN archaea,F7,tilde,Castelle et al. 2015 2018,Open-ended growth impaired; host-dependent lifestyle constrains genome expansion.,medium
-DPANN archaea,F8,tilde,Castelle et al. 2015 2018,Drake K estimated but not all species individually validated; aggregate fits within range.,medium
-DPANN archaea,F9,tilde,Castelle et al. 2015 2018,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-DPANN archaea,F10,check,Castelle et al. 2015 2018,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-DPANN archaea,F12,tilde,Castelle et al. 2015 2018,Partial modularity observed but not fully characterized.,low
-DPANN archaea,F13,tilde,Castelle et al. 2015 2018,Adaptive capacity reduced; host-dependent lifestyle constrains independent evolution.,medium
-Plant WGD,F1,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,DNA/RNA genome serves as heritable digital string. 96.2%,high
-Plant WGD,F2,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Gene family expansion via duplication confirmed. 96.2%,high
-Plant WGD,F3,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-Plant WGD,F4,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-Plant WGD,F5,check,Karev et al. 2002,Gene family size distribution fits BDI3 model; alpha=2.1-2.2; BDIM-Karev chi-squared.,high
-Plant WGD,F6,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
-Plant WGD,F7,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
-Plant WGD,F8,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
-Plant WGD,F9,tilde,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-Plant WGD,F10,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-Plant WGD,F12,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-Plant WGD,F13,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
-Plant WGD,F14,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,WGD confirmed; polyploidy events documented with power-law preservation (mathematical identity).,high
-Language (alpha~1),F1,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Language (alpha~1),F2,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Language (alpha~1),F3,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Deletion/loss mechanism confirmed for information units.,medium
-Language (alpha~1),F4,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Selection mechanism confirmed for differential survival of variants.,medium
-Language (alpha~1),F5,tilde,Clauset et al. 2009; Piantadosi 2014,Alpha near 1.0 at sharp E7 boundary; indistinguishable from lognormal; mechanistic ambiguity.,medium
-Language (alpha~1),F6,tilde,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
-Language (alpha~1),F7,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Language (alpha~1),F8,tilde,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Mutation analog (word change rate) exists but Drake K constant not formally applicable.,low
-Language (alpha~1),F12,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Modularity and hierarchical organization confirmed.,medium
-Language (alpha~1),F13,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Evolvability / adaptive capacity confirmed.,medium
-Cities (alpha~1),F1,tilde,Gabaix 1999; Eeckhout 2004,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
-Cities (alpha~1),F2,tilde,Gabaix 1999; Eeckhout 2004,Partial or limited duplication capacity observed.,low
-Cities (alpha~1),F3,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
-Cities (alpha~1),F4,check,Gabaix 1999; Eeckhout 2004,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Cities (alpha~1),F5,tilde,Gabaix 1999; Eeckhout 2004,Alpha near 1.0 at sharp E7 boundary; indistinguishable from lognormal; mechanistic ambiguity.,medium
-Cities (alpha~1),F6,tilde,Gabaix 1999; Eeckhout 2004,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
-Cities (alpha~1),F7,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
-Cities (alpha~1),F12,check,Gabaix 1999; Eeckhout 2004,Modular/hierarchical organization observed in system structure.,medium
-Cities (alpha~1),F13,tilde,Gabaix 1999; Eeckhout 2004,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
-Patents (E9 fail),F1,check,not balanced dup/del); otherwise Inside-like,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
-Patents (E9 fail),F2,check,not balanced dup/del); otherwise Inside-like,Duplication/copying mechanism confirmed for information unit expansion.,medium
-Patents (E9 fail),F3,check,not balanced dup/del); otherwise Inside-like,Deletion/loss mechanism confirmed for information units.,medium
-Patents (E9 fail),F4,check,not balanced dup/del); otherwise Inside-like,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-Patents (E9 fail),F5,check,not balanced dup/del); otherwise Inside-like,Power-law distribution confirmed; alpha=N/A.,medium
-Patents (E9 fail),F6,cross,not balanced dup/del); otherwise Inside-like,No balanced birth-death-innovation dynamics; system lacks BDIM mechanism.,high
-Patents (E9 fail),F7,check,not balanced dup/del); otherwise Inside-like,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
-Patents (E9 fail),F10,check,not balanced dup/del); otherwise Inside-like,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-Patents (E9 fail),F12,check,not balanced dup/del); otherwise Inside-like,Modular/hierarchical organization observed in system structure.,medium
-Patents (E9 fail),F13,check,not balanced dup/del); otherwise Inside-like,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
-WWW hyperlinks,F1,cross,Broder et al. 2000; Meusel et al. 2014,No heritable digital string; system lacks replicating information carriers.,high
-WWW hyperlinks,F2,cross,Broder et al. 2000; Meusel et al. 2014,No duplication mechanism present in this system.,high
-WWW hyperlinks,F3,cross,Broder et al. 2000; Meusel et al. 2014,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-WWW hyperlinks,F4,tilde,Broder et al. 2000; Meusel et al. 2014,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-WWW hyperlinks,F5,tilde,Broder et al. 2000; Meusel et al. 2014,Partial power-law evidence; not formally fitted or ambiguous fit.,low
-WWW hyperlinks,F7,tilde,Broder et al. 2000; Meusel et al. 2014,System grows in size but complexity growth is not open-ended in the biological sense.,low
-WWW hyperlinks,F9,cross,Broder et al. 2000; Meusel et al. 2014,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
-WWW hyperlinks,F10,check,Broder et al. 2000; Meusel et al. 2014,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-WWW hyperlinks,F12,tilde,Broder et al. 2000; Meusel et al. 2014,Partial modularity; network has community structure but lacks biological-level hierarchy.,low
-WWW hyperlinks,F13,cross,Broder et al. 2000; Meusel et al. 2014,No evolvability in biological sense; system growth is not adaptive.,high
-PPI networks,F1,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
-PPI networks,F2,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or limited duplication capacity observed.,low
-PPI networks,F3,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
-PPI networks,F4,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-PPI networks,F5,tilde,Barabasi & Oltvai 2004; Luck et al. 2020,Power-law fit contested; potential artifact concerns; Contested (Blumenthal 2024).,low
-PPI networks,F7,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,System grows in size but complexity growth is not open-ended in the biological sense.,low
-PPI networks,F9,cross,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
-PPI networks,F10,check,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-PPI networks,F12,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial modularity; network has community structure but lacks biological-level hierarchy.,low
-PPI networks,F13,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial adaptive capacity in network growth; not evolvability in the biological sense.,low
-Neuronal avalanches,F1,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No heritable digital string; system lacks replicating information carriers.,high
-Neuronal avalanches,F2,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No duplication mechanism present in this system.,high
-Neuronal avalanches,F3,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Neuronal avalanches,F4,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Neuronal avalanches,F5,tilde,Beggs & Plenz 2003; Priesemann et al. 2014,Power-law fit contested; potential artifact concerns; Contested.,low
-Neuronal avalanches,F7,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No open-ended complexity growth observed.,high
-Neuronal avalanches,F8,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No mutation rate in the genomic sense; epigenetic changes do not follow Drake K.,high
-Neuronal avalanches,F9,cross,Beggs & Plenz 2003; Priesemann et al. 2014,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
-Neuronal avalanches,F10,check,Beggs & Plenz 2003; Priesemann et al. 2014,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-Neuronal avalanches,F12,tilde,Beggs & Plenz 2003; Priesemann et al. 2014,Partial modularity observed but not fully characterized.,low
-Neuronal avalanches,F13,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No evolvability or adaptive capacity observed.,high
-Cancer epigenomics,F1,tilde,Schmitz et al. 2011 Science,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
-Cancer epigenomics,F2,tilde,Schmitz et al. 2011 Science,Partial or limited duplication capacity observed.,low
-Cancer epigenomics,F3,tilde,Schmitz et al. 2011 Science,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
-Cancer epigenomics,F4,tilde,Schmitz et al. 2011 Science,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-Cancer epigenomics,F5,cross,Schmitz et al. 2011 Science,No power-law distribution in epigenetic marks; F5 not satisfied.,medium
-Cancer epigenomics,F7,tilde,Schmitz et al. 2011 Science,Complexity growth limited; somatic evolution increases heterogeneity but within bounded tissue context.,medium
-Cancer epigenomics,F8,cross,Schmitz et al. 2011 Science,No mutation rate in the genomic sense; epigenetic changes do not follow Drake K.,high
-Cancer epigenomics,F9,cross,Schmitz et al. 2011 Science,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
-Cancer epigenomics,F10,check,Schmitz et al. 2011 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-Cancer epigenomics,F12,tilde,Schmitz et al. 2011 Science,Modularity partially disrupted; somatic evolution erodes normal tissue organization.,medium
-Cancer epigenomics,F13,tilde,Schmitz et al. 2011 Science,Evolvability constrained; somatic evolution is adaptive locally but destructive at organism level.,medium
-RNA World,F1,tilde,,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
-RNA World,F2,tilde,,Partial or limited duplication capacity observed.,low
-RNA World,F3,tilde,,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
-RNA World,F4,tilde,,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
-RNA World,F5,tilde,,Partial power-law evidence; not formally fitted or ambiguous fit.,low
-RNA World,F7,check,,Autocatalytic networks capable of open-ended growth in principle.,low
-RNA World,F9,tilde,,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
-RNA World,F10,check,,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
-RNA World,F12,tilde,,Proto-modularity in autocatalytic networks; hierarchical organization primitive or absent.,low
-RNA World,F13,tilde,,Partial evolvability; adaptive capacity limited or ambiguous.,low
-Earthquakes,F1,cross,Gutenberg & Richter 1944; Kagan 2010,No heritable digital string; system lacks replicating information carriers.,high
-Earthquakes,F2,cross,Gutenberg & Richter 1944; Kagan 2010,No duplication mechanism present in this system.,high
-Earthquakes,F3,cross,Gutenberg & Richter 1944; Kagan 2010,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Earthquakes,F4,cross,Gutenberg & Richter 1944; Kagan 2010,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Earthquakes,F5,check,USGS ComCat; Kagan 2010; Clauset et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=~2.0 (energy); method: MLE-Clauset.,high
-Earthquakes,F7,cross,Gutenberg & Richter 1944; Kagan 2010,No complexity growth; physical system does not accumulate heritable information.,high
-Earthquakes,F9,cross,Gutenberg & Richter 1944; Kagan 2010,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Earthquakes,F12,cross,Gutenberg & Richter 1944; Kagan 2010,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Earthquakes,F13,cross,Gutenberg & Richter 1944; Kagan 2010,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Solar flares,F1,cross,Aschwanden & Schrijver 2025,No heritable digital string; system lacks replicating information carriers.,high
-Solar flares,F2,cross,Aschwanden & Schrijver 2025,No duplication mechanism present in this system.,high
-Solar flares,F3,cross,Aschwanden & Schrijver 2025,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Solar flares,F4,cross,Aschwanden & Schrijver 2025,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Solar flares,F5,check,Aschwanden & Schrijver 2025,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-1.8; method: MLE.,high
-Solar flares,F7,cross,Aschwanden & Schrijver 2025,No complexity growth; physical system does not accumulate heritable information.,high
-Solar flares,F9,cross,Aschwanden & Schrijver 2025,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Solar flares,F12,cross,Aschwanden & Schrijver 2025,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Solar flares,F13,cross,Aschwanden & Schrijver 2025,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Turbulence,F1,cross,Kolmogorov 1941,No heritable digital string; system lacks replicating information carriers.,high
-Turbulence,F2,cross,Kolmogorov 1941,No duplication mechanism present in this system.,high
-Turbulence,F3,cross,Kolmogorov 1941,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Turbulence,F4,cross,Kolmogorov 1941,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Turbulence,F5,check,Kolmogorov 1941,Power-law distribution confirmed; alpha=N/A.,medium
-Turbulence,F7,cross,Kolmogorov 1941,No complexity growth; physical system does not accumulate heritable information.,high
-Turbulence,F9,cross,Kolmogorov 1941,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Turbulence,F12,cross,Kolmogorov 1941,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Turbulence,F13,cross,Kolmogorov 1941,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Galaxy LF,F1,cross,Blanton et al. 2003 ApJ,No heritable digital string; system lacks replicating information carriers.,high
-Galaxy LF,F2,cross,Blanton et al. 2003 ApJ,No duplication mechanism present in this system.,high
-Galaxy LF,F3,cross,Blanton et al. 2003 ApJ,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Galaxy LF,F4,cross,Blanton et al. 2003 ApJ,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Galaxy LF,F5,tilde,Blanton et al. 2003 (SDSS),Not a pure Pareto distribution; Schechter function with exponential cutoff; faint-end slope only.,medium
-Galaxy LF,F7,cross,Blanton et al. 2003 ApJ,No complexity growth; physical system does not accumulate heritable information.,high
-Galaxy LF,F9,cross,Blanton et al. 2003 ApJ,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Galaxy LF,F12,cross,Blanton et al. 2003 ApJ,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Galaxy LF,F13,cross,Blanton et al. 2003 ApJ,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Stellar IMF,F1,cross,Chabrier 2003; Kroupa 2001,No heritable digital string; system lacks replicating information carriers.,high
-Stellar IMF,F2,cross,Chabrier 2003; Kroupa 2001,No duplication mechanism present in this system.,high
-Stellar IMF,F3,cross,Chabrier 2003; Kroupa 2001,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Stellar IMF,F4,cross,Chabrier 2003; Kroupa 2001,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Stellar IMF,F5,tilde,Chabrier 2003; Kroupa 2001,"Salpeter power law above 1 Msun but lognormal below; composite distribution, not pure power law.",medium
-Stellar IMF,F7,cross,Chabrier 2003; Kroupa 2001,No complexity growth; physical system does not accumulate heritable information.,high
-Stellar IMF,F9,cross,Chabrier 2003; Kroupa 2001,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Stellar IMF,F12,cross,Chabrier 2003; Kroupa 2001,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Stellar IMF,F13,cross,Chabrier 2003; Kroupa 2001,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Mol. clouds,F1,cross,Rice et al. 2016 ApJ,No heritable digital string; system lacks replicating information carriers.,high
-Mol. clouds,F2,cross,Rice et al. 2016 ApJ,No duplication mechanism present in this system.,high
-Mol. clouds,F3,cross,Rice et al. 2016 ApJ,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Mol. clouds,F4,cross,Rice et al. 2016 ApJ,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Mol. clouds,F5,check,Rice et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=1.6-1.8; method: MLE.,high
-Mol. clouds,F7,cross,Rice et al. 2016 ApJ,No complexity growth; physical system does not accumulate heritable information.,high
-Mol. clouds,F9,cross,Rice et al. 2016 ApJ,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Mol. clouds,F12,cross,Rice et al. 2016 ApJ,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Mol. clouds,F13,cross,Rice et al. 2016 ApJ,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Sandpile/SOC,F1,cross,Bak et al. 1987; De Menech et al. 1998,No heritable digital string; system lacks replicating information carriers.,high
-Sandpile/SOC,F2,cross,Bak et al. 1987; De Menech et al. 1998,No duplication mechanism present in this system.,high
-Sandpile/SOC,F3,cross,Bak et al. 1987; De Menech et al. 1998,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Sandpile/SOC,F4,cross,Bak et al. 1987; De Menech et al. 1998,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Sandpile/SOC,F5,check,De Menech et al. 1998; Bak et al. 1987,Power-law distribution confirmed; alpha=1.22 (BTW 2D).,medium
-Sandpile/SOC,F7,cross,Bak et al. 1987; De Menech et al. 1998,No complexity growth; physical system does not accumulate heritable information.,high
-Sandpile/SOC,F9,cross,Bak et al. 1987; De Menech et al. 1998,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Sandpile/SOC,F12,cross,Bak et al. 1987; De Menech et al. 1998,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Sandpile/SOC,F13,cross,Bak et al. 1987; De Menech et al. 1998,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Rivers,F1,cross,Rodriguez-Iturbe & Rinaldo 1997,No heritable digital string; system lacks replicating information carriers.,high
-Rivers,F2,cross,Rodriguez-Iturbe & Rinaldo 1997,No duplication mechanism present in this system.,high
-Rivers,F3,cross,Rodriguez-Iturbe & Rinaldo 1997,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Rivers,F4,cross,Rodriguez-Iturbe & Rinaldo 1997,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Rivers,F5,check,Rodriguez-Iturbe & Rinaldo 1997,Power-law confirmed; Clauset KS p>0.1; alpha=~0.43 (area); method: MLE.,high
-Rivers,F7,cross,Rodriguez-Iturbe & Rinaldo 1997,No complexity growth; physical system does not accumulate heritable information.,high
-Rivers,F9,cross,Rodriguez-Iturbe & Rinaldo 1997,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
-Rivers,F12,cross,Rodriguez-Iturbe & Rinaldo 1997,No modularity in biological sense; physical system lacks hierarchical information organization.,high
-Rivers,F13,cross,Rodriguez-Iturbe & Rinaldo 1997,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
-Citations,F1,cross,Redner 1998; Radicchi et al. 2008 PNAS,No heritable digital string; system lacks replicating information carriers.,high
-Citations,F2,cross,Redner 1998; Radicchi et al. 2008 PNAS,No duplication mechanism present in this system.,high
-Citations,F3,cross,Redner 1998; Radicchi et al. 2008 PNAS,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Citations,F4,tilde,Redner 1998; Radicchi et al. 2008 PNAS,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
-Citations,F5,check,Redner 1998; Radicchi et al. 2008; Clauset et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=3.0-3.1; method: MLE-Clauset.,high
-Citations,F6,cross,Redner 1998; Radicchi et al. 2008 PNAS,"Citation-weighted growth mechanism, not balanced birth-death-innovation.",medium
-Citations,F7,tilde,Redner 1998; Radicchi et al. 2008 PNAS,System grows in size but complexity growth is not open-ended in the biological sense.,low
-Citations,F9,cross,Redner 1998; Radicchi et al. 2008 PNAS,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
-Citations,F12,check,Redner 1998; Radicchi et al. 2008 PNAS,Modular/hierarchical organization observed in system structure.,medium
-Citations,F13,cross,Redner 1998; Radicchi et al. 2008 PNAS,No evolvability in biological sense; system growth is not adaptive.,high
-Income/wealth,F1,cross,Gabaix 2009; Gopikrishnan et al. 1999,No heritable digital string; system lacks replicating information carriers.,high
-Income/wealth,F2,cross,Gabaix 2009; Gopikrishnan et al. 1999,No duplication mechanism present in this system.,high
-Income/wealth,F3,cross,Gabaix 2009; Gopikrishnan et al. 1999,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Income/wealth,F4,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
-Income/wealth,F5,check,Multiple national datasets; Gabaix 2009,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-3.0; method: MLE-Clauset.,high
-Income/wealth,F7,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
-Income/wealth,F9,cross,Gabaix 2009; Gopikrishnan et al. 1999,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
-Income/wealth,F12,check,Gabaix 2009; Gopikrishnan et al. 1999,Modular/hierarchical organization observed in system structure.,medium
-Income/wealth,F13,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
-Stock returns,F1,cross,Gopikrishnan et al. 1999 Phys Rev E,No heritable digital string; system lacks replicating information carriers.,high
-Stock returns,F2,cross,Gopikrishnan et al. 1999 Phys Rev E,No duplication mechanism present in this system.,high
-Stock returns,F3,cross,Gopikrishnan et al. 1999 Phys Rev E,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Stock returns,F4,tilde,Gopikrishnan et al. 1999 Phys Rev E,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
-Stock returns,F5,check,Gopikrishnan et al. 1999,Power-law confirmed; Clauset KS p>0.1; alpha=~3.0; method: MLE.,high
-Stock returns,F7,cross,Gopikrishnan et al. 1999 Phys Rev E,No open-ended complexity growth observed.,high
-Stock returns,F9,cross,Gopikrishnan et al. 1999 Phys Rev E,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
-Stock returns,F12,check,Gopikrishnan et al. 1999 Phys Rev E,Modular/hierarchical organization observed in system structure.,medium
-Stock returns,F13,cross,Gopikrishnan et al. 1999 Phys Rev E,No evolvability or adaptive capacity observed.,high
-Internet AS,F1,cross,Faloutsos et al. 1999 SIGCOMM,No heritable digital string; system lacks replicating information carriers.,high
-Internet AS,F2,cross,Faloutsos et al. 1999 SIGCOMM,No duplication mechanism present in this system.,high
-Internet AS,F3,cross,Faloutsos et al. 1999 SIGCOMM,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
-Internet AS,F4,cross,Faloutsos et al. 1999 SIGCOMM,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
-Internet AS,F5,check,Faloutsos et al. 1999; CAIDA,Power-law distribution confirmed; alpha=2.1-2.2.,medium
-Internet AS,F7,cross,Faloutsos et al. 1999 SIGCOMM,No open-ended complexity growth observed.,high
-Internet AS,F9,cross,Faloutsos et al. 1999 SIGCOMM,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
-Internet AS,F12,cross,Faloutsos et al. 1999 SIGCOMM,No hierarchical modularity; network structure does not exhibit biological-level organization.,high
-Internet AS,F13,cross,Faloutsos et al. 1999 SIGCOMM,No evolvability in biological sense; system growth is not adaptive.,high
-RNA viruses,F1,check,Sanjuan et al. 2010 J Virol,DNA/RNA genome serves as heritable digital string. 54.5%,high
-RNA viruses,F2,cross,Sanjuan et al. 2010 J Virol,No large-scale gene duplication; bounded genome size prevents family expansion.,high
-RNA viruses,F3,check,Sanjuan et al. 2010 J Virol,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
-RNA viruses,F4,check,Sanjuan et al. 2010 J Virol,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
-RNA viruses,F5,cross,Sanjuan et al. 2010,No gene families; bounded genome prevents family size distribution.,high
-RNA viruses,F6,cross,Sanjuan et al. 2010 J Virol,No BDIM dynamics; genome is bounded and does not undergo gene family birth-death.,high
-RNA viruses,F7,cross,Sanjuan et al. 2010 J Virol,No open-ended complexity growth observed.,high
-RNA viruses,F8,check,Sanjuan et al. 2010 J Virol,Mutation rate measured; operates near error threshold consistent with Drake K framework.,high
-RNA viruses,F9,check,Sanjuan et al. 2010 J Virol,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
-RNA viruses,F10,check,Sanjuan et al. 2010 J Virol,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
-RNA viruses,F12,check,Sanjuan et al. 2010 J Virol,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
-RNA viruses,F13,cross,Sanjuan et al. 2010 J Virol,No evolvability or adaptive capacity observed.,high
-City sizes,F1,tilde,Gabaix 1999; Eeckhout 2004,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
-City sizes,F2,tilde,Gabaix 1999; Eeckhout 2004,Partial or limited duplication capacity observed.,low
-City sizes,F3,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
-City sizes,F4,check,Gabaix 1999; Eeckhout 2004,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
-City sizes,F5,tilde,Gabaix 1999; Eeckhout 2004,Partial power-law evidence; not formally fitted or ambiguous fit.,low
-City sizes,F6,tilde,Gabaix 1999; Eeckhout 2004,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
-City sizes,F7,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
-City sizes,F12,check,Gabaix 1999; Eeckhout 2004,Modular/hierarchical organization observed in system structure.,medium
-City sizes,F13,tilde,Gabaix 1999; Eeckhout 2004,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
+system_id,system,feature,rating,primary_citation,justification,confidence
+BIO-ecoli,E. coli,F1,check,Lee et al. 2012 PNAS; Karev et al. 2002,DNA/RNA genome serves as heritable digital string. mu=2.2e-10/bp/gen,high
+BIO-ecoli,E. coli,F2,check,Lee et al. 2012 PNAS; Karev et al. 2002,Gene family expansion via duplication confirmed. mu=2.2e-10/bp/gen,high
+BIO-ecoli,E. coli,F3,check,Lee et al. 2012 PNAS; Karev et al. 2002,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-ecoli,E. coli,F4,check,Lee et al. 2012 PNAS; Karev et al. 2002,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-ecoli,E. coli,F5,check,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=1.7-2.2; method: BDIM-Karev + Clauset validation.,high
+BIO-ecoli,E. coli,F6,check,Lee et al. 2012 PNAS; Karev et al. 2002,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-ecoli,E. coli,F7,check,Lee et al. 2012 PNAS; Karev et al. 2002,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-ecoli,E. coli,F8,check,Lee et al. 2012 PNAS; Karev et al. 2002,Drake K constant satisfied; mu=2.2e-10/bp/gen; Drake K=0.0010.,high
+BIO-ecoli,E. coli,F9,check,Lee et al. 2012 PNAS; Karev et al. 2002,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
+BIO-ecoli,E. coli,F10,check,Lee et al. 2012 PNAS; Karev et al. 2002,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-ecoli,E. coli,F12,check,Lee et al. 2012 PNAS; Karev et al. 2002,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-ecoli,E. coli,F13,check,Lee et al. 2012 PNAS; Karev et al. 2002,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-ecoli,E. coli,F14,check,Lee et al. 2012 PNAS; Karev et al. 2002,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
+BIO-scerevisiae,S. cerevisiae,F1,check,Zhu et al. 2014 PNAS; Karev et al. 2002,DNA/RNA genome serves as heritable digital string. mu=1.67e-10/site/div,high
+BIO-scerevisiae,S. cerevisiae,F2,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Gene family expansion via duplication confirmed. mu=1.67e-10/site/div,high
+BIO-scerevisiae,S. cerevisiae,F3,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-scerevisiae,S. cerevisiae,F4,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-scerevisiae,S. cerevisiae,F5,check,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=2.0-2.5; method: BDIM-Karev + Clauset validation.,high
+BIO-scerevisiae,S. cerevisiae,F6,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-scerevisiae,S. cerevisiae,F7,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-scerevisiae,S. cerevisiae,F8,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Drake K constant satisfied; mu=1.67e-10/site/div; Drake K=0.0020.,high
+BIO-scerevisiae,S. cerevisiae,F9,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
+BIO-scerevisiae,S. cerevisiae,F10,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-scerevisiae,S. cerevisiae,F12,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-scerevisiae,S. cerevisiae,F13,check,Zhu et al. 2014 PNAS; Karev et al. 2002,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-scerevisiae,S. cerevisiae,F14,check,Zhu et al. 2014 PNAS; Karev et al. 2002,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
+BIO-hsapiens,H. sapiens,F1,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,DNA/RNA genome serves as heritable digital string. mu=1.2e-8/bp/gen,high
+BIO-hsapiens,H. sapiens,F2,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Gene family expansion via duplication confirmed. mu=1.2e-8/bp/gen,high
+BIO-hsapiens,H. sapiens,F3,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-hsapiens,H. sapiens,F4,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-hsapiens,H. sapiens,F5,check,Karev et al. 2002; Koonin et al. 2002,Gene family size distribution fits BDI3 model; alpha=1.8-2.0; BDIM-Karev chi-squared.,high
+BIO-hsapiens,H. sapiens,F6,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-hsapiens,H. sapiens,F7,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-hsapiens,H. sapiens,F8,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Mutation rate measured; mu=1.2e-8/bp/gen; Drake K within expected range.,high
+BIO-hsapiens,H. sapiens,F9,tilde,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Somatic variation complicates error threshold assessment; germline is robust but somatic variation is high.,medium
+BIO-hsapiens,H. sapiens,F10,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-hsapiens,H. sapiens,F12,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-hsapiens,H. sapiens,F13,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-hsapiens,H. sapiens,F14,check,Kong et al. 2012 Nature; Nurk et al. 2022 Science,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
+BIO-ddiscoideum,D. discoideum,F1,check,Eichinger et al. 2005 Nature,DNA/RNA genome serves as heritable digital string. mu~1.0e-10/bp/gen,high
+BIO-ddiscoideum,D. discoideum,F2,check,Eichinger et al. 2005 Nature,Gene family expansion via duplication confirmed. mu~1.0e-10/bp/gen,high
+BIO-ddiscoideum,D. discoideum,F3,check,Eichinger et al. 2005 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-ddiscoideum,D. discoideum,F4,check,Eichinger et al. 2005 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-ddiscoideum,D. discoideum,F5,tilde,Eichinger et al. 2005,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+BIO-ddiscoideum,D. discoideum,F6,check,Eichinger et al. 2005 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-ddiscoideum,D. discoideum,F7,check,Eichinger et al. 2005 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-ddiscoideum,D. discoideum,F8,check,Eichinger et al. 2005 Nature,Drake K constant satisfied; mu~1.0e-10/bp/gen; Drake K=0.00099.,high
+BIO-ddiscoideum,D. discoideum,F9,tilde,Eichinger et al. 2005 Nature,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-ddiscoideum,D. discoideum,F10,check,Eichinger et al. 2005 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-ddiscoideum,D. discoideum,F12,check,Eichinger et al. 2005 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-ddiscoideum,D. discoideum,F13,check,Eichinger et al. 2005 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-falbicollis,F. albicollis,F1,check,Ellegren et al. 2012 Nature,DNA/RNA genome serves as heritable digital string. Collared flycatcher,high
+BIO-falbicollis,F. albicollis,F2,check,Ellegren et al. 2012 Nature,Gene family expansion via duplication confirmed. Collared flycatcher,high
+BIO-falbicollis,F. albicollis,F3,check,Ellegren et al. 2012 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-falbicollis,F. albicollis,F4,check,Ellegren et al. 2012 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-falbicollis,F. albicollis,F5,tilde,Ellegren et al. 2012,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+BIO-falbicollis,F. albicollis,F6,check,Ellegren et al. 2012 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-falbicollis,F. albicollis,F7,check,Ellegren et al. 2012 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-falbicollis,F. albicollis,F8,check,Ellegren et al. 2012 Nature,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
+BIO-falbicollis,F. albicollis,F9,tilde,Ellegren et al. 2012 Nature,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-falbicollis,F. albicollis,F10,check,Ellegren et al. 2012 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-falbicollis,F. albicollis,F12,check,Ellegren et al. 2012 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-falbicollis,F. albicollis,F13,check,Ellegren et al. 2012 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-spombe,S. pombe,F1,check,Wood et al. 2002 Nature,DNA/RNA genome serves as heritable digital string. mu~2e-10/site/div,high
+BIO-spombe,S. pombe,F2,check,Wood et al. 2002 Nature,Gene family expansion via duplication confirmed. mu~2e-10/site/div,high
+BIO-spombe,S. pombe,F3,check,Wood et al. 2002 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-spombe,S. pombe,F4,check,Wood et al. 2002 Nature,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-spombe,S. pombe,F5,check,Wood et al. 2002; Karev-derived,Gene family size distribution fits BDI3 model; alpha=~2.0-2.5; BDIM-Karev chi-squared.,high
+BIO-spombe,S. pombe,F6,check,Wood et al. 2002 Nature,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-spombe,S. pombe,F7,check,Wood et al. 2002 Nature,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-spombe,S. pombe,F8,check,Wood et al. 2002 Nature,Drake K constant satisfied; mu~2e-10/site/div; Drake K within range.,high
+BIO-spombe,S. pombe,F9,check,Wood et al. 2002 Nature,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
+BIO-spombe,S. pombe,F10,check,Wood et al. 2002 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-spombe,S. pombe,F12,check,Wood et al. 2002 Nature,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-spombe,S. pombe,F13,check,Wood et al. 2002 Nature,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-spombe,S. pombe,F14,check,Wood et al. 2002 Nature,WGD tolerance confirmed; lineage has undergone or can tolerate whole-genome duplication events.,high
+BIO-paeruginosa,P. aeruginosa,F1,check,Lapierre & Gogarten 2009; Hao & Golding 2006,DNA/RNA genome serves as heritable digital string. mu~1e-10/bp/gen,high
+BIO-paeruginosa,P. aeruginosa,F2,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene family expansion via duplication confirmed. mu~1e-10/bp/gen,high
+BIO-paeruginosa,P. aeruginosa,F3,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-paeruginosa,P. aeruginosa,F4,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-paeruginosa,P. aeruginosa,F5,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Gene family size distribution fits BDI3 model; alpha=1.4-2.1; BDIM-Karev chi-squared.,high
+BIO-paeruginosa,P. aeruginosa,F6,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-paeruginosa,P. aeruginosa,F7,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-paeruginosa,P. aeruginosa,F8,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Mutation rate measured; mu~1e-10/bp/gen; Drake K within expected range.,high
+BIO-paeruginosa,P. aeruginosa,F9,tilde,Lapierre & Gogarten 2009; Hao & Golding 2006,Error threshold partially satisfied; mu~1e-10/bp/gen.,medium
+BIO-paeruginosa,P. aeruginosa,F10,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-paeruginosa,P. aeruginosa,F12,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-paeruginosa,P. aeruginosa,F13,check,Lapierre & Gogarten 2009; Hao & Golding 2006,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-archaea79,Archaea (79 genomes),F1,check,Karev et al. 2002 2004,DNA/RNA genome serves as heritable digital string. BDI3 fits across 79 genomes/23 species,high
+BIO-archaea79,Archaea (79 genomes),F2,check,Karev et al. 2002 2004,Gene family expansion via duplication confirmed. BDI3 fits across 79 genomes/23 species,high
+BIO-archaea79,Archaea (79 genomes),F3,check,Karev et al. 2002 2004,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-archaea79,Archaea (79 genomes),F4,check,Karev et al. 2002 2004,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-archaea79,Archaea (79 genomes),F5,tilde,Karev et al. 2002,Partial power-law evidence; not formally fitted or ambiguous fit.,low
+BIO-archaea79,Archaea (79 genomes),F6,check,Karev et al. 2002 2004,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-archaea79,Archaea (79 genomes),F7,check,Karev et al. 2002 2004,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-archaea79,Archaea (79 genomes),F8,tilde,Karev et al. 2002 2004,Drake K estimated but not all species individually validated; aggregate fits within range.,medium
+BIO-archaea79,Archaea (79 genomes),F9,tilde,Karev et al. 2002 2004,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-archaea79,Archaea (79 genomes),F10,check,Karev et al. 2002 2004,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-archaea79,Archaea (79 genomes),F12,check,Karev et al. 2002 2004,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-archaea79,Archaea (79 genomes),F13,check,Karev et al. 2002 2004,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F1,check,Tettelin et al. 2008; Land et al. 2015,DNA/RNA genome serves as heritable digital string. 11 bacterial species with Heaps law exponents 0.08-0.64 (open),high
+BIO-pangenomes11,Pan-genomes (11 spp),F2,check,Tettelin et al. 2008; Land et al. 2015,Gene family expansion via duplication confirmed. 11 bacterial species with Heaps law exponents 0.08-0.64 (open),high
+BIO-pangenomes11,Pan-genomes (11 spp),F3,check,Tettelin et al. 2008; Land et al. 2015,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F4,check,Tettelin et al. 2008; Land et al. 2015,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F5,check,Multiple (11 species),Open pan-genome confirmed via Heaps' law (exponents 0.08-0.64); innovation rate consistent with BDIM.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F6,check,Tettelin et al. 2008; Land et al. 2015,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F7,check,Tettelin et al. 2008; Land et al. 2015,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F8,check,Tettelin et al. 2008; Land et al. 2015,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
+BIO-pangenomes11,Pan-genomes (11 spp),F9,tilde,Tettelin et al. 2008; Land et al. 2015,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-pangenomes11,Pan-genomes (11 spp),F10,check,Tettelin et al. 2008; Land et al. 2015,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F12,check,Tettelin et al. 2008; Land et al. 2015,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-pangenomes11,Pan-genomes (11 spp),F13,check,Tettelin et al. 2008; Land et al. 2015,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+IMMUNE-tcell,T cell repertoire,F1,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
+IMMUNE-tcell,T cell repertoire,F2,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal expansion provides duplication mechanism for repertoire diversification.,high
+IMMUNE-tcell,T cell repertoire,F3,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Clonal contraction and apoptosis provide deletion mechanism.,high
+IMMUNE-tcell,T cell repertoire,F4,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Affinity-based selection drives clonal competition and differential survival.,high
+IMMUNE-tcell,T cell repertoire,F5,check,Robins et al. 2009; Desponds et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=2.0-2.5; method: MLE (explicit model fit).,high
+IMMUNE-tcell,T cell repertoire,F6,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+IMMUNE-tcell,T cell repertoire,F7,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
+IMMUNE-tcell,T cell repertoire,F8,tilde,Robins et al. 2009; Desponds et al. 2016 PNAS,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
+IMMUNE-tcell,T cell repertoire,F9,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Error threshold maintained; clonal fidelity preserved despite high somatic mutation rate.,high
+IMMUNE-tcell,T cell repertoire,F10,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+IMMUNE-tcell,T cell repertoire,F12,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
+IMMUNE-tcell,T cell repertoire,F13,check,Robins et al. 2009; Desponds et al. 2016 PNAS,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
+IMMUNE-bcell,B cell repertoire,F1,check,Desponds et al. 2016 PNAS,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
+IMMUNE-bcell,B cell repertoire,F2,check,Desponds et al. 2016 PNAS,Clonal expansion provides duplication mechanism for repertoire diversification.,high
+IMMUNE-bcell,B cell repertoire,F3,check,Desponds et al. 2016 PNAS,Clonal contraction and apoptosis provide deletion mechanism.,high
+IMMUNE-bcell,B cell repertoire,F4,check,Desponds et al. 2016 PNAS,Affinity-based selection drives clonal competition and differential survival.,high
+IMMUNE-bcell,B cell repertoire,F5,check,Multiple (clone size distributions); Desponds et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=~2.0-2.5; method: MLE (explicit model fit).,high
+IMMUNE-bcell,B cell repertoire,F6,check,Desponds et al. 2016 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+IMMUNE-bcell,B cell repertoire,F7,check,Desponds et al. 2016 PNAS,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
+IMMUNE-bcell,B cell repertoire,F8,tilde,Desponds et al. 2016 PNAS,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
+IMMUNE-bcell,B cell repertoire,F9,check,Desponds et al. 2016 PNAS,Error threshold maintained; clonal fidelity preserved despite high somatic mutation rate.,high
+IMMUNE-bcell,B cell repertoire,F10,check,Desponds et al. 2016 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+IMMUNE-bcell,B cell repertoire,F12,check,Desponds et al. 2016 PNAS,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
+IMMUNE-bcell,B cell repertoire,F13,check,Desponds et al. 2016 PNAS,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
+IMMUNE-crispr,CRISPR arrays,F1,check,Shmakov et al. 2017; CRISPRCasdb,Clonal DNA sequences (VDJ rearrangements) serve as heritable digital strings passed to daughter cells.,high
+IMMUNE-crispr,CRISPR arrays,F2,check,Shmakov et al. 2017; CRISPRCasdb,Clonal expansion provides duplication mechanism for repertoire diversification.,high
+IMMUNE-crispr,CRISPR arrays,F3,check,Shmakov et al. 2017; CRISPRCasdb,Clonal contraction and apoptosis provide deletion mechanism.,high
+IMMUNE-crispr,CRISPR arrays,F4,check,Shmakov et al. 2017; CRISPRCasdb,Affinity-based selection drives clonal competition and differential survival.,high
+IMMUNE-crispr,CRISPR arrays,F5,tilde,Shmakov et al. 2017; CRISPRCasdb,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+IMMUNE-crispr,CRISPR arrays,F6,check,Shmakov et al. 2017; CRISPRCasdb,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+IMMUNE-crispr,CRISPR arrays,F7,check,Shmakov et al. 2017; CRISPRCasdb,Open-ended diversification via somatic hypermutation and VDJ recombination.,high
+IMMUNE-crispr,CRISPR arrays,F8,tilde,Shmakov et al. 2017; CRISPRCasdb,Somatic mutation rate measured but Drake K framework not directly applicable to clonal repertoires.,medium
+IMMUNE-crispr,CRISPR arrays,F9,tilde,Shmakov et al. 2017; CRISPRCasdb,Spacer fidelity maintained but error threshold concept only partially applicable to CRISPR arrays.,low
+IMMUNE-crispr,CRISPR arrays,F10,check,Shmakov et al. 2017; CRISPRCasdb,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+IMMUNE-crispr,CRISPR arrays,F12,check,Shmakov et al. 2017; CRISPRCasdb,Modular organization confirmed; V/D/J gene segments provide hierarchical structure.,high
+IMMUNE-crispr,CRISPR arrays,F13,check,Shmakov et al. 2017; CRISPRCasdb,Adaptive capacity confirmed; repertoire evolves in response to antigenic challenge.,high
+IMMUNE-crispr,CRISPR arrays,F14,tilde,Shmakov et al. 2017; CRISPRCasdb,WGD analog partial; array duplication possible but not equivalent to whole-genome duplication.,low
+BIO-cancersomatic,Cancer somatic,F1,check,Beroukhim et al. 2010; Williams et al. 2016 2018,DNA/RNA genome serves as heritable digital string. 73.1%,high
+BIO-cancersomatic,Cancer somatic,F2,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Gene family expansion via duplication confirmed. 73.1%,high
+BIO-cancersomatic,Cancer somatic,F3,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-cancersomatic,Cancer somatic,F4,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-cancersomatic,Cancer somatic,F5,check,Beroukhim et al. 2010; Zack et al. 2013,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-2.0; method: MLE.,high
+BIO-cancersomatic,Cancer somatic,F6,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,BDIM-like dynamics partial; clonal competition shows birth-death but innovation rate unclear.,medium
+BIO-cancersomatic,Cancer somatic,F7,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Complexity growth limited; somatic evolution increases heterogeneity but within bounded tissue context.,medium
+BIO-cancersomatic,Cancer somatic,F8,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Somatic mutation rates vary widely across cancer types; Drake K framework partially applicable.,medium
+BIO-cancersomatic,Cancer somatic,F9,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Somatic variation complicates error threshold assessment; germline is robust but somatic variation is high.,medium
+BIO-cancersomatic,Cancer somatic,F10,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-cancersomatic,Cancer somatic,F12,check,Beroukhim et al. 2010; Williams et al. 2016 2018,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-cancersomatic,Cancer somatic,F13,tilde,Beroukhim et al. 2010; Williams et al. 2016 2018,Evolvability constrained; somatic evolution is adaptive locally but destructive at organism level.,medium
+BIO-cancersomatic,Cancer somatic,F14,check,Beroukhim et al. 2010; Williams et al. 2016 2018,WGD observed in ~37% of cancers; whole-genome doubling contributes to somatic evolution.,high
+ECON-babynames,Baby names,F1,check,Jensen et al. 2019,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+ECON-babynames,Baby names,F2,check,Jensen et al. 2019,Duplication/copying mechanism confirmed for information unit expansion.,medium
+ECON-babynames,Baby names,F3,check,Jensen et al. 2019,Deletion/loss mechanism confirmed for information units.,medium
+ECON-babynames,Baby names,F4,check,Jensen et al. 2019,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-babynames,Baby names,F5,tilde,Jensen et al. 2019; SSA data,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+ECON-babynames,Baby names,F6,check,Jensen et al. 2019,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+ECON-babynames,Baby names,F7,check,Jensen et al. 2019,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+ECON-babynames,Baby names,F10,check,Jensen et al. 2019,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+ECON-babynames,Baby names,F12,check,Jensen et al. 2019,Modular/hierarchical organization observed in system structure.,medium
+ECON-babynames,Baby names,F13,check,Jensen et al. 2019,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
+ECON-pottery,Pottery typologies,F1,check,Neiman 1995,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+ECON-pottery,Pottery typologies,F2,check,Neiman 1995,Duplication/copying mechanism confirmed for information unit expansion.,medium
+ECON-pottery,Pottery typologies,F3,check,Neiman 1995,Deletion/loss mechanism confirmed for information units.,medium
+ECON-pottery,Pottery typologies,F4,check,Neiman 1995,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-pottery,Pottery typologies,F5,tilde,Neiman 1995,Power-law fitted by OLS log-log regression only; no Clauset MLE validation; alpha=N/A.,low
+ECON-pottery,Pottery typologies,F6,check,Neiman 1995,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+ECON-pottery,Pottery typologies,F7,check,Neiman 1995,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+ECON-pottery,Pottery typologies,F10,tilde,Neiman 1995,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
+ECON-pottery,Pottery typologies,F12,check,Neiman 1995,Modular/hierarchical organization observed in system structure.,medium
+ECON-pottery,Pottery typologies,F13,tilde,Neiman 1995,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
+COMP-chess,Chess openings,F1,check,,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+COMP-chess,Chess openings,F2,check,,Duplication/copying mechanism confirmed for information unit expansion.,medium
+COMP-chess,Chess openings,F3,check,,Deletion/loss mechanism confirmed for information units.,medium
+COMP-chess,Chess openings,F4,check,,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+COMP-chess,Chess openings,F5,tilde,Qualitative description only,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+COMP-chess,Chess openings,F6,tilde,,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
+COMP-chess,Chess openings,F7,check,,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+COMP-chess,Chess openings,F10,tilde,,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
+COMP-chess,Chess openings,F12,check,,Modularity and hierarchical organization confirmed.,medium
+COMP-chess,Chess openings,F13,check,,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
+ECON-dogbreeds,Dog breeds,F1,check,,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+ECON-dogbreeds,Dog breeds,F2,check,,Duplication/copying mechanism confirmed for information unit expansion.,medium
+ECON-dogbreeds,Dog breeds,F3,check,,Deletion/loss mechanism confirmed for information units.,medium
+ECON-dogbreeds,Dog breeds,F4,check,,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-dogbreeds,Dog breeds,F5,tilde,AKC registration statistics,Heavy-tailed distribution observed qualitatively but not formally fitted with Clauset MLE.,low
+ECON-dogbreeds,Dog breeds,F6,tilde,,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
+ECON-dogbreeds,Dog breeds,F7,check,,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+ECON-dogbreeds,Dog breeds,F10,tilde,,Landauer bound partially applicable; thermodynamic cost of information processing unclear or not measured.,low
+ECON-dogbreeds,Dog breeds,F12,check,,Modular/hierarchical organization observed in system structure.,medium
+ECON-dogbreeds,Dog breeds,F13,check,,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
+COMP-software,Software codebases,F1,check,Louridas et al. 2008; Valverde & Sole 2005,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+COMP-software,Software codebases,F2,tilde,Louridas et al. 2008; Valverde & Sole 2005,Partial duplication capacity; 81.8%.,medium
+COMP-software,Software codebases,F3,check,Louridas et al. 2008; Valverde & Sole 2005,Deletion/loss mechanism confirmed for information units.,medium
+COMP-software,Software codebases,F4,tilde,Louridas et al. 2008; Valverde & Sole 2005,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+COMP-software,Software codebases,F5,tilde,Louridas et al. 2008; Valverde & Sole 2005,Power-law fitted by OLS log-log regression only; no Clauset MLE validation; alpha=~2.0-2.5.,low
+COMP-software,Software codebases,F6,check,Louridas et al. 2008; Valverde & Sole 2005,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,medium
+COMP-software,Software codebases,F7,check,Louridas et al. 2008; Valverde & Sole 2005,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+COMP-software,Software codebases,F10,check,Louridas et al. 2008; Valverde & Sole 2005,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+COMP-software,Software codebases,F12,check,Louridas et al. 2008; Valverde & Sole 2005,Modularity and hierarchical organization confirmed.,medium
+COMP-software,Software codebases,F13,check,Louridas et al. 2008; Valverde & Sole 2005,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
+COMP-software,Software codebases,F14,tilde,Louridas et al. 2008; Valverde & Sole 2005,Codebase forking as WGD analog; partial parallel but not true genome duplication.,low
+BIO-buchnera,Buchnera,F1,check,Shigenobu et al. 2000 Nature; Moran et al.,DNA/RNA genome serves as heritable digital string. 40.9%,high
+BIO-buchnera,Buchnera,F2,cross,Shigenobu et al. 2000 Nature; Moran et al.,Near-zero horizontal gene transfer; 641 kb genome shows no significant gene family expansion.,high
+BIO-buchnera,Buchnera,F3,check,Shigenobu et al. 2000 Nature; Moran et al.,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-buchnera,Buchnera,F4,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Selection is relaxed due to obligate endosymbiont lifestyle; drift dominates over adaptive selection.,medium
+BIO-buchnera,Buchnera,F5,cross,Shigenobu et al. 2000 Nature; Moran et al.,No power-law tail in gene family size distribution; 641 kb genome too reduced for family expansion.,high
+BIO-buchnera,Buchnera,F6,cross,Shigenobu et al. 2000 Nature; Moran et al.,"BDIM broken; gene loss dominates with near-zero gene gain, leading to irreversible genome erosion.",high
+BIO-buchnera,Buchnera,F7,cross,Shigenobu et al. 2000 Nature; Moran et al.,No open-ended complexity growth observed.,high
+BIO-buchnera,Buchnera,F8,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Mutation rate elevated relative to reduced genome size; Drake K relationship disrupted by genetic drift.,medium
+BIO-buchnera,Buchnera,F9,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Error threshold may be violated; elevated mutation rate in 641 kb genome approaching Muller's ratchet.,medium
+BIO-buchnera,Buchnera,F10,check,Shigenobu et al. 2000 Nature; Moran et al.,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-buchnera,Buchnera,F12,tilde,Shigenobu et al. 2000 Nature; Moran et al.,Modularity degraded; reduced genome has lost most regulatory hierarchy and operonic structure.,medium
+BIO-buchnera,Buchnera,F13,cross,Shigenobu et al. 2000 Nature; Moran et al.,No evolvability or adaptive capacity observed.,high
+BIO-carsonella,Carsonella,F1,check,Nakabachi et al. 2006 Science,DNA/RNA genome serves as heritable digital string. 40.9%,high
+BIO-carsonella,Carsonella,F2,cross,Nakabachi et al. 2006 Science,No gene family expansion; 160 kb genome is minimal with no room for duplication.,high
+BIO-carsonella,Carsonella,F3,check,Nakabachi et al. 2006 Science,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-carsonella,Carsonella,F4,tilde,Nakabachi et al. 2006 Science,Selection is relaxed due to obligate endosymbiont lifestyle; drift dominates over adaptive selection.,medium
+BIO-carsonella,Carsonella,F5,cross,Nakabachi et al. 2006 Science,No power-law tail; 160 kb minimal genome lacks gene families entirely.,high
+BIO-carsonella,Carsonella,F6,cross,Nakabachi et al. 2006 Science,BDIM broken; gene loss dominates with near-zero gene gain in 160 kb genome.,high
+BIO-carsonella,Carsonella,F7,cross,Nakabachi et al. 2006 Science,No open-ended complexity growth observed.,high
+BIO-carsonella,Carsonella,F8,tilde,Nakabachi et al. 2006 Science,Drake K partially applicable; mutation rate relationship approximate or not formally tested.,low
+BIO-carsonella,Carsonella,F9,tilde,Nakabachi et al. 2006 Science,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-carsonella,Carsonella,F10,check,Nakabachi et al. 2006 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-carsonella,Carsonella,F12,tilde,Nakabachi et al. 2006 Science,Partial modularity observed but not fully characterized.,low
+BIO-carsonella,Carsonella,F13,cross,Nakabachi et al. 2006 Science,No evolvability or adaptive capacity observed.,high
+BIO-nequitans,N. equitans,F1,check,Waters et al. 2003 PNAS,DNA/RNA genome serves as heritable digital string. 40.9%,high
+BIO-nequitans,N. equitans,F2,cross,Waters et al. 2003 PNAS,No gene family expansion; 491 kb genome with 536 genes shows no significant duplication.,high
+BIO-nequitans,N. equitans,F3,check,Waters et al. 2003 PNAS,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-nequitans,N. equitans,F4,tilde,Waters et al. 2003 PNAS,Selection is relaxed due to obligate archaeal parasitic lifestyle; drift dominates.,medium
+BIO-nequitans,N. equitans,F5,cross,Waters et al. 2003 PNAS,No power-law tail; 491 kb genome with 536 genes lacks gene family expansion.,high
+BIO-nequitans,N. equitans,F6,cross,Waters et al. 2003 PNAS,BDIM broken; gene loss dominates with near-zero gene gain in archaeal endosymbiont.,high
+BIO-nequitans,N. equitans,F7,cross,Waters et al. 2003 PNAS,No open-ended complexity growth observed.,high
+BIO-nequitans,N. equitans,F8,tilde,Waters et al. 2003 PNAS,Drake K partially applicable; mutation rate relationship approximate or not formally tested.,low
+BIO-nequitans,N. equitans,F9,tilde,Waters et al. 2003 PNAS,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-nequitans,N. equitans,F10,check,Waters et al. 2003 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-nequitans,N. equitans,F12,tilde,Waters et al. 2003 PNAS,Partial modularity observed but not fully characterized.,low
+BIO-nequitans,N. equitans,F13,cross,Waters et al. 2003 PNAS,No evolvability or adaptive capacity observed.,high
+BIO-cprbacteria,CPR bacteria,F1,check,Brown et al. 2015 Nature,DNA/RNA genome serves as heritable digital string. 63.6%,high
+BIO-cprbacteria,CPR bacteria,F2,tilde,Brown et al. 2015 Nature,Partial duplication capacity; 63.6%.,medium
+BIO-cprbacteria,CPR bacteria,F3,check,Brown et al. 2015 Nature,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-cprbacteria,CPR bacteria,F4,tilde,Brown et al. 2015 Nature,Selection is relaxed due to host-dependent lifestyle; drift dominates over adaptive selection.,medium
+BIO-cprbacteria,CPR bacteria,F5,cross,Brown et al. 2015 Nature,No power-law tail in gene family size distribution; genome too reduced for family expansion.,high
+BIO-cprbacteria,CPR bacteria,F6,tilde,Brown et al. 2015 Nature,BDIM dynamics impaired; birth rate severely reduced relative to death/loss rate.,medium
+BIO-cprbacteria,CPR bacteria,F7,tilde,Brown et al. 2015 Nature,Open-ended growth impaired; host-dependent lifestyle constrains genome expansion.,medium
+BIO-cprbacteria,CPR bacteria,F8,tilde,Brown et al. 2015 Nature,Mutation rate elevated relative to genome size; Drake K relationship may be disrupted by drift.,medium
+BIO-cprbacteria,CPR bacteria,F9,tilde,Brown et al. 2015 Nature,Error threshold may be violated; elevated mutation rate in reduced genome approaching Muller's ratchet.,medium
+BIO-cprbacteria,CPR bacteria,F10,check,Brown et al. 2015 Nature,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-cprbacteria,CPR bacteria,F12,tilde,Brown et al. 2015 Nature,Modularity degraded; reduced genome has lost most regulatory hierarchy.,medium
+BIO-cprbacteria,CPR bacteria,F13,tilde,Brown et al. 2015 Nature,Adaptive capacity reduced; host-dependent lifestyle constrains independent evolution.,medium
+BIO-dpannarchaea,DPANN archaea,F1,check,Castelle et al. 2015 2018,DNA/RNA genome serves as heritable digital string. 63.6%,high
+BIO-dpannarchaea,DPANN archaea,F2,tilde,Castelle et al. 2015 2018,Partial or limited duplication capacity observed.,low
+BIO-dpannarchaea,DPANN archaea,F3,check,Castelle et al. 2015 2018,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-dpannarchaea,DPANN archaea,F4,tilde,Castelle et al. 2015 2018,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+BIO-dpannarchaea,DPANN archaea,F5,cross,Castelle et al. 2015 2018,Power-law distribution not present or fails statistical test.,medium
+BIO-dpannarchaea,DPANN archaea,F6,tilde,Castelle et al. 2015 2018,BDIM dynamics impaired; birth rate severely reduced relative to death/loss rate.,medium
+BIO-dpannarchaea,DPANN archaea,F7,tilde,Castelle et al. 2015 2018,Open-ended growth impaired; host-dependent lifestyle constrains genome expansion.,medium
+BIO-dpannarchaea,DPANN archaea,F8,tilde,Castelle et al. 2015 2018,Drake K estimated but not all species individually validated; aggregate fits within range.,medium
+BIO-dpannarchaea,DPANN archaea,F9,tilde,Castelle et al. 2015 2018,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-dpannarchaea,DPANN archaea,F10,check,Castelle et al. 2015 2018,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-dpannarchaea,DPANN archaea,F12,tilde,Castelle et al. 2015 2018,Partial modularity observed but not fully characterized.,low
+BIO-dpannarchaea,DPANN archaea,F13,tilde,Castelle et al. 2015 2018,Adaptive capacity reduced; host-dependent lifestyle constrains independent evolution.,medium
+BIO-plantwgd,Plant WGD,F1,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,DNA/RNA genome serves as heritable digital string. 96.2%,high
+BIO-plantwgd,Plant WGD,F2,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Gene family expansion via duplication confirmed. 96.2%,high
+BIO-plantwgd,Plant WGD,F3,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-plantwgd,Plant WGD,F4,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-plantwgd,Plant WGD,F5,check,Karev et al. 2002,Gene family size distribution fits BDI3 model; alpha=2.1-2.2; BDIM-Karev chi-squared.,high
+BIO-plantwgd,Plant WGD,F6,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Balanced birth-death-innovation dynamics confirmed; gene gain and loss rates approximately equal.,high
+BIO-plantwgd,Plant WGD,F7,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Open-ended complexity growth confirmed; genome can expand via duplication and HGT.,high
+BIO-plantwgd,Plant WGD,F8,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Drake K constant satisfied; mutation rate × genome size product within expected range.,medium
+BIO-plantwgd,Plant WGD,F9,tilde,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+BIO-plantwgd,Plant WGD,F10,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-plantwgd,Plant WGD,F12,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-plantwgd,Plant WGD,F13,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,Evolvability confirmed; system demonstrates capacity for adaptive innovation and phenotypic change.,high
+BIO-plantwgd,Plant WGD,F14,check,Blanc & Wolfe 2004; Maere et al. 2005 PNAS,WGD confirmed; polyploidy events documented with power-law preservation (mathematical identity).,high
+LANG-language,Language (alpha~1),F1,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+LANG-language,Language (alpha~1),F2,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Duplication/copying mechanism confirmed for information unit expansion.,medium
+LANG-language,Language (alpha~1),F3,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Deletion/loss mechanism confirmed for information units.,medium
+LANG-language,Language (alpha~1),F4,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Selection mechanism confirmed for differential survival of variants.,medium
+LANG-language,Language (alpha~1),F5,tilde,Clauset et al. 2009; Piantadosi 2014,Alpha near 1.0 at sharp E7 boundary; indistinguishable from lognormal; mechanistic ambiguity.,medium
+LANG-language,Language (alpha~1),F6,tilde,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
+LANG-language,Language (alpha~1),F7,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+LANG-language,Language (alpha~1),F8,tilde,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Mutation analog (word change rate) exists but Drake K constant not formally applicable.,low
+LANG-language,Language (alpha~1),F12,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Modularity and hierarchical organization confirmed.,medium
+LANG-language,Language (alpha~1),F13,check,Clauset et al. 2009; Piantadosi et al. 2011 PNAS,Evolvability / adaptive capacity confirmed.,medium
+ECON-cities,Cities (alpha~1),F1,tilde,Gabaix 1999; Eeckhout 2004,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
+ECON-cities,Cities (alpha~1),F2,tilde,Gabaix 1999; Eeckhout 2004,Partial or limited duplication capacity observed.,low
+ECON-cities,Cities (alpha~1),F3,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
+ECON-cities,Cities (alpha~1),F4,check,Gabaix 1999; Eeckhout 2004,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-cities,Cities (alpha~1),F5,tilde,Gabaix 1999; Eeckhout 2004,Alpha near 1.0 at sharp E7 boundary; indistinguishable from lognormal; mechanistic ambiguity.,medium
+ECON-cities,Cities (alpha~1),F6,tilde,Gabaix 1999; Eeckhout 2004,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
+ECON-cities,Cities (alpha~1),F7,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
+ECON-cities,Cities (alpha~1),F12,check,Gabaix 1999; Eeckhout 2004,Modular/hierarchical organization observed in system structure.,medium
+ECON-cities,Cities (alpha~1),F13,tilde,Gabaix 1999; Eeckhout 2004,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
+ECON-patents,Patents (E9 fail),F1,check,not balanced dup/del); otherwise Inside-like,Cultural/computational entity serves as discrete heritable information unit transmitted across generations.,medium
+ECON-patents,Patents (E9 fail),F2,check,not balanced dup/del); otherwise Inside-like,Duplication/copying mechanism confirmed for information unit expansion.,medium
+ECON-patents,Patents (E9 fail),F3,check,not balanced dup/del); otherwise Inside-like,Deletion/loss mechanism confirmed for information units.,medium
+ECON-patents,Patents (E9 fail),F4,check,not balanced dup/del); otherwise Inside-like,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-patents,Patents (E9 fail),F5,check,not balanced dup/del); otherwise Inside-like,Power-law distribution confirmed; alpha=N/A.,medium
+ECON-patents,Patents (E9 fail),F6,cross,not balanced dup/del); otherwise Inside-like,No balanced birth-death-innovation dynamics; system lacks BDIM mechanism.,high
+ECON-patents,Patents (E9 fail),F7,check,not balanced dup/del); otherwise Inside-like,Open-ended complexity growth observed in system diversity/complexity metrics.,medium
+ECON-patents,Patents (E9 fail),F10,check,not balanced dup/del); otherwise Inside-like,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+ECON-patents,Patents (E9 fail),F12,check,not balanced dup/del); otherwise Inside-like,Modular/hierarchical organization observed in system structure.,medium
+ECON-patents,Patents (E9 fail),F13,check,not balanced dup/del); otherwise Inside-like,Adaptive capacity observed; system shows capacity for innovation and diversification.,medium
+INFO-www,WWW hyperlinks,F1,cross,Broder et al. 2000; Meusel et al. 2014,No heritable digital string; system lacks replicating information carriers.,high
+INFO-www,WWW hyperlinks,F2,cross,Broder et al. 2000; Meusel et al. 2014,No duplication mechanism present in this system.,high
+INFO-www,WWW hyperlinks,F3,cross,Broder et al. 2000; Meusel et al. 2014,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+INFO-www,WWW hyperlinks,F4,tilde,Broder et al. 2000; Meusel et al. 2014,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+INFO-www,WWW hyperlinks,F5,tilde,Broder et al. 2000; Meusel et al. 2014,Partial power-law evidence; not formally fitted or ambiguous fit.,low
+INFO-www,WWW hyperlinks,F7,tilde,Broder et al. 2000; Meusel et al. 2014,System grows in size but complexity growth is not open-ended in the biological sense.,low
+INFO-www,WWW hyperlinks,F9,cross,Broder et al. 2000; Meusel et al. 2014,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
+INFO-www,WWW hyperlinks,F10,check,Broder et al. 2000; Meusel et al. 2014,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+INFO-www,WWW hyperlinks,F12,tilde,Broder et al. 2000; Meusel et al. 2014,Partial modularity; network has community structure but lacks biological-level hierarchy.,low
+INFO-www,WWW hyperlinks,F13,cross,Broder et al. 2000; Meusel et al. 2014,No evolvability in biological sense; system growth is not adaptive.,high
+INFO-ppi,PPI networks,F1,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
+INFO-ppi,PPI networks,F2,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or limited duplication capacity observed.,low
+INFO-ppi,PPI networks,F3,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
+INFO-ppi,PPI networks,F4,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+INFO-ppi,PPI networks,F5,tilde,Barabasi & Oltvai 2004; Luck et al. 2020,Power-law fit contested; potential artifact concerns; Contested (Blumenthal 2024).,low
+INFO-ppi,PPI networks,F7,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,System grows in size but complexity growth is not open-ended in the biological sense.,low
+INFO-ppi,PPI networks,F9,cross,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
+INFO-ppi,PPI networks,F10,check,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+INFO-ppi,PPI networks,F12,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial modularity; network has community structure but lacks biological-level hierarchy.,low
+INFO-ppi,PPI networks,F13,tilde,Luck et al. 2020 Nature; Blumenthal et al. 2024 eLife,Partial adaptive capacity in network growth; not evolvability in the biological sense.,low
+NEUR-avalanches,Neuronal avalanches,F1,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No heritable digital string; system lacks replicating information carriers.,high
+NEUR-avalanches,Neuronal avalanches,F2,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No duplication mechanism present in this system.,high
+NEUR-avalanches,Neuronal avalanches,F3,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+NEUR-avalanches,Neuronal avalanches,F4,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+NEUR-avalanches,Neuronal avalanches,F5,tilde,Beggs & Plenz 2003; Priesemann et al. 2014,Power-law fit contested; potential artifact concerns; Contested.,low
+NEUR-avalanches,Neuronal avalanches,F7,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No open-ended complexity growth observed.,high
+NEUR-avalanches,Neuronal avalanches,F8,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No mutation rate in the genomic sense; epigenetic changes do not follow Drake K.,high
+NEUR-avalanches,Neuronal avalanches,F9,cross,Beggs & Plenz 2003; Priesemann et al. 2014,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
+NEUR-avalanches,Neuronal avalanches,F10,check,Beggs & Plenz 2003; Priesemann et al. 2014,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+NEUR-avalanches,Neuronal avalanches,F12,tilde,Beggs & Plenz 2003; Priesemann et al. 2014,Partial modularity observed but not fully characterized.,low
+NEUR-avalanches,Neuronal avalanches,F13,cross,Beggs & Plenz 2003; Priesemann et al. 2014,No evolvability or adaptive capacity observed.,high
+NEUR-cancerepigenomics,Cancer epigenomics,F1,tilde,Schmitz et al. 2011 Science,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
+NEUR-cancerepigenomics,Cancer epigenomics,F2,tilde,Schmitz et al. 2011 Science,Partial or limited duplication capacity observed.,low
+NEUR-cancerepigenomics,Cancer epigenomics,F3,tilde,Schmitz et al. 2011 Science,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
+NEUR-cancerepigenomics,Cancer epigenomics,F4,tilde,Schmitz et al. 2011 Science,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+NEUR-cancerepigenomics,Cancer epigenomics,F5,cross,Schmitz et al. 2011 Science,No power-law distribution in epigenetic marks; F5 not satisfied.,medium
+NEUR-cancerepigenomics,Cancer epigenomics,F7,tilde,Schmitz et al. 2011 Science,Complexity growth limited; somatic evolution increases heterogeneity but within bounded tissue context.,medium
+NEUR-cancerepigenomics,Cancer epigenomics,F8,cross,Schmitz et al. 2011 Science,No mutation rate in the genomic sense; epigenetic changes do not follow Drake K.,high
+NEUR-cancerepigenomics,Cancer epigenomics,F9,cross,Schmitz et al. 2011 Science,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
+NEUR-cancerepigenomics,Cancer epigenomics,F10,check,Schmitz et al. 2011 Science,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+NEUR-cancerepigenomics,Cancer epigenomics,F12,tilde,Schmitz et al. 2011 Science,Modularity partially disrupted; somatic evolution erodes normal tissue organization.,medium
+NEUR-cancerepigenomics,Cancer epigenomics,F13,tilde,Schmitz et al. 2011 Science,Evolvability constrained; somatic evolution is adaptive locally but destructive at organism level.,medium
+CHEM-rnaworld,RNA World,F1,tilde,,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
+CHEM-rnaworld,RNA World,F2,tilde,,Partial or limited duplication capacity observed.,low
+CHEM-rnaworld,RNA World,F3,tilde,,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
+CHEM-rnaworld,RNA World,F4,tilde,,Partial or ambiguous selection; differential fitness effects exist but are weak or contested.,low
+CHEM-rnaworld,RNA World,F5,tilde,,Partial power-law evidence; not formally fitted or ambiguous fit.,low
+CHEM-rnaworld,RNA World,F7,check,,Autocatalytic networks capable of open-ended growth in principle.,low
+CHEM-rnaworld,RNA World,F9,tilde,,Error threshold partially satisfied; mutational robustness uncertain or not formally tested.,low
+CHEM-rnaworld,RNA World,F10,check,,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,medium
+CHEM-rnaworld,RNA World,F12,tilde,,Proto-modularity in autocatalytic networks; hierarchical organization primitive or absent.,low
+CHEM-rnaworld,RNA World,F13,tilde,,Partial evolvability; adaptive capacity limited or ambiguous.,low
+PHYS-earthquakes,Earthquakes,F1,cross,Gutenberg & Richter 1944; Kagan 2010,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-earthquakes,Earthquakes,F2,cross,Gutenberg & Richter 1944; Kagan 2010,No duplication mechanism present in this system.,high
+PHYS-earthquakes,Earthquakes,F3,cross,Gutenberg & Richter 1944; Kagan 2010,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-earthquakes,Earthquakes,F4,cross,Gutenberg & Richter 1944; Kagan 2010,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-earthquakes,Earthquakes,F5,check,USGS ComCat; Kagan 2010; Clauset et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=~2.0 (energy); method: MLE-Clauset.,high
+PHYS-earthquakes,Earthquakes,F7,cross,Gutenberg & Richter 1944; Kagan 2010,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-earthquakes,Earthquakes,F9,cross,Gutenberg & Richter 1944; Kagan 2010,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-earthquakes,Earthquakes,F12,cross,Gutenberg & Richter 1944; Kagan 2010,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-earthquakes,Earthquakes,F13,cross,Gutenberg & Richter 1944; Kagan 2010,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-solarflares,Solar flares,F1,cross,Aschwanden & Schrijver 2025,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-solarflares,Solar flares,F2,cross,Aschwanden & Schrijver 2025,No duplication mechanism present in this system.,high
+PHYS-solarflares,Solar flares,F3,cross,Aschwanden & Schrijver 2025,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-solarflares,Solar flares,F4,cross,Aschwanden & Schrijver 2025,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-solarflares,Solar flares,F5,check,Aschwanden & Schrijver 2025,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-1.8; method: MLE.,high
+PHYS-solarflares,Solar flares,F7,cross,Aschwanden & Schrijver 2025,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-solarflares,Solar flares,F9,cross,Aschwanden & Schrijver 2025,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-solarflares,Solar flares,F12,cross,Aschwanden & Schrijver 2025,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-solarflares,Solar flares,F13,cross,Aschwanden & Schrijver 2025,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-turbulence,Turbulence,F1,cross,Kolmogorov 1941,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-turbulence,Turbulence,F2,cross,Kolmogorov 1941,No duplication mechanism present in this system.,high
+PHYS-turbulence,Turbulence,F3,cross,Kolmogorov 1941,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-turbulence,Turbulence,F4,cross,Kolmogorov 1941,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-turbulence,Turbulence,F5,check,Kolmogorov 1941,Power-law distribution confirmed; alpha=N/A.,medium
+PHYS-turbulence,Turbulence,F7,cross,Kolmogorov 1941,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-turbulence,Turbulence,F9,cross,Kolmogorov 1941,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-turbulence,Turbulence,F12,cross,Kolmogorov 1941,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-turbulence,Turbulence,F13,cross,Kolmogorov 1941,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-galaxylf,Galaxy LF,F1,cross,Blanton et al. 2003 ApJ,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-galaxylf,Galaxy LF,F2,cross,Blanton et al. 2003 ApJ,No duplication mechanism present in this system.,high
+PHYS-galaxylf,Galaxy LF,F3,cross,Blanton et al. 2003 ApJ,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-galaxylf,Galaxy LF,F4,cross,Blanton et al. 2003 ApJ,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-galaxylf,Galaxy LF,F5,tilde,Blanton et al. 2003 (SDSS),Not a pure Pareto distribution; Schechter function with exponential cutoff; faint-end slope only.,medium
+PHYS-galaxylf,Galaxy LF,F7,cross,Blanton et al. 2003 ApJ,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-galaxylf,Galaxy LF,F9,cross,Blanton et al. 2003 ApJ,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-galaxylf,Galaxy LF,F12,cross,Blanton et al. 2003 ApJ,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-galaxylf,Galaxy LF,F13,cross,Blanton et al. 2003 ApJ,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-stellarimf,Stellar IMF,F1,cross,Chabrier 2003; Kroupa 2001,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-stellarimf,Stellar IMF,F2,cross,Chabrier 2003; Kroupa 2001,No duplication mechanism present in this system.,high
+PHYS-stellarimf,Stellar IMF,F3,cross,Chabrier 2003; Kroupa 2001,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-stellarimf,Stellar IMF,F4,cross,Chabrier 2003; Kroupa 2001,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-stellarimf,Stellar IMF,F5,tilde,Chabrier 2003; Kroupa 2001,"Salpeter power law above 1 Msun but lognormal below; composite distribution, not pure power law.",medium
+PHYS-stellarimf,Stellar IMF,F7,cross,Chabrier 2003; Kroupa 2001,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-stellarimf,Stellar IMF,F9,cross,Chabrier 2003; Kroupa 2001,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-stellarimf,Stellar IMF,F12,cross,Chabrier 2003; Kroupa 2001,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-stellarimf,Stellar IMF,F13,cross,Chabrier 2003; Kroupa 2001,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-molclouds,Mol. clouds,F1,cross,Rice et al. 2016 ApJ,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-molclouds,Mol. clouds,F2,cross,Rice et al. 2016 ApJ,No duplication mechanism present in this system.,high
+PHYS-molclouds,Mol. clouds,F3,cross,Rice et al. 2016 ApJ,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-molclouds,Mol. clouds,F4,cross,Rice et al. 2016 ApJ,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-molclouds,Mol. clouds,F5,check,Rice et al. 2016,Power-law confirmed; Clauset KS p>0.1; alpha=1.6-1.8; method: MLE.,high
+PHYS-molclouds,Mol. clouds,F7,cross,Rice et al. 2016 ApJ,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-molclouds,Mol. clouds,F9,cross,Rice et al. 2016 ApJ,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-molclouds,Mol. clouds,F12,cross,Rice et al. 2016 ApJ,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-molclouds,Mol. clouds,F13,cross,Rice et al. 2016 ApJ,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-sandpilesoc,Sandpile/SOC,F1,cross,Bak et al. 1987; De Menech et al. 1998,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-sandpilesoc,Sandpile/SOC,F2,cross,Bak et al. 1987; De Menech et al. 1998,No duplication mechanism present in this system.,high
+PHYS-sandpilesoc,Sandpile/SOC,F3,cross,Bak et al. 1987; De Menech et al. 1998,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-sandpilesoc,Sandpile/SOC,F4,cross,Bak et al. 1987; De Menech et al. 1998,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-sandpilesoc,Sandpile/SOC,F5,check,De Menech et al. 1998; Bak et al. 1987,Power-law distribution confirmed; alpha=1.22 (BTW 2D).,medium
+PHYS-sandpilesoc,Sandpile/SOC,F7,cross,Bak et al. 1987; De Menech et al. 1998,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-sandpilesoc,Sandpile/SOC,F9,cross,Bak et al. 1987; De Menech et al. 1998,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-sandpilesoc,Sandpile/SOC,F12,cross,Bak et al. 1987; De Menech et al. 1998,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-sandpilesoc,Sandpile/SOC,F13,cross,Bak et al. 1987; De Menech et al. 1998,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+PHYS-rivers,Rivers,F1,cross,Rodriguez-Iturbe & Rinaldo 1997,No heritable digital string; system lacks replicating information carriers.,high
+PHYS-rivers,Rivers,F2,cross,Rodriguez-Iturbe & Rinaldo 1997,No duplication mechanism present in this system.,high
+PHYS-rivers,Rivers,F3,cross,Rodriguez-Iturbe & Rinaldo 1997,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+PHYS-rivers,Rivers,F4,cross,Rodriguez-Iturbe & Rinaldo 1997,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+PHYS-rivers,Rivers,F5,check,Rodriguez-Iturbe & Rinaldo 1997,Power-law confirmed; Clauset KS p>0.1; alpha=~0.43 (area); method: MLE.,high
+PHYS-rivers,Rivers,F7,cross,Rodriguez-Iturbe & Rinaldo 1997,No complexity growth; physical system does not accumulate heritable information.,high
+PHYS-rivers,Rivers,F9,cross,Rodriguez-Iturbe & Rinaldo 1997,No error threshold; physical system lacks heritable information requiring mutational robustness.,high
+PHYS-rivers,Rivers,F12,cross,Rodriguez-Iturbe & Rinaldo 1997,No modularity in biological sense; physical system lacks hierarchical information organization.,high
+PHYS-rivers,Rivers,F13,cross,Rodriguez-Iturbe & Rinaldo 1997,No evolvability; physical system lacks adaptive capacity or heritable variation.,high
+INFO-citations,Citations,F1,cross,Redner 1998; Radicchi et al. 2008 PNAS,No heritable digital string; system lacks replicating information carriers.,high
+INFO-citations,Citations,F2,cross,Redner 1998; Radicchi et al. 2008 PNAS,No duplication mechanism present in this system.,high
+INFO-citations,Citations,F3,cross,Redner 1998; Radicchi et al. 2008 PNAS,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+INFO-citations,Citations,F4,tilde,Redner 1998; Radicchi et al. 2008 PNAS,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
+INFO-citations,Citations,F5,check,Redner 1998; Radicchi et al. 2008; Clauset et al. 2009,Power-law confirmed; Clauset KS p>0.1; alpha=3.0-3.1; method: MLE-Clauset.,high
+INFO-citations,Citations,F6,cross,Redner 1998; Radicchi et al. 2008 PNAS,"Citation-weighted growth mechanism, not balanced birth-death-innovation.",medium
+INFO-citations,Citations,F7,tilde,Redner 1998; Radicchi et al. 2008 PNAS,System grows in size but complexity growth is not open-ended in the biological sense.,low
+INFO-citations,Citations,F9,cross,Redner 1998; Radicchi et al. 2008 PNAS,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
+INFO-citations,Citations,F12,check,Redner 1998; Radicchi et al. 2008 PNAS,Modular/hierarchical organization observed in system structure.,medium
+INFO-citations,Citations,F13,cross,Redner 1998; Radicchi et al. 2008 PNAS,No evolvability in biological sense; system growth is not adaptive.,high
+ECON-incomewealth,Income/wealth,F1,cross,Gabaix 2009; Gopikrishnan et al. 1999,No heritable digital string; system lacks replicating information carriers.,high
+ECON-incomewealth,Income/wealth,F2,cross,Gabaix 2009; Gopikrishnan et al. 1999,No duplication mechanism present in this system.,high
+ECON-incomewealth,Income/wealth,F3,cross,Gabaix 2009; Gopikrishnan et al. 1999,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+ECON-incomewealth,Income/wealth,F4,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
+ECON-incomewealth,Income/wealth,F5,check,Multiple national datasets; Gabaix 2009,Power-law confirmed; Clauset KS p>0.1; alpha=1.5-3.0; method: MLE-Clauset.,high
+ECON-incomewealth,Income/wealth,F7,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
+ECON-incomewealth,Income/wealth,F9,cross,Gabaix 2009; Gopikrishnan et al. 1999,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
+ECON-incomewealth,Income/wealth,F12,check,Gabaix 2009; Gopikrishnan et al. 1999,Modular/hierarchical organization observed in system structure.,medium
+ECON-incomewealth,Income/wealth,F13,tilde,Gabaix 2009; Gopikrishnan et al. 1999,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low
+ECON-stockreturns,Stock returns,F1,cross,Gopikrishnan et al. 1999 Phys Rev E,No heritable digital string; system lacks replicating information carriers.,high
+ECON-stockreturns,Stock returns,F2,cross,Gopikrishnan et al. 1999 Phys Rev E,No duplication mechanism present in this system.,high
+ECON-stockreturns,Stock returns,F3,cross,Gopikrishnan et al. 1999 Phys Rev E,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+ECON-stockreturns,Stock returns,F4,tilde,Gopikrishnan et al. 1999 Phys Rev E,Multiplicative growth process present but lacks trait-based differential fitness in the biological sense.,medium
+ECON-stockreturns,Stock returns,F5,check,Gopikrishnan et al. 1999,Power-law confirmed; Clauset KS p>0.1; alpha=~3.0; method: MLE.,high
+ECON-stockreturns,Stock returns,F7,cross,Gopikrishnan et al. 1999 Phys Rev E,No open-ended complexity growth observed.,high
+ECON-stockreturns,Stock returns,F9,cross,Gopikrishnan et al. 1999 Phys Rev E,Error threshold not satisfied; system lacks mutational robustness mechanism.,high
+ECON-stockreturns,Stock returns,F12,check,Gopikrishnan et al. 1999 Phys Rev E,Modular/hierarchical organization observed in system structure.,medium
+ECON-stockreturns,Stock returns,F13,cross,Gopikrishnan et al. 1999 Phys Rev E,No evolvability or adaptive capacity observed.,high
+INFO-internet,Internet AS,F1,cross,Faloutsos et al. 1999 SIGCOMM,No heritable digital string; system lacks replicating information carriers.,high
+INFO-internet,Internet AS,F2,cross,Faloutsos et al. 1999 SIGCOMM,No duplication mechanism present in this system.,high
+INFO-internet,Internet AS,F3,cross,Faloutsos et al. 1999 SIGCOMM,No deletion mechanism analogous to gene loss; system lacks information removal process.,high
+INFO-internet,Internet AS,F4,cross,Faloutsos et al. 1999 SIGCOMM,No selection mechanism; system dynamics are governed by physical processes without differential fitness.,high
+INFO-internet,Internet AS,F5,check,Faloutsos et al. 1999; CAIDA,Power-law distribution confirmed; alpha=2.1-2.2.,medium
+INFO-internet,Internet AS,F7,cross,Faloutsos et al. 1999 SIGCOMM,No open-ended complexity growth observed.,high
+INFO-internet,Internet AS,F9,cross,Faloutsos et al. 1999 SIGCOMM,No error threshold mechanism; information system lacks biological mutation-selection balance.,high
+INFO-internet,Internet AS,F12,cross,Faloutsos et al. 1999 SIGCOMM,No hierarchical modularity; network structure does not exhibit biological-level organization.,high
+INFO-internet,Internet AS,F13,cross,Faloutsos et al. 1999 SIGCOMM,No evolvability in biological sense; system growth is not adaptive.,high
+BIO-rnaviruses,RNA viruses,F1,check,Sanjuan et al. 2010 J Virol,DNA/RNA genome serves as heritable digital string. 54.5%,high
+BIO-rnaviruses,RNA viruses,F2,cross,Sanjuan et al. 2010 J Virol,No large-scale gene duplication; bounded genome size prevents family expansion.,high
+BIO-rnaviruses,RNA viruses,F3,check,Sanjuan et al. 2010 J Virol,Gene loss (deletion/pseudogenization) confirmed as ongoing evolutionary process.,high
+BIO-rnaviruses,RNA viruses,F4,check,Sanjuan et al. 2010 J Virol,Natural selection on fitness differences confirmed; differential reproductive success observed.,high
+BIO-rnaviruses,RNA viruses,F5,cross,Sanjuan et al. 2010,No gene families; bounded genome prevents family size distribution.,high
+BIO-rnaviruses,RNA viruses,F6,cross,Sanjuan et al. 2010 J Virol,No BDIM dynamics; genome is bounded and does not undergo gene family birth-death.,high
+BIO-rnaviruses,RNA viruses,F7,cross,Sanjuan et al. 2010 J Virol,No open-ended complexity growth observed.,high
+BIO-rnaviruses,RNA viruses,F8,check,Sanjuan et al. 2010 J Virol,Mutation rate measured; operates near error threshold consistent with Drake K framework.,high
+BIO-rnaviruses,RNA viruses,F9,check,Sanjuan et al. 2010 J Virol,Mutational robustness / error threshold satisfied; genome operates below critical mutation rate.,high
+BIO-rnaviruses,RNA viruses,F10,check,Sanjuan et al. 2010 J Virol,Landauer bound applies; information processing in living/computational system incurs thermodynamic cost.,high
+BIO-rnaviruses,RNA viruses,F12,check,Sanjuan et al. 2010 J Virol,Hierarchical modularity confirmed; genome organized into operons/regulons/modules.,high
+BIO-rnaviruses,RNA viruses,F13,cross,Sanjuan et al. 2010 J Virol,No evolvability or adaptive capacity observed.,high
+ECON-citysizes,City sizes,F1,tilde,Gabaix 1999; Eeckhout 2004,Partial or ambiguous heritable string; information transmission exists but lacks full digital genome properties.,low
+ECON-citysizes,City sizes,F2,tilde,Gabaix 1999; Eeckhout 2004,Partial or limited duplication capacity observed.,low
+ECON-citysizes,City sizes,F3,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for deletion; loss mechanism exists but may be limited or ambiguous.,low
+ECON-citysizes,City sizes,F4,check,Gabaix 1999; Eeckhout 2004,"Selection analog (market competition, user preference) drives differential survival of variants.",medium
+ECON-citysizes,City sizes,F5,tilde,Gabaix 1999; Eeckhout 2004,Partial power-law evidence; not formally fitted or ambiguous fit.,low
+ECON-citysizes,City sizes,F6,tilde,Gabaix 1999; Eeckhout 2004,Neutral/BDIM-like dynamics partially supported; quantitative fit not established.,low
+ECON-citysizes,City sizes,F7,tilde,Gabaix 1999; Eeckhout 2004,Partial evidence for open-ended complexity growth; constrained or ambiguous.,low
+ECON-citysizes,City sizes,F12,check,Gabaix 1999; Eeckhout 2004,Modular/hierarchical organization observed in system structure.,medium
+ECON-citysizes,City sizes,F13,tilde,Gabaix 1999; Eeckhout 2004,Partial adaptive capacity; system shows some innovation but lacks full biological evolvability.,low

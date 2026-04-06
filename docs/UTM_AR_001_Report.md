@@ -11,11 +11,11 @@
 
 ## Abstract
 
-We expand the cross-domain empirical validation of Recursive Innovation Theory (RIT) from the initial 48-system survey to approximately 85 natural and cultural systems, assessed against a 13-feature admissibility framework (F1-F10, F12-F14) that operationalizes the formally proved sufficient conditions for computational universality. F11 (accessible fitness landscape) is retained as a supplementary empirical annotation but excluded from admissibility scoring because its corresponding Lean axiom (`bio_landscapes_monotone`) is orphaned in the current proof architecture. The expanded analysis incorporates six categories of new data: (i) archaeal genomes and prokaryotic pan-genomes at scale, including BDI3 fits to 79 archaeal genomes and Heaps' law exponents for 11 bacterial species; (ii) four new model organisms (Dictyostelium discoideum, Ficedula albicollis, Schizosaccharomyces pombe, Pseudomonas aeruginosa) that extend phylogenetic coverage to social amoebae, birds, fission yeast, and opportunistic pathogens; (iii) CRISPR spacer arrays as a novel BDIM analog satisfying 11/13 admissibility features (84.6%); (iv) cancer somatic evolution achieving 73.1% admissibility across 13 features, with quantitative data on SCNA power laws (alpha approximately 1.5-2.0), clone size 1/f distributions, and whole-genome doubling in 37% of cancers; (v) boundary cases including endosymbiont genome reduction (Buchnera, Carsonella) that confirm predicted BDIM exit when innovation rate reaches zero, CPR bacteria and DPANN archaea as ultra-reduced lineages, and plant polyploidy dynamics establishing WGD insufficiency (E21); and (vi) a dramatically expanded set of confirmed negatives (14 systems) and marginal cases (5 systems) spanning geophysical, astrophysical, network, and neural domains.
+We expand the cross-domain empirical validation of Recursive Innovation Theory (RIT) from the initial 48-system survey to approximately 85 natural and cultural systems, assessed against a 13-feature admissibility framework (F1-F10, F12-F14) that operationalizes the formally proved sufficient conditions for computational universality. F11 (accessible fitness landscape) is retained as a supplementary empirical annotation but excluded from admissibility scoring because its corresponding Lean axiom (`bio_landscapes_monotone`) is orphaned in the current proof architecture. The expanded analysis incorporates six categories of new data: (i) archaeal genomes and prokaryotic pan-genomes at scale, including BDI3 fits to 79 archaeal genomes and Heaps' law exponents for 11 bacterial species; (ii) four new model organisms (Dictyostelium discoideum, Ficedula albicollis, Schizosaccharomyces pombe, Pseudomonas aeruginosa) that extend phylogenetic coverage to social amoebae, birds, fission yeast, and opportunistic pathogens; (iii) CRISPR spacer arrays as a novel BDIM analog satisfying 11/13 admissibility features (84.6%); (iv) cancer somatic evolution achieving 73.1% admissibility across 13 features, with quantitative data on SCNA power laws (alpha approximately 1.5-2.0), clone size 1/f distributions, and whole-genome doubling in 37% of cancers; (v) boundary cases including endosymbiont genome reduction (Buchnera, Carsonella) that confirm predicted BDIM exit when innovation rate reaches zero, CPR bacteria and DPANN archaea as ultra-reduced lineages, and plant polyploidy dynamics establishing WGD insufficiency (E21); and (vi) a dramatically expanded set of confirmed negatives (15 systems) and marginal cases (5 systems) spanning geophysical, astrophysical, network, and neural domains.
 
 The expanded framework assigns each system to one of six classifications: Inside, Plausible, Boundary, Exit, Marginal, or Negative, with quantitative thresholds defined in Section 1.6. We introduce a formal risk tier system (LOW/MEDIUM/HIGH) for each of the 26 empirical requirements (E1-E26), identifying E10 (dup/del ratio K) and E17 (fitness landscape accessibility) as the only HIGH-risk requirements, with all others at LOW or MEDIUM risk. A cross-domain universality matrix mapping E1-E26 against 9 knowledge domains (BIO, CHEM, IMMUNE, LANG, COMP, ECON, PHYS, INFO, NEUR) reveals that computational systems (COMP, ~82%) achieve high admissibility coverage alongside biological systems (BIO, 100%), while physical systems (PHYS, 19%) are appropriately excluded. All F5 (power-law) assessments are documented in Table S1 (Power-Law Fitting Audit), which applies the Clauset et al. (2009) MLE+KS standard uniformly across all systems.
 
-The key finding is that the minimal discriminating feature set {F1, F2, F3, F4} -- heritable string, duplication operator, deletion operator, and selection -- jointly excludes all physical power-law systems (earthquakes, stellar flares, turbulence, galaxy luminosity functions) while admitting all confirmed biological and cultural innovation systems. Power laws are necessary but dramatically insufficient: of the approximately 85 systems surveyed, 40+ exhibit power-law statistics, but only approximately 45 satisfy the full BDIM admissibility criteria. Two systems previously classified as Inside (scientific citations, income/wealth) are reclassified as Negative based on mechanistic analysis (non-stationarity, Gibrat process without heritable string).
+The key finding is that the minimal discriminating feature set {F1, F2, F3, F4} -- heritable string, duplication operator, deletion operator, and selection -- jointly excludes all physical power-law systems (earthquakes, stellar flares, turbulence, galaxy luminosity functions) while admitting all confirmed biological and cultural innovation systems. Power laws are necessary but dramatically insufficient: of the approximately 85 systems surveyed, 40+ exhibit power-law statistics, but only ~22 (19 scorecard rows classified Inside or Plausible) satisfy the full BDIM admissibility criteria. Two systems previously classified as Inside (scientific citations, income/wealth) are reclassified as Negative based on mechanistic analysis (non-stationarity, Gibrat process without heritable string).
 
 **Keywords:** recursive innovation, computational universality, admissible regions, power-law distributions, Birth-Death-Innovation Model, fitness landscapes, cross-domain validation, robustness analysis, CRISPR, cancer somatic evolution, pan-genomes, endosymbionts, negative controls
 
@@ -118,7 +118,7 @@ The executable replication package (available at the companion GitHub repository
 
 The 46 scorecard rows represent approximately 85 individual systems. Two rows aggregate multiple organisms: "Archaea (79 genomes)" encompasses 23 species from Karev et al. (2002, 2004), and "Pan-genomes (11 spp)" encompasses 11 bacterial species with confirmed open pan-genome dynamics. All other rows represent single systems. The mapping is documented in `data/processed/systems_expansion.csv`.
 
-The broader discussion in this report spans the full ~85-system conceptual study. All quantitative claims (classification counts, feature coverage percentages, domain breakdowns) are reproducible from the 46-row scorecard via the included computation script.
+The broader discussion in this report spans the full ~85-system conceptual study. All quantitative summary claims in this report (classification counts, feature coverage percentages, domain breakdowns) are derived from the 46-row scorecard via `scripts/compute_admissibility.py`. The ~85 individual-system count reflects the unique biological entities within grouped rows (see `data/processed/systems_expansion.csv`).
 
 ### 2.1 System Selection
 
@@ -1224,7 +1224,7 @@ Every confirmed negative fails ALL FOUR of {F1, F2, F3, F4}. This means a review
 
 ### 10.2 Power Laws Are Necessary but Dramatically Insufficient
 
-Of the approximately 85 systems surveyed, 40+ exhibit some form of power-law or heavy-tailed statistics. But only approximately 45 satisfy the full BDIM admissibility criteria. This means roughly half of all power-law systems are excluded by the structural requirements F1-F4.
+Of the approximately 85 systems surveyed, 40+ exhibit some form of power-law or heavy-tailed statistics. But only approximately 22 (19 scorecard rows classified Inside or Plausible, expanded to ~22 individual systems) satisfy the full BDIM admissibility criteria. This means the large majority of power-law systems are excluded by the structural requirements F1-F4.
 
 This finding has significant implications for the broader "ubiquity of power laws" literature (Newman 2005; Clauset et al. 2009). Power laws arise from at least three distinct non-BDIM mechanisms:
 
@@ -1311,7 +1311,7 @@ The v2.1 revision applies the Clauset standard uniformly across all systems (Tab
 
 7. **Pan-genome Heaps' law across 11 species** directly validates the BDIM innovation rate parameter (E11) with exponents ranging from 0.08 (M. tuberculosis, nearly closed) to 0.639 (C. testosteroni, extremely open).
 
-8. **14 confirmed negatives** across geophysical (4), astrophysical (4), network (3), economic (2), and biological (1) domains provide strong evidence for discriminatory power.
+8. **15 confirmed negatives** across geophysical (4), astrophysical (4), network (2), economic (4), and biological (1) domains provide strong evidence for discriminatory power.
 
 9. **Only 2 of 26 requirements are HIGH risk (E10, E17),** and both are mitigated: E10 by scoping to steady-state K (Section 8.2), E17 by its orphaned status and definitional clarification (Section 8.3).
 
@@ -1321,10 +1321,10 @@ The v2.1 revision applies the Clauset standard uniformly across all systems (Tab
 
 The FP4 proof establishes sufficient conditions for computational universality in systems with discrete heritable strings undergoing duplication, deletion, and selection under a balanced linear BDIM. The empirical validation presented here shows that:
 
-- Approximately 45 natural and cultural systems satisfy these conditions.
-- Approximately 14 systems are confirmed negatives that fail the structural requirements.
-- Approximately 5 systems sit at the marginal boundary.
-- Approximately 8 systems are at identified exits or boundaries.
+- 19 scorecard rows (17 Inside + 2 Plausible), representing approximately 22 individual systems, satisfy the full BDIM admissibility criteria.
+- 15 systems are confirmed negatives that fail the structural requirements.
+- 5 systems sit at the marginal boundary.
+- 7 systems are at identified exits (3) or boundaries (4).
 
 The scope claim is limited accordingly: the theory applies to systems within the formally characterized admissible regions and makes no claims about systems outside those regions. The boundaries of the admissible region are themselves empirically testable predictions, and the endosymbiont exit provides direct confirmation of one such boundary.
 
