@@ -1,53 +1,53 @@
-System,Dataset,Fitting_Method,Clauset_KS_pvalue,xmin,Alpha_Estimate,Alpha_95CI,Best_Fit_Model,AIC_Delta_vs_Lognormal,F5_Current,F5_Revised
-E. coli gene families,"Karev et al. 2002; Cosentino Lagomarsino et al. 2009",BDIM-Karev + Clauset validation,">0.1 (Cosentino Lagomarsino 2009)",N/A,1.7-2.2,N/A,BDI3 (3-class BDIM),N/A,check,check
-S. cerevisiae gene families,"Karev et al. 2002; Cosentino Lagomarsino et al. 2009",BDIM-Karev + Clauset validation,">0.1 (Cosentino Lagomarsino 2009)",N/A,2.0-2.5,N/A,BDI3,N/A,check,check
-H. sapiens gene families,"Karev et al. 2002; Koonin et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,1.8-2.0,N/A,BDI3,N/A,check,check
-C. elegans gene families,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,~2.0,N/A,BDI3,N/A,check,check
-D. melanogaster gene families,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,~2.1,N/A,BDI3,N/A,check,check
-A. thaliana gene families,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.1-2.2,N/A,BDI3,N/A,check,check
-O. sativa gene families,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,1.8-2.1,N/A,BDI3,N/A,check,check
-D. rerio gene families,"Estimated from comparative genomics",BDIM-Karev chi-squared,Not tested,N/A,~1.9,N/A,BDI3,N/A,check,check
-D. discoideum gene families,"Eichinger et al. 2005",Not fitted (qualitative),Not tested,N/A,N/A,N/A,Heavy-tailed (qualitative),N/A,tilde,tilde
-F. albicollis gene families,"Ellegren et al. 2012",Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,tilde,tilde
-S. pombe gene families,"Wood et al. 2002; Karev-derived",BDIM-Karev chi-squared,Not tested,N/A,~2.0-2.5,N/A,BDI3,N/A,check,check
-P. aeruginosa gene families,"Lapierre & Gogarten 2009; Hao & Golding 2006",BDIM-Karev chi-squared,Not tested,N/A,1.4-2.1,N/A,BDI3,N/A,check,check
-Methanocaldococcus jannaschii,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.1-2.3,N/A,BDI3,N/A,check,tilde
-Archaeoglobus fulgidus,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.0-2.3,N/A,BDI3,N/A,check,tilde
-Halobacterium salinarum NRC-1,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.0-2.4,N/A,BDI3,N/A,check,tilde
-Sulfolobus solfataricus P2,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.0-2.2,N/A,BDI3,N/A,check,tilde
-Pyrococcus horikoshii,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.2-2.5,N/A,BDI3,N/A,check,tilde
-Thermoplasma acidophilum,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.2-2.5,N/A,BDI3,N/A,check,tilde
-Aeropyrum pernix,"Karev et al. 2002",BDIM-Karev chi-squared,Not tested,N/A,2.1-2.4,N/A,BDI3,N/A,check,tilde
-Archaea (79 genomes aggregate),"Karev et al. 2002; 2004",BDIM-Karev chi-squared,Not tested,N/A,2.0-2.5,N/A,BDI3,N/A,check,tilde
-T cell repertoire,"Robins et al. 2009; Desponds et al. 2016",MLE (explicit model fit),">0.1 (Desponds 2016)",N/A,2.0-2.5,[1.8-2.7],Power law,N/A,check,check
-B cell repertoire,"Multiple (clone size distributions); Desponds et al. 2016",MLE (explicit model fit),">0.1 (Desponds 2016)",N/A,~2.0-2.5,N/A,Power law,N/A,check,check
-CRISPR spacer arrays,"Shmakov et al. 2017; CRISPRCasdb",Not fitted (qualitative),Not tested,N/A,N/A,N/A,Power law + exponential cutoff,N/A,tilde,tilde
-Cancer SCNA sizes,"Beroukhim et al. 2010; Zack et al. 2013",MLE,Implied >0.1,N/A,1.5-2.0,[1.3-2.2],Power law (heavy-tailed),N/A,check,check
-Cancer clone sizes (VAF),"Williams et al. 2016; 2018",MLE,Not formally tested,N/A,~1.0 (1/f),N/A,1/f neutral,N/A,check,check
-Baby names (US birth name frequency),"Jensen et al. 2019; SSA data",Not fitted (qualitative),Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde
-Pottery typologies,"Neiman 1995",OLS / neutral model fit,Not tested (pre-Clauset),N/A,N/A,N/A,Neutral BDIM,N/A,check,tilde
-Chess openings,"Qualitative description only",Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde
-Dog breeds (AKC data),"AKC registration statistics",Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde
-Software codebases,"Louridas et al. 2008; Valverde & Sole 2005",OLS log-log,Not tested,N/A,~2.0-2.5,N/A,Power law (OLS),N/A,check,tilde
-US firm sizes,"Axtell 2001; confirmed Clauset et al. 2009",MLE-Clauset,">0.1 (Clauset 2009 Table 1)",~10^6 USD,~2.0,[1.9-2.1],Power law,>2,check,check
-Natural language (Zipf),"Clauset et al. 2009; Piantadosi 2014",MLE-Clauset,Marginal (alpha~1 at SHARP boundary),1,~1.0,[0.95-1.05],Power law (boundary),~0 (indistinguishable from lognormal),tilde,tilde
-Immune repertoire,"Desponds et al. 2016",MLE (explicit model fit),">0.1",N/A,~2.0-2.5,N/A,Power law,N/A,check,check
-Earthquakes (Gutenberg-Richter),"USGS ComCat; Kagan 2010; Clauset et al. 2009",MLE-Clauset,">0.1",M~3.0,~2.0 (energy),[1.9-2.1],Power law,>5,check,check
-Solar flares,"Aschwanden & Schrijver 2025",MLE,">0.1",10^24 erg,1.5-1.8,[1.3-2.1],Power law,>2,check,check
-Molecular cloud masses,"Rice et al. 2016",MLE,Implied >0.1,10^3 Msun,1.6-1.8,[1.4-2.0],Power law,N/A,check,check
-Citations,"Redner 1998; Radicchi et al. 2008; Clauset et al. 2009",MLE-Clauset,">0.1",~100 citations,3.0-3.1,[2.8-3.3],Power law,>2,check,check
-Income/wealth (Pareto tail),"Multiple national datasets; Gabaix 2009",MLE-Clauset,">0.1 (tail only)",Varies by country,1.5-3.0,[1.2-3.5],Pareto tail + lognormal body,Varies,check,check
-Stock market returns,"Gopikrishnan et al. 1999",MLE,">0.1",N/A,~3.0,[2.8-3.5],Power law (inverse cubic),>2,check,check
-Internet AS degree,"Faloutsos et al. 1999; CAIDA",OLS (original) / MLE (later),Marginal,N/A,2.1-2.2,[1.9-2.4],Power law,N/A,check,check
-WWW hyperlinks (page-level),"Broder et al. 2000; Meusel et al. 2014",MLE-Clauset,Fails at page level,N/A,2.1 (domain-level),N/A,Fails power law at page level,Negative,tilde,tilde
-PPI networks,"Barabasi & Oltvai 2004; Luck et al. 2020",Meta-analysis,Not tested (artifact concern per Blumenthal 2024),N/A,2.2-2.4,N/A,Contested (Blumenthal 2024),N/A,tilde,tilde
-Neuronal avalanches,"Beggs & Plenz 2003; Priesemann et al. 2014",MLE,Contested (Touboul & Destexhe 2010),N/A,1.5 (in vitro),N/A,Contested,N/A,tilde,tilde
-River networks,"Rodriguez-Iturbe & Rinaldo 1997",MLE,Implied >0.1,N/A,~0.43 (area),N/A,Power law,N/A,check,check
-Sandpile/SOC,"De Menech et al. 1998; Bak et al. 1987",Exact (model),N/A (exact),N/A,1.22 (BTW 2D),N/A,Power law (exact),N/A,check,check
-Forest fires,"Malamud et al. 1998; 2005",MLE,Implied >0.1,N/A,~1.3,N/A,Power law,N/A,check,check
-Galaxy luminosity function,"Blanton et al. 2003 (SDSS)",Schechter fit,N/A (not power law),N/A,alpha=-1.20 (faint end),N/A,Schechter (exponential cutoff),N/A (not power law),tilde,tilde
-Stellar IMF,"Chabrier 2003; Kroupa 2001",MLE + parametric,N/A,N/A,2.35 (>1 Msun),N/A,Salpeter + lognormal turnover,N/A (composite),tilde,tilde
-RNA viruses,"Sanjuan et al. 2010",N/A (no gene families),N/A,N/A,N/A,N/A,N/A (bounded genome),N/A,cross,cross
-Plant WGD,"Blanc & Wolfe 2004; Maere et al. 2005",BDIM-derived,Not tested,N/A,Same as pre-WGD,N/A,Power law preserved (mathematical identity),N/A,check,check
-Pan-genomes (Heaps' law),"Multiple (11 species)",Heaps' law regression,Not directly applicable,N/A,"N/A (Heaps alpha 0.08-0.64)",N/A,Heaps' law (innovation rate),N/A,check,check
-Cities (Zipf),"Gabaix 1999; Eeckhout 2004",MLE-Clauset,Marginal,N/A,~1.0-1.1,[0.9-1.2],Zipf (boundary),~0,tilde,tilde
+System,Dataset,Fitting_Method,Clauset_KS_pvalue,xmin,Alpha_Estimate,Alpha_95CI,Best_Fit_Model,AIC_Delta_vs_Lognormal,F5_Current,F5_Revised,scorecard_system
+E. coli gene families,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,BDIM-Karev + Clauset validation,>0.1 (Cosentino Lagomarsino 2009),N/A,1.7-2.2,N/A,BDI3 (3-class BDIM),N/A,check,check,E. coli
+S. cerevisiae gene families,Karev et al. 2002; Cosentino Lagomarsino et al. 2009,BDIM-Karev + Clauset validation,>0.1 (Cosentino Lagomarsino 2009),N/A,2.0-2.5,N/A,BDI3,N/A,check,check,S. cerevisiae
+H. sapiens gene families,Karev et al. 2002; Koonin et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,1.8-2.0,N/A,BDI3,N/A,check,check,H. sapiens
+C. elegans gene families,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,~2.0,N/A,BDI3,N/A,check,check,SUBSYSTEM: H. sapiens
+D. melanogaster gene families,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,~2.1,N/A,BDI3,N/A,check,check,SUBSYSTEM: H. sapiens
+A. thaliana gene families,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.1-2.2,N/A,BDI3,N/A,check,check,SUBSYSTEM: Plant WGD
+O. sativa gene families,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,1.8-2.1,N/A,BDI3,N/A,check,check,SUBSYSTEM: Plant WGD
+D. rerio gene families,Estimated from comparative genomics,BDIM-Karev chi-squared,Not tested,N/A,~1.9,N/A,BDI3,N/A,check,check,SUBSYSTEM: H. sapiens
+D. discoideum gene families,Eichinger et al. 2005,Not fitted (qualitative),Not tested,N/A,N/A,N/A,Heavy-tailed (qualitative),N/A,tilde,tilde,D. discoideum
+F. albicollis gene families,Ellegren et al. 2012,Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,tilde,tilde,F. albicollis
+S. pombe gene families,Wood et al. 2002; Karev-derived,BDIM-Karev chi-squared,Not tested,N/A,~2.0-2.5,N/A,BDI3,N/A,check,check,S. pombe
+P. aeruginosa gene families,Lapierre & Gogarten 2009; Hao & Golding 2006,BDIM-Karev chi-squared,Not tested,N/A,1.4-2.1,N/A,BDI3,N/A,check,check,P. aeruginosa
+Methanocaldococcus jannaschii,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.1-2.3,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Archaeoglobus fulgidus,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.0-2.3,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Halobacterium salinarum NRC-1,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.0-2.4,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Sulfolobus solfataricus P2,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.0-2.2,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Pyrococcus horikoshii,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.2-2.5,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Thermoplasma acidophilum,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.2-2.5,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Aeropyrum pernix,Karev et al. 2002,BDIM-Karev chi-squared,Not tested,N/A,2.1-2.4,N/A,BDI3,N/A,check,tilde,SUBSYSTEM: Archaea (79 genomes)
+Archaea (79 genomes aggregate),Karev et al. 2002; 2004,BDIM-Karev chi-squared,Not tested,N/A,2.0-2.5,N/A,BDI3,N/A,check,tilde,Archaea (79 genomes)
+T cell repertoire,Robins et al. 2009; Desponds et al. 2016,MLE (explicit model fit),>0.1 (Desponds 2016),N/A,2.0-2.5,[1.8-2.7],Power law,N/A,check,check,T cell repertoire
+B cell repertoire,Multiple (clone size distributions); Desponds et al. 2016,MLE (explicit model fit),>0.1 (Desponds 2016),N/A,~2.0-2.5,N/A,Power law,N/A,check,check,B cell repertoire
+CRISPR spacer arrays,Shmakov et al. 2017; CRISPRCasdb,Not fitted (qualitative),Not tested,N/A,N/A,N/A,Power law + exponential cutoff,N/A,tilde,tilde,CRISPR arrays
+Cancer SCNA sizes,Beroukhim et al. 2010; Zack et al. 2013,MLE,Implied >0.1,N/A,1.5-2.0,[1.3-2.2],Power law (heavy-tailed),N/A,check,check,SUBSYSTEM: Cancer somatic
+Cancer clone sizes (VAF),Williams et al. 2016; 2018,MLE,Not formally tested,N/A,~1.0 (1/f),N/A,1/f neutral,N/A,check,check,SUBSYSTEM: Cancer somatic
+Baby names (US birth name frequency),Jensen et al. 2019; SSA data,Not fitted (qualitative),Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde,Baby names
+Pottery typologies,Neiman 1995,OLS / neutral model fit,Not tested (pre-Clauset),N/A,N/A,N/A,Neutral BDIM,N/A,check,tilde,Pottery typologies
+Chess openings,Qualitative description only,Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde,Chess openings
+Dog breeds (AKC data),AKC registration statistics,Not fitted,Not tested,N/A,N/A,N/A,N/A,N/A,check,tilde,Dog breeds
+Software codebases,Louridas et al. 2008; Valverde & Sole 2005,OLS log-log,Not tested,N/A,~2.0-2.5,N/A,Power law (OLS),N/A,check,tilde,Software codebases
+US firm sizes,Axtell 2001; confirmed Clauset et al. 2009,MLE-Clauset,>0.1 (Clauset 2009 Table 1),~10^6 USD,~2.0,[1.9-2.1],Power law,>2,check,check,EXTRA
+Natural language (Zipf),Clauset et al. 2009; Piantadosi 2014,MLE-Clauset,Marginal (alpha~1 at SHARP boundary),1,~1.0,[0.95-1.05],Power law (boundary),~0 (indistinguishable from lognormal),tilde,tilde,Language (alpha~1)
+Immune repertoire,Desponds et al. 2016,MLE (explicit model fit),>0.1,N/A,~2.0-2.5,N/A,Power law,N/A,check,check,SUBSYSTEM: T cell repertoire
+Earthquakes (Gutenberg-Richter),USGS ComCat; Kagan 2010; Clauset et al. 2009,MLE-Clauset,>0.1,M~3.0,~2.0 (energy),[1.9-2.1],Power law,>5,check,check,Earthquakes
+Solar flares,Aschwanden & Schrijver 2025,MLE,>0.1,10^24 erg,1.5-1.8,[1.3-2.1],Power law,>2,check,check,Solar flares
+Molecular cloud masses,Rice et al. 2016,MLE,Implied >0.1,10^3 Msun,1.6-1.8,[1.4-2.0],Power law,N/A,check,check,Mol. clouds
+Citations,Redner 1998; Radicchi et al. 2008; Clauset et al. 2009,MLE-Clauset,>0.1,~100 citations,3.0-3.1,[2.8-3.3],Power law,>2,check,check,Citations
+Income/wealth (Pareto tail),Multiple national datasets; Gabaix 2009,MLE-Clauset,>0.1 (tail only),Varies by country,1.5-3.0,[1.2-3.5],Pareto tail + lognormal body,Varies,check,check,Income/wealth
+Stock market returns,Gopikrishnan et al. 1999,MLE,>0.1,N/A,~3.0,[2.8-3.5],Power law (inverse cubic),>2,check,check,Stock returns
+Internet AS degree,Faloutsos et al. 1999; CAIDA,OLS (original) / MLE (later),Marginal,N/A,2.1-2.2,[1.9-2.4],Power law,N/A,check,check,Internet AS
+WWW hyperlinks (page-level),Broder et al. 2000; Meusel et al. 2014,MLE-Clauset,Fails at page level,N/A,2.1 (domain-level),N/A,Fails power law at page level,Negative,tilde,tilde,WWW hyperlinks
+PPI networks,Barabasi & Oltvai 2004; Luck et al. 2020,Meta-analysis,Not tested (artifact concern per Blumenthal 2024),N/A,2.2-2.4,N/A,Contested (Blumenthal 2024),N/A,tilde,tilde,PPI networks
+Neuronal avalanches,Beggs & Plenz 2003; Priesemann et al. 2014,MLE,Contested (Touboul & Destexhe 2010),N/A,1.5 (in vitro),N/A,Contested,N/A,tilde,tilde,Neuronal avalanches
+River networks,Rodriguez-Iturbe & Rinaldo 1997,MLE,Implied >0.1,N/A,~0.43 (area),N/A,Power law,N/A,check,check,Rivers
+Sandpile/SOC,De Menech et al. 1998; Bak et al. 1987,Exact (model),N/A (exact),N/A,1.22 (BTW 2D),N/A,Power law (exact),N/A,check,check,Sandpile/SOC
+Forest fires,Malamud et al. 1998; 2005,MLE,Implied >0.1,N/A,~1.3,N/A,Power law,N/A,check,check,EXTRA
+Galaxy luminosity function,Blanton et al. 2003 (SDSS),Schechter fit,N/A (not power law),N/A,alpha=-1.20 (faint end),N/A,Schechter (exponential cutoff),N/A (not power law),tilde,tilde,Galaxy LF
+Stellar IMF,Chabrier 2003; Kroupa 2001,MLE + parametric,N/A,N/A,2.35 (>1 Msun),N/A,Salpeter + lognormal turnover,N/A (composite),tilde,tilde,Stellar IMF
+RNA viruses,Sanjuan et al. 2010,N/A (no gene families),N/A,N/A,N/A,N/A,N/A (bounded genome),N/A,cross,cross,RNA viruses
+Plant WGD,Blanc & Wolfe 2004; Maere et al. 2005,BDIM-derived,Not tested,N/A,Same as pre-WGD,N/A,Power law preserved (mathematical identity),N/A,check,check,Plant WGD
+Pan-genomes (Heaps' law),Multiple (11 species),Heaps' law regression,Not directly applicable,N/A,N/A (Heaps alpha 0.08-0.64),N/A,Heaps' law (innovation rate),N/A,check,check,Pan-genomes (11 spp)
+Cities (Zipf),Gabaix 1999; Eeckhout 2004,MLE-Clauset,Marginal,N/A,~1.0-1.1,[0.9-1.2],Zipf (boundary),~0,tilde,tilde,Cities (alpha~1)

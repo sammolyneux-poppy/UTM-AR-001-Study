@@ -1,11 +1,7 @@
-domain,Inside_count,Plausible_count,Boundary_count,Exit_count,Marginal_count,Negative_count,total,notes
-BIO,12,1,2,3,0,1,19,Biological/Genetic Evolution. Exits=Buchnera+Carsonella+N.equitans. Negative=RNA viruses.
-IMMUNE,3,0,0,0,0,0,3,T cell + B cell + CRISPR arrays all Inside (84.6%-100%)
-COMP,1,1,0,0,0,0,2,Chess openings Inside (85%); Software codebases Plausible (81.8%)
-ECON,4,0,1,0,0,3,8,Baby names+Pottery+Dog breeds+Cheese Inside; Patents Boundary; Cities+Income/wealth+Stock returns Negative
-LANG,0,0,1,0,0,0,1,Language (alpha~1) Boundary due to Zipf at SHARP threshold
-PHYS,0,0,0,0,0,8,8,All physical systems Negative (earthquakes+flares+turbulence+galaxy+IMF+clouds+sandpile+rivers)
-INFO,0,0,0,0,2,2,4,WWW+PPI networks Marginal; Citations+Internet AS Negative
-NEUR,0,0,0,0,2,0,2,Neuronal avalanches+Cancer epigenomics Marginal
-CHEM,0,0,0,0,1,0,1,RNA World Marginal (proto-BDIM candidate)
-TOTAL,20,2,4,3,5,14,48,Note: ~85 systems assessed but many are grouped (e.g. Archaea 79 genomes counted as 1 row)
+classification,count,percent,systems
+Inside,17,37.0,Archaea (79 genomes);B cell repertoire;Baby names;CRISPR arrays;Chess openings;D. discoideum;Dog breeds;E. coli;F. albicollis;H. sapiens;P. aeruginosa;Pan-genomes (11 spp);Plant WGD;Pottery typologies;S. cerevisiae;S. pombe;T cell repertoire
+Plausible,2,4.3,Cancer somatic;Software codebases
+Boundary,4,8.7,CPR bacteria;DPANN archaea;Language (alpha~1);Patents (E9 fail)
+Exit,3,6.5,Buchnera;Carsonella;N. equitans
+Marginal,5,10.9,Cancer epigenomics;Neuronal avalanches;PPI networks;RNA World;WWW hyperlinks
+Negative,15,32.6,Citations;Cities (alpha~1);City sizes;Earthquakes;Galaxy LF;Income/wealth;Internet AS;Mol. clouds;RNA viruses;Rivers;Sandpile/SOC;Solar flares;Stellar IMF;Stock returns;Turbulence

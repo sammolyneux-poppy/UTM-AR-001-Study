@@ -1,0 +1,10 @@
+domain,Inside,Plausible,Boundary,Exit,Marginal,Negative,total
+BIO,10,1,2,3,0,1,17
+CHEM,0,0,0,0,1,0,1
+COMP,1,1,0,0,0,0,2
+ECON,3,0,1,0,0,4,8
+IMMUNE,3,0,0,0,0,0,3
+INFO,0,0,0,0,2,2,4
+LANG,0,0,1,0,0,0,1
+NEUR,0,0,0,0,2,0,2
+PHYS,0,0,0,0,0,8,8

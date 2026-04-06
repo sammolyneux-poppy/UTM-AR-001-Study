@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the complete replication package for the UTM-AR-001 admissible regions study — a cross-domain empirical analysis assessing approximately 85 natural and cultural systems against the FP4 proof's F1-F14 admissibility framework.
+This repository contains a curated empirical assessment with reproducible summary statistics for the UTM-AR-001 admissible regions study — a cross-domain analysis assessing approximately 85 natural and cultural systems against the FP4 proof's F1-F14 admissibility framework.
 
 The FP4 formal proof (`biological_evolution_is_utm`) establishes in Lean 4 that recursive genome mutation operators — specifically, deletion and duplication acting on discrete heritable units under selection — are computationally universal. The proof depends on 14 axioms (8 FORMAL, 2 EMPIRICAL_WELL_CONFIRMED, 3 EMPIRICAL_MEASURED, 1 MODELLING_BRIDGE), zero `sorry` placeholders, and compiles with 0 errors across 62 Lean files.
 
@@ -12,16 +12,37 @@ The admissibility framework operationalizes the proof's sufficient conditions in
 
 **Version:** 2.1 (incorporates R1-R12 revisions from peer review; see `docs/V2_REVISION_SUMMARY.md`)
 
+## Methodology
+
+This study is an empirical meta-analysis. The core data product is the **F1-F14 admissibility scorecard** (`data/processed/f14_scorecard.csv`), where each system x feature cell represents a human expert assessment backed by cited literature. The assessment protocol is:
+
+- **check**: Feature satisfied with quantitative evidence and primary citation
+- **tilde**: Partially or ambiguously satisfied; evidence exists but is incomplete
+- **cross**: Feature not satisfied based on available evidence
+- **dash**: Feature not applicable to this system type
+
+The computation script (`scripts/compute_admissibility.py`) reads the curated scorecard and regenerates all derived statistics: classification counts, feature coverage rates, and domain breakdowns. It also runs a validation check to confirm internal consistency.
+
+The scorecard is NOT automatically derived from raw data — it is the product of systematic literature review. This is standard for cross-domain empirical assessments where each system requires domain-specific expertise to evaluate.
+
+## Universe Size
+
+The scorecard contains **46 rows** representing approximately **85 individual systems**. Two rows are grouped assessments:
+- "Archaea (79 genomes)" — BDI3 fits across 79 archaeal genomes from 23 species
+- "Pan-genomes (11 spp)" — 11 bacterial species with Heaps' law pan-genome dynamics
+
+See `data/processed/systems_expansion.csv` for the complete row-to-system mapping.
+
 ## Key Results
 
 | Classification | Count | Key Examples |
 |---------------|:-----:|-------------|
-| **Inside** (~78.5-100%) | ~20 | E. coli (100%), S. cerevisiae (100%), S. pombe (100%), T/B cell repertoire (100%), H. sapiens (96.2%), Pan-genomes (95.8%), Baby names (94.4%) |
-| **Plausible** (57-78%) | ~2 | Cancer somatic evolution (73.1%), Software codebases (81.8%) |
-| **Boundary** | ~4 | CPR bacteria (63.6%), DPANN archaea (63.6%), Language (83.3%), Patents |
-| **Exit** | ~3 | Buchnera (40.9%), Carsonella (40.9%), N. equitans (40.9%) |
-| **Marginal** | ~5 | RNA World (61.1%), PPI networks (55.6%), WWW hyperlinks (33.3%), Neuronal avalanches (16.7%), Cancer epigenomics (44.4%) |
-| **Negative** | ~14 | All 8 physical systems, Citations, Income/wealth, Stock returns, Internet AS, RNA viruses, City sizes |
+| **Inside** (~78.5-100%) | 17 | E. coli (100%), S. cerevisiae (100%), S. pombe (100%), T/B cell repertoire (100%), H. sapiens (96.2%), Pan-genomes (95.8%), Baby names (94.4%) |
+| **Plausible** (57-78%) | 2 | Cancer somatic evolution (73.1%), Software codebases (81.8%) |
+| **Boundary** | 4 | CPR bacteria (63.6%), DPANN archaea (63.6%), Language (83.3%), Patents |
+| **Exit** | 3 | Buchnera (40.9%), Carsonella (40.9%), N. equitans (40.9%) |
+| **Marginal** | 5 | RNA World (61.1%), PPI networks (55.6%), WWW hyperlinks (33.3%), Neuronal avalanches (16.7%), Cancer epigenomics (44.4%) |
+| **Negative** | 15 | All 8 physical systems, Citations, Income/wealth, Stock returns, Internet AS, RNA viruses, City sizes |
 
 **Headline finding:** The minimal discriminating feature set {F1, F2, F3, F4} — heritable string, duplication operator, deletion operator, and selection — jointly excludes all 8 physical power-law systems (earthquakes, stellar flares, turbulence, galaxy LF, stellar IMF, molecular clouds, sandpile/SOC, rivers) while admitting all confirmed biological and cultural innovation systems. Power laws are necessary but dramatically insufficient: of the ~85 systems surveyed, 40+ exhibit power-law statistics, but only ~22 (Inside + Plausible) satisfy the full BDIM admissibility criteria.
 
@@ -70,16 +91,18 @@ UTM-AR-001-Study/
 │       └── FP4_Empirical_Validation_Master.md        # Original master report
 ├── data/
 │   ├── raw/
-│   │   └── systems_catalog.csv        # All ~48 system rows with domain, classification, notes, citations
+│   │   └── systems_catalog.csv        # All 46 system rows with domain, classification, notes, citations
 │   └── processed/
-│       ├── f14_scorecard.csv          # Complete F1-F14 scorecard for all systems
-│       ├── feature_statistics.csv     # Coverage rates per feature across all systems
-│       ├── classification_summary.csv # Counts by domain and classification
+│       ├── f14_scorecard.csv          # Curated F1-F14 scorecard (source of truth for all assessments)
+│       ├── feature_statistics.csv     # Coverage rates per feature (regenerated by script)
+│       ├── classification_summary.csv # Counts by domain and classification (regenerated by script)
+│       ├── domain_breakdown.csv       # Per-domain classification breakdown
+│       ├── systems_expansion.csv      # Row-to-system mapping (46 rows -> ~85 systems)
 │       └── Table_S1_PowerLaw_Clauset_Audit.csv  # F5 Clauset audit (all systems)
 ├── figures/                           # (Placeholder for generated figures)
 ├── scripts/
-│   ├── compute_admissibility.py       # Admissibility statistics computation
-│   └── run_all.sh                     # Complete replication script
+│   ├── compute_admissibility.py       # Validates scorecard and derives summary statistics
+│   └── run_all.sh                     # Replication script
 └── specs/
     └── FP4_AdmissibleRegion_Table.md  # E1-E26 admissible region specifications
 ```

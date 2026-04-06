@@ -31,4 +31,32 @@ echo ""
 python3 "$SCRIPT_DIR/compute_admissibility.py"
 
 echo ""
-echo "UTM-AR-001 replication complete."
+echo "  Verifying output files..."
+echo ""
+
+# Verify all expected output files exist
+EXPECTED_FILES=(
+    "$REPO_ROOT/data/processed/classification_summary.csv"
+    "$REPO_ROOT/data/processed/feature_statistics.csv"
+    "$REPO_ROOT/data/processed/domain_breakdown.csv"
+)
+
+ALL_OK=true
+for f in "${EXPECTED_FILES[@]}"; do
+    if [ -f "$f" ]; then
+        echo "  ✓ $(basename "$f")"
+    else
+        echo "  ✗ MISSING: $(basename "$f")"
+        ALL_OK=false
+    fi
+done
+
+echo ""
+if $ALL_OK; then
+    echo "======================================================================"
+    echo "  UTM-AR-001 replication complete. All outputs verified."
+    echo "======================================================================"
+else
+    echo "WARNING: Some output files are missing. Check script output above."
+    exit 1
+fi

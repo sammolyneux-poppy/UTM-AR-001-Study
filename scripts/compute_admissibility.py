@@ -9,12 +9,18 @@ Reads data/processed/f14_scorecard.csv and computes:
   - Domain breakdown by classification
   - Top admissible systems
 
+Regenerates all derived CSV files:
+  - data/processed/classification_summary.csv
+  - data/processed/feature_statistics.csv
+  - data/processed/domain_breakdown.csv
+
 Usage:
     python scripts/compute_admissibility.py
 """
 
 import csv
 import os
+import sys
 from collections import defaultdict
 
 # Resolve paths relative to this script's directory
@@ -22,6 +28,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 SCORECARD_PATH = os.path.join(REPO_ROOT, "data", "processed", "f14_scorecard.csv")
 SUMMARY_PATH = os.path.join(REPO_ROOT, "data", "processed", "classification_summary.csv")
+FEATURE_STATS_PATH = os.path.join(REPO_ROOT, "data", "processed", "feature_statistics.csv")
+DOMAIN_BREAKDOWN_PATH = os.path.join(REPO_ROOT, "data", "processed", "domain_breakdown.csv")
 
 FEATURES = ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F12", "F13", "F14"]
 FEATURE_NAMES = {
@@ -64,7 +72,10 @@ def compute_feature_coverage(systems):
         check_count = counts.get("check", 0)
         tilde_count = counts.get("tilde", 0)
         cross_count = counts.get("cross", 0)
-        pct_satisfied = round(
+        pct_check = round(
+            check_count / applicable * 100, 1
+        ) if applicable > 0 else 0.0
+        pct_check_or_tilde = round(
             (check_count + 0.5 * tilde_count) / applicable * 100, 1
         ) if applicable > 0 else 0.0
         coverage[feat] = {
@@ -73,7 +84,8 @@ def compute_feature_coverage(systems):
             "cross": cross_count,
             "dash": counts.get("dash", 0),
             "applicable": applicable,
-            "pct_satisfied": pct_satisfied,
+            "pct_check": pct_check,
+            "pct_check_or_tilde": pct_check_or_tilde,
         }
     return coverage
 
@@ -85,6 +97,16 @@ def compute_tier_distribution(systems):
         cls = s.get("classification", "Unknown").strip()
         dist[cls] += 1
     return dist
+
+
+def compute_classification_systems(systems):
+    """Group system names by classification."""
+    groups = defaultdict(list)
+    for s in systems:
+        cls = s.get("classification", "Unknown").strip()
+        name = s.get("system", "Unknown").strip()
+        groups[cls].append(name)
+    return groups
 
 
 def compute_domain_breakdown(systems):
@@ -111,6 +133,109 @@ def print_separator(char="-", width=72):
     print(char * width)
 
 
+# ---------------------------------------------------------------------------
+# CSV output writers
+# ---------------------------------------------------------------------------
+
+def write_classification_summary(tier_dist, classification_systems, total, path):
+    """Write classification_summary.csv."""
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["classification", "count", "percent", "systems"])
+        for cls in CLASSIFICATIONS:
+            count = tier_dist.get(cls, 0)
+            pct = round(count / total * 100, 1) if total > 0 else 0.0
+            sys_list = ";".join(sorted(classification_systems.get(cls, [])))
+            writer.writerow([cls, count, pct, sys_list])
+    print(f"  [WRITE] {path}")
+
+
+def write_feature_statistics(coverage, path):
+    """Write feature_statistics.csv."""
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "feature", "feature_name", "check", "tilde", "cross", "dash",
+            "applicable", "pct_check", "pct_check_or_tilde"
+        ])
+        for feat in FEATURES:
+            c = coverage[feat]
+            writer.writerow([
+                feat,
+                FEATURE_NAMES.get(feat, ""),
+                c["check"],
+                c["tilde"],
+                c["cross"],
+                c["dash"],
+                c["applicable"],
+                c["pct_check"],
+                c["pct_check_or_tilde"],
+            ])
+    print(f"  [WRITE] {path}")
+
+
+def write_domain_breakdown(domain_breakdown, path):
+    """Write domain_breakdown.csv."""
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["domain"] + CLASSIFICATIONS + ["total"])
+        for domain in sorted(domain_breakdown.keys()):
+            row = [domain]
+            domain_total = 0
+            for cls in CLASSIFICATIONS:
+                count = domain_breakdown[domain].get(cls, 0)
+                row.append(count)
+                domain_total += count
+            row.append(domain_total)
+            writer.writerow(row)
+    print(f"  [WRITE] {path}")
+
+
+# ---------------------------------------------------------------------------
+# Validation
+# ---------------------------------------------------------------------------
+
+EXPECTED_COUNTS = {
+    "total": 46,
+    "Inside": 17,
+    "Plausible": 2,
+    "Boundary": 4,
+    "Exit": 3,
+    "Marginal": 5,
+    "Negative": 15,
+}
+
+
+def validate(tier_dist, total):
+    """Validate counts against expected values. Returns True if all pass."""
+    print_separator()
+    print("  VALIDATION")
+    print_separator()
+    all_ok = True
+    # Check total
+    if total != EXPECTED_COUNTS["total"]:
+        print(f"  FAIL  total: got {total}, expected {EXPECTED_COUNTS['total']}")
+        all_ok = False
+    else:
+        print(f"  PASS  total = {total}")
+    # Check each classification
+    for cls in CLASSIFICATIONS:
+        got = tier_dist.get(cls, 0)
+        expected = EXPECTED_COUNTS.get(cls, 0)
+        if got != expected:
+            print(f"  FAIL  {cls}: got {got}, expected {expected}")
+            all_ok = False
+        else:
+            print(f"  PASS  {cls} = {got}")
+    print()
+    if all_ok:
+        print("  >>> ALL VALIDATION CHECKS PASSED <<<")
+    else:
+        print("  >>> VALIDATION FAILED <<<")
+    print()
+    return all_ok
+
+
 def main():
     if not os.path.exists(SCORECARD_PATH):
         print(f"ERROR: Scorecard not found at {SCORECARD_PATH}")
@@ -130,6 +255,7 @@ def main():
 
     # --- Tier Distribution ---
     tier_dist = compute_tier_distribution(systems)
+    classification_systems = compute_classification_systems(systems)
     print_separator()
     print("  CLASSIFICATION DISTRIBUTION")
     print_separator()
@@ -154,7 +280,7 @@ def main():
         name = FEATURE_NAMES.get(feat, "")
         print(
             f"  {feat:<5} {c['check']:>6} {c['tilde']:>6} {c['cross']:>6} {c['dash']:>6} "
-            f"{c['applicable']:>7} {c['pct_satisfied']:>7.1f}%  {name}"
+            f"{c['applicable']:>7} {c['pct_check_or_tilde']:>7.1f}%  {name}"
         )
     print()
 
@@ -211,10 +337,26 @@ def main():
         cls = s.get("classification", "")
         print(f"  {name:<28} {domain:<8} {score:>7}%  {cls}")
     print()
+
+    # --- Write derived CSV files ---
+    print_separator("=")
+    print("  REGENERATING DERIVED CSV FILES")
+    print_separator("=")
+    write_classification_summary(tier_dist, classification_systems, total, SUMMARY_PATH)
+    write_feature_statistics(coverage, FEATURE_STATS_PATH)
+    write_domain_breakdown(domain_breakdown, DOMAIN_BREAKDOWN_PATH)
+    print()
+
+    # --- Validation ---
+    ok = validate(tier_dist, total)
+
     print_separator("=")
     print("  UTM-AR-001 replication complete.")
     print_separator("=")
     print()
+
+    if not ok:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
